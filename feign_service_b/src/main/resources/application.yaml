@@ -1,13 +1,22 @@
 server:
-  port: 1002
+  port: 1101
 
 spring:
   application:
     name: feign-service-b
+
 ribbon:
   eureka:
     enable: false
+
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://localhost:1000/eureka/
+      defaultZone: http://10.0.1.31:1000/eureka/,http://10.0.1.31:1001/eureka/
+    enabled: true
+    healthcheck:
+        enabled: true
+    fetch-registry: true
+    register-with-eureka: true
+    instance-info-replication-interval-seconds: 10
+    registry-fetch-interval-seconds: 10

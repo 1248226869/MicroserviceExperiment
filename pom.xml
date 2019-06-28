@@ -10,6 +10,21 @@
     <version>1.0.0</version>
     <modules>
         <module>swagger2</module>
+        <module>unit_test</module>
+        <module>eureka</module>
+        <module>ribbon_service_a</module>
+        <module>ribbon_service_b</module>
+        <module>feign_service_a</module>
+        <module>feign_service_b</module>
+        <module>hystrix</module>
+        <module>zuul</module>
+        <module>apollo_config</module>
+        <module>xxl_job</module>
+        <module>sleuth</module>
+        <module>gateway</module>
+        <module>thread_pool_async</module>
+        <module>jwt</module>
+        <module>eurekaCluster</module>
     </modules>
 
 
