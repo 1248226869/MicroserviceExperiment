@@ -1,0 +1,16 @@
+server:
+  port: 1001
+
+spring:
+  application:
+#   feign不支持下划线"_"，支持"-"
+    name: feign-service-a
+
+ribbon:
+  eureka:
+    enable: false
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:1000/eureka/
