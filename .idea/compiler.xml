@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="jwt" />
+        <module name="unit_test" />
+        <module name="sleuth" />
+        <module name="feign_service_b" />
+        <module name="ribbon_service_b" />
+        <module name="ribbon_service_a" />
+        <module name="gateway" />
+        <module name="feign_service_a" />
+        <module name="swagger2" />
+        <module name="zuul" />
+        <module name="hystrix" />
+        <module name="apollo_config" />
+        <module name="xxl_job" />
+        <module name="eureka" />
+        <module name="eurekaCluster" />
+        <module name="thread_pool_async" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="apollo_config" target="1.5" />
+      <module name="eureka" target="1.8" />
+      <module name="eurekaCluster" target="1.8" />
+      <module name="feign_service_a" target="1.8" />
+      <module name="feign_service_b" target="1.8" />
+      <module name="gateway" target="1.5" />
+      <module name="hystrix" target="1.5" />
+      <module name="jwt" target="1.5" />
+      <module name="Microservice_Experiment" target="1.5" />
+      <module name="ribbon_service_a" target="1.5" />
+      <module name="ribbon_service_b" target="1.5" />
+      <module name="sleuth" target="1.5" />
+      <module name="swagger2" target="1.8" />
+      <module name="thread_pool_async" target="1.5" />
+      <module name="unit_test" target="1.5" />
+      <module name="xxl_job" target="1.5" />
+      <module name="zuul" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
