@@ -31,8 +31,8 @@ public class Swagger2Config {
     private ApiInfo apiInfo() {
         return new ApiInfoBuilder()
                 .title("使用Swagger2构建RESTful APIs")
-                .description("关注博主博客：https://www.dalaoyang.cn/")
-                .termsOfServiceUrl("https://www.dalaoyang.cn/")
+                .description("详情见GitHub：https://github.com/1248226869/MicroserviceExperiment")
+                .termsOfServiceUrl("https://github.com/1248226869/MicroserviceExperiment")
                 .version("1.0")
                 .build();
     }

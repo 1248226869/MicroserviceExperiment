@@ -4,6 +4,14 @@
     <list default="true" id="48299d43-9e68-47aa-a7b8-e9274ea65ba9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/Microservice_Experiment.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Microservice_Experiment.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Microservice_Experiment.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger2/swagger2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/swagger2/swagger2.iml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -34,6 +42,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -59,6 +68,7 @@
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
         <entry key="$PROJECT_DIR$" value="test" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
   </component>
@@ -119,6 +129,8 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="1553" />
     <option name="y" value="44" />
+    <option name="width" value="1440" />
+    <option name="height" value="796" />
     <option name="width" value="1709" />
     <option name="height" value="903" />
   </component>
@@ -131,6 +143,19 @@
       <pane id="PackagesPane" />
       <pane id="ProjectPane" />
       <pane id="Scope" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Microservice_Experiment" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Microservice_Experiment" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -182,6 +207,7 @@
     </option>
   </component>
   <component name="RunManager" selected="Spring Boot.SpringbootSwagger2Application">
+  <component name="RunManager" selected="Spring Boot.FeignServiceAApplication">
     <configuration name="EurekaApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="eurekaCluster" />
       <extension name="coverage">
@@ -236,6 +262,7 @@
         <item itemvalue="Spring Boot.EurekaApplication (1)" />
         <item itemvalue="Spring Boot.EurekaApplication" />
         <item itemvalue="Spring Boot.EurekaApplication (1)" />
+        <item itemvalue="Spring Boot.EurekaApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -262,6 +289,7 @@
       <workItem from="1561723347311" duration="5852000" />
       <workItem from="1561732098604" duration="922000" />
       <workItem from="1561733049874" duration="466000" />
+      <workItem from="1561732098604" duration="754000" />
     </task>
     <task id="LOCAL-00001" summary="readme初始化">
       <created>1561368318870</created>
@@ -392,6 +420,16 @@
     <frame x="1553" y="44" width="1709" height="903" extended-state="0" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3395321" />
+    <option name="localTasksCounter" value="17" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="49905000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1553" y="44" width="1440" height="796" extended-state="0" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.39914164" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -414,6 +452,9 @@
       <window_info anchor="bottom" id="Terminal" order="12" weight="0.44636253" />
       <window_info active="true" anchor="bottom" id="Spring" order="13" sideWeight="0.49928468" visible="true" weight="0.32799014" />
       <window_info anchor="bottom" id="Java Enterprise" order="14" weight="0.3292232" />
+      <window_info anchor="bottom" id="Terminal" order="12" visible="true" weight="0.4630682" />
+      <window_info anchor="bottom" id="Spring" order="13" sideWeight="0.49928468" weight="0.32907802" />
+      <window_info active="true" anchor="bottom" id="Java Enterprise" order="14" visible="true" weight="0.32954547" />
       <window_info anchor="bottom" id="Messages" order="15" weight="0.3298647" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -523,6 +564,7 @@
     <MESSAGE value="eureka 集群配置项使用" />
     <MESSAGE value="分支修改" />
     <option name="LAST_COMMIT_MESSAGE" value="分支修改" />
+    <option name="LAST_COMMIT_MESSAGE" value="eureka 集群配置项使用" />
   </component>
   <component name="WindowStateProjectService">
     <state width="202" height="525" key="Git.Branch.Popup" />
@@ -530,6 +572,39 @@
     <state width="202" height="525" key="Git.Branch.Popup@1920.1080" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/swagger2/swagger2.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="702">
+            <caret line="39" column="31" selection-start-line="39" selection-start-column="31" selection-end-line="39" selection-end-column="31" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/feign_service_a/src/main/java/com/tailen/microservice/contrller/FeignContrller.java" />
+    <entry file="file://$PROJECT_DIR$/feign_service_a/src/main/resources/logback-spring.xml" />
+    <entry file="jar://$PROJECT_DIR$/../../repository/org/springframework/cloud/spring-cloud-netflix-eureka-server/1.3.1.RELEASE/spring-cloud-netflix-eureka-server-1.3.1.RELEASE.jar!/eureka/server.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../repository/org/springframework/cloud/spring-cloud-netflix-eureka-server/1.3.1.RELEASE/spring-cloud-netflix-eureka-server-1.3.1.RELEASE.jar!/META-INF/spring.factories">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../repository/org/springframework/cloud/spring-cloud-netflix-eureka-server/1.3.1.RELEASE/spring-cloud-netflix-eureka-server-1.3.1.RELEASE.jar!/templates/eureka/header.ftl">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../repository/org/springframework/cloud/spring-cloud-netflix-eureka-server/1.3.1.RELEASE/spring-cloud-netflix-eureka-server-1.3.1.RELEASE.jar!/static/eureka/images/404-icon.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../repository/org/springframework/cloud/spring-cloud-netflix-eureka-server/1.3.1.RELEASE/spring-cloud-netflix-eureka-server-1.3.1.RELEASE.jar!/static/eureka/images/homepage-bg.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../repository/org/springframework/cloud/spring-cloud-netflix-eureka-server/1.3.1.RELEASE/spring-cloud-netflix-eureka-server-1.3.1.RELEASE.jar!/static/eureka/images/platform-spring-xd.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="jar://$PROJECT_DIR$/../../repository/org/springframework/cloud/spring-cloud-netflix-eureka-server/1.3.1.RELEASE/spring-cloud-netflix-eureka-server-1.3.1.RELEASE.jar!/static/eureka/images/spring-logo-eureka.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -624,6 +699,7 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/doc/微服务设计/微服务的设计.md" />
     <entry file="jar://$PROJECT_DIR$/../../repository/org/springframework/cloud/spring-cloud-netflix-eureka-server/1.3.1.RELEASE/spring-cloud-netflix-eureka-server-1.3.1.RELEASE.jar!/org/springframework/cloud/netflix/eureka/server/EurekaServerConfigBean.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="281">
@@ -655,6 +731,13 @@
     <entry file="file://$PROJECT_DIR$/eureka-cluster/src/main/java/com/tailen/microservice/eureka/EurekaApplication.java" />
     <entry file="file://$PROJECT_DIR$/eureka-cluster/pom.xml" />
     <entry file="file://$PROJECT_DIR$/feign_service_b/src/main/java/com/tailen/microservice/manager/FeignServiceA.java" />
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="26" column="24" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/../../repository/org/springframework/cloud/spring-cloud-starter-eureka-server/1.3.1.RELEASE/spring-cloud-starter-eureka-server-1.3.1.RELEASE.pom">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -662,6 +745,11 @@
     <entry file="file://$PROJECT_DIR$/eureka/pom.xml" />
     <entry file="file://$PROJECT_DIR$/eureka/src/main/java/com/tailen/microservice/eureka/EurekaApplication.java" />
     <entry file="file://$PROJECT_DIR$/eurekaCluster/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/eurekaCluster/src/main/resources/application.yaml" />
+    <entry file="file://$PROJECT_DIR$/eureka/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/eureka/src/main/java/com/tailen/microservice/eureka/EurekaApplication.java" />
+    <entry file="file://$PROJECT_DIR$/eurekaCluster/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/eurekaCluster/src/main/java/com/tailen/microservice/eureka/EurekaApplication.java" />
     <entry file="file://$PROJECT_DIR$/eureka/src/main/resources/application.yaml" />
     <entry file="file://$PROJECT_DIR$/feign_service_a/pom.xml" />
     <entry file="file://$PROJECT_DIR$/feign_service_b/src/main/java/com/tailen/microservice/FeignServiceBApplication.java" />
@@ -680,6 +768,7 @@
     <entry file="file://$PROJECT_DIR$/feign_service_a/src/main/resources/application.yaml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1296">
+        <state relative-caret-position="155">
           <caret line="72" column="17" lean-forward="true" selection-start-line="72" selection-start-column="17" selection-end-line="72" selection-end-column="17" />
         </state>
       </provider>
