@@ -52,9 +52,19 @@
         <entry file="file://$PROJECT_DIR$/doc/微服务设计/微服务的设计.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="434">
-                <caret line="81" column="55" selection-start-line="81" selection-start-column="55" selection-end-line="81" selection-end-column="55" />
+              <first_editor relative-caret-position="770">
+                <caret line="149" selection-start-line="149" selection-end-line="149" />
               </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/readme.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="-8" />
               <second_editor />
             </state>
           </provider>
@@ -148,6 +158,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
+    <option name="x" value="3" />
     <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="796" />
@@ -165,6 +176,11 @@
             <path>
               <item name="Microservice_Experiment" type="b2602c69:ProjectViewProjectNode" />
               <item name="Microservice_Experiment" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Microservice_Experiment" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Microservice_Experiment" type="462c0819:PsiDirectoryNode" />
+              <item name="doc" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -308,7 +324,7 @@
       <workItem from="1561732098604" duration="754000" />
       <workItem from="1561944703155" duration="2507000" />
       <workItem from="1561950163168" duration="1199000" />
-      <workItem from="1561951477667" duration="7317000" />
+      <workItem from="1561951477667" duration="12531000" />
     </task>
     <task id="LOCAL-00001" summary="readme初始化">
       <created>1561368318870</created>
@@ -457,14 +473,28 @@
       <option name="project" value="LOCAL" />
       <updated>1561964127190</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="微服务架构{Microservice Architecture}设计文档编辑">
+      <created>1561965228195</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1561965228195</updated>
+    </task>
+    <task id="LOCAL-00023" summary="微服务架构{Microservice Architecture}设计文档编辑">
+      <created>1561965380147</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1561965380147</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61546000" />
+    <option name="totallyTimeSpent" value="66760000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="796" extended-state="0" />
+    <frame x="3" y="23" width="1440" height="796" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17238913" />
@@ -619,9 +649,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$PROJECT_DIR$/../../repository/org/springframework/cloud/spring-cloud-netflix-eureka-server/1.3.1.RELEASE/spring-cloud-netflix-eureka-server-1.3.1.RELEASE.jar!/eureka/server.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="jar://$PROJECT_DIR$/../../repository/org/springframework/cloud/spring-cloud-netflix-eureka-server/1.3.1.RELEASE/spring-cloud-netflix-eureka-server-1.3.1.RELEASE.jar!/META-INF/spring.factories">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -841,11 +868,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="-8" />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/doc/微服务设计/微服务的设计.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="434">
-            <caret line="81" column="55" selection-start-line="81" selection-start-column="55" selection-end-line="81" selection-end-column="55" />
+          <first_editor relative-caret-position="770">
+            <caret line="149" selection-start-line="149" selection-end-line="149" />
           </first_editor>
           <second_editor />
         </state>
