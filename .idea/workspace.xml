@@ -52,8 +52,8 @@
         <entry file="file://$PROJECT_DIR$/doc/微服务设计/微服务的设计.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="562">
-                <caret line="73" column="9" selection-start-line="73" selection-start-column="9" selection-end-line="73" selection-end-column="9" />
+              <first_editor>
+                <caret column="5" selection-start-column="5" selection-end-column="5" />
               </first_editor>
               <second_editor />
             </state>
@@ -157,7 +157,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -180,7 +180,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -318,6 +318,7 @@
       <workItem from="1561732098604" duration="754000" />
       <workItem from="1561944703155" duration="2507000" />
       <workItem from="1561950163168" duration="1199000" />
+      <workItem from="1561951477667" duration="3737000" />
     </task>
     <task id="LOCAL-00001" summary="readme初始化">
       <created>1561368318870</created>
@@ -438,17 +439,31 @@
       <option name="project" value="LOCAL" />
       <updated>1561950418303</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="微服务架构{Microservice Architecture}设计文档编辑">
+      <created>1561951563438</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1561951563438</updated>
+    </task>
+    <task id="LOCAL-00019" summary="微服务架构{Microservice Architecture}设计文档编辑">
+      <created>1561952520409</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1561952520409</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54229000" />
+    <option name="totallyTimeSpent" value="57966000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="796" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1702432" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17238913" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -825,8 +840,8 @@
     <entry file="file://$PROJECT_DIR$/doc/微服务设计/微服务的设计.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="562">
-            <caret line="73" column="9" selection-start-line="73" selection-start-column="9" selection-end-line="73" selection-end-column="9" />
+          <first_editor>
+            <caret column="5" selection-start-column="5" selection-end-column="5" />
           </first_editor>
           <second_editor />
         </state>
