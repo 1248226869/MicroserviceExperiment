@@ -2,8 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="48299d43-9e68-47aa-a7b8-e9274ea65ba9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/微服务设计/微服务的设计.md" beforeDir="false" afterPath="$PROJECT_DIR$/doc/微服务设计/微服务的设计.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka/eureka.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaCluster/eurekaCluster.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/feign_service_a/feign_service_a.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/feign_service_b/feign_service_b.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hystrix/hystrix.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bootstrap.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/bootstrap.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/feign-service-a.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/feign-service-a.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/feign_service_a/target/classes/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/feign_service_a/target/classes/application.yaml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -37,8 +43,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/hystrix/src/main/java/com/tailen/microservice/HystrixApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="19" column="33" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
+            <state relative-caret-position="324">
+              <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#729#730#0" expanded="true" />
@@ -49,11 +55,11 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/doc/微服务设计/微服务的设计.md">
+        <entry file="file://$PROJECT_DIR$/readme.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="534">
-                <caret line="137" column="1" selection-start-line="137" selection-start-column="1" selection-end-line="137" selection-end-column="1" />
+              <first_editor relative-caret-position="180">
+                <caret line="10" selection-start-line="10" selection-end-line="11" />
               </first_editor>
               <second_editor />
             </state>
@@ -61,11 +67,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/readme.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="FIRST">
-              <first_editor />
-              <second_editor />
+        <entry file="file://$PROJECT_DIR$/eureka/src/main/java/com/tailen/microservice/eureka/EurekaApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -112,7 +117,6 @@
         <option value="$PROJECT_DIR$/swagger2/src/main/java/com/tailen/microservice/experiment/controller/SwaggerDemoController.java" />
         <option value="$PROJECT_DIR$/swagger2/src/main/java/com/tailen/microservice/experiment/service/impl/SwaggerDemoServiceImpl.java" />
         <option value="$PROJECT_DIR$/swagger2/src/main/java/com/tailen/microservice/experiment/config/Swagger2Config.java" />
-        <option value="$PROJECT_DIR$/readme.md" />
         <option value="$PROJECT_DIR$/feign_service_a/src/main/java/com/tailen/microservice/service/DemoService.java" />
         <option value="$PROJECT_DIR$/eureka/src/main/resources/logback-spring.fxml" />
         <option value="$PROJECT_DIR$/eureka/src/main/resources/logback-spring.xml" />
@@ -145,6 +149,7 @@
         <option value="$PROJECT_DIR$/hystrix/src/main/resources/application.yaml" />
         <option value="$PROJECT_DIR$/hystrix/src/main/java/com/tailen/microservice/HystrixApplication.java" />
         <option value="$PROJECT_DIR$/doc/微服务设计/微服务的设计.md" />
+        <option value="$PROJECT_DIR$/readme.md" />
       </list>
     </option>
   </component>
@@ -170,22 +175,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Microservice_Experiment" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Microservice_Experiment" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Microservice_Experiment" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Microservice_Experiment" type="462c0819:PsiDirectoryNode" />
-              <item name="doc" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="ProjectPane" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -493,13 +483,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="68368000" />
+    <option name="totallyTimeSpent" value="68922000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="3" y="23" width="1440" height="796" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17238913" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2453505" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -806,7 +796,6 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/eureka/pom.xml" />
-    <entry file="file://$PROJECT_DIR$/eureka/src/main/java/com/tailen/microservice/eureka/EurekaApplication.java" />
     <entry file="file://$PROJECT_DIR$/eurekaCluster/pom.xml" />
     <entry file="file://$PROJECT_DIR$/eurekaCluster/src/main/java/com/tailen/microservice/eureka/EurekaApplication.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -866,10 +855,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/doc/微服务设计/微服务的设计.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="534">
+            <caret line="137" column="1" selection-start-line="137" selection-start-column="1" selection-end-line="137" selection-end-column="1" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka/src/main/java/com/tailen/microservice/eureka/EurekaApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/hystrix/src/main/java/com/tailen/microservice/HystrixApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="19" column="33" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
+        <state relative-caret-position="324">
+          <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#729#730#0" expanded="true" />
@@ -881,16 +887,8 @@
     <entry file="file://$PROJECT_DIR$/readme.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/doc/微服务设计/微服务的设计.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="534">
-            <caret line="137" column="1" selection-start-line="137" selection-start-column="1" selection-end-line="137" selection-end-column="1" />
+          <first_editor relative-caret-position="180">
+            <caret line="10" selection-start-line="10" selection-end-line="11" />
           </first_editor>
           <second_editor />
         </state>
