@@ -2,18 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="48299d43-9e68-47aa-a7b8-e9274ea65ba9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/Microservice_Experiment.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hystrix/src/main/java/com/tailen/microservice/HystrixApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hystrix/src/main/resources/logback-spring.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/doc/微服务设计/微服务的设计.md" beforeDir="false" afterPath="$PROJECT_DIR$/doc/微服务设计/微服务的设计.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hystrix/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hystrix/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hystrix/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/hystrix/src/main/resources/application.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/swagger2/swagger2.iml" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -47,8 +37,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/hystrix/src/main/java/com/tailen/microservice/HystrixApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="178">
-              <caret line="19" column="33" lean-forward="true" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
+            <state relative-caret-position="234">
+              <caret line="19" column="33" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#729#730#0" expanded="true" />
@@ -61,9 +51,9 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/doc/微服务设计/微服务的设计.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SECOND">
-              <first_editor relative-caret-position="432">
-                <caret line="57" selection-start-line="57" selection-end-line="57" />
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="562">
+                <caret line="73" column="9" selection-start-line="73" selection-start-column="9" selection-end-line="73" selection-end-column="9" />
               </first_editor>
               <second_editor />
             </state>
@@ -167,6 +157,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -189,7 +180,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -327,6 +317,7 @@
       <workItem from="1561723347311" duration="5852000" />
       <workItem from="1561732098604" duration="754000" />
       <workItem from="1561944703155" duration="2507000" />
+      <workItem from="1561950163168" duration="1199000" />
     </task>
     <task id="LOCAL-00001" summary="readme初始化">
       <created>1561368318870</created>
@@ -440,17 +431,24 @@
       <option name="project" value="LOCAL" />
       <updated>1561727074059</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="微服务架构{Microservice Architecture}设计文档编辑">
+      <created>1561950418303</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1561950418303</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53030000" />
+    <option name="totallyTimeSpent" value="54229000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="796" extended-state="1" />
+    <frame x="0" y="23" width="1440" height="796" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16809729" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1702432" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -467,7 +465,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="REST Client" order="8" show_stripe_button="false" sideWeight="0.4985694" weight="0.32907802" />
-      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.8490701" visible="true" weight="0.26420453" />
+      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.8490701" weight="0.5724432" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.1509299" side_tool="true" weight="0.2539007" />
       <window_info anchor="bottom" id="Terminal" order="12" weight="0.4630682" />
@@ -580,7 +578,8 @@
     <MESSAGE value="eureka配置项完善" />
     <MESSAGE value="eureka 集群配置项完善" />
     <MESSAGE value="eureka 集群配置项使用" />
-    <option name="LAST_COMMIT_MESSAGE" value="eureka 集群配置项使用" />
+    <MESSAGE value="微服务架构{Microservice Architecture}设计文档编辑" />
+    <option name="LAST_COMMIT_MESSAGE" value="微服务架构{Microservice Architecture}设计文档编辑" />
   </component>
   <component name="WindowStateProjectService">
     <state width="778" height="1298" key="Git.Branch.Popup" />
@@ -813,8 +812,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/hystrix/src/main/java/com/tailen/microservice/HystrixApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="19" column="33" lean-forward="true" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
+        <state relative-caret-position="234">
+          <caret line="19" column="33" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#729#730#0" expanded="true" />
@@ -825,9 +824,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/doc/微服务设计/微服务的设计.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SECOND">
-          <first_editor relative-caret-position="432">
-            <caret line="57" selection-start-line="57" selection-end-line="57" />
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="562">
+            <caret line="73" column="9" selection-start-line="73" selection-start-column="9" selection-end-line="73" selection-end-column="9" />
           </first_editor>
           <second_editor />
         </state>
