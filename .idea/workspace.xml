@@ -1,15 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="48299d43-9e68-47aa-a7b8-e9274ea65ba9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/eureka/eureka.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eurekaCluster/eurekaCluster.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/feign_service_a/feign_service_a.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/feign_service_b/feign_service_b.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hystrix/hystrix.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/bootstrap.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/feign-service-a.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/feign-service-a.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/feign_service_a/target/classes/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/feign_service_a/target/classes/application.yaml" afterDir="false" />
+    <list default="true" id="abf8b18b-2e07-44e9-b38c-f0051095ecf4" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -40,26 +34,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hystrix/src/main/java/com/tailen/microservice/HystrixApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#729#730#0" expanded="true" />
-                <element signature="e#770#771#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/readme.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="180">
-                <caret line="10" selection-start-line="10" selection-end-line="11" />
+              <first_editor relative-caret-position="-241">
+                <caret line="139" column="3" lean-forward="true" selection-start-line="139" selection-start-column="3" selection-end-line="139" selection-end-column="3" />
               </first_editor>
               <second_editor />
             </state>
@@ -174,9 +154,19 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Microservice_Experiment" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Microservice_Experiment" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -479,17 +469,31 @@
       <option name="project" value="LOCAL" />
       <updated>1561965380147</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Merge branch 'dev'&#10;&#10;# Conflicts:&#10;#&#9;.idea/Microservice_Experiment.iml&#10;#&#9;.idea/compiler.xml&#10;#&#9;.idea/workspace.xml&#10;#&#9;eureka/eureka.iml&#10;#&#9;eurekaCluster/eurekaCluster.iml&#10;#&#9;feign_service_a/feign_service_a.iml&#10;#&#9;feign_service_b/feign_service_b.iml&#10;#&#9;hystrix/hystrix.iml&#10;#&#9;swagger2/swagger2.iml">
+      <created>1561976829306</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1561976829306</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Merge branch 'dev'&#10;&#10;# Conflicts:&#10;#&#9;.idea/Microservice_Experiment.iml&#10;#&#9;.idea/compiler.xml&#10;#&#9;.idea/workspace.xml&#10;#&#9;eureka/eureka.iml&#10;#&#9;eurekaCluster/eurekaCluster.iml&#10;#&#9;feign_service_a/feign_service_a.iml&#10;#&#9;feign_service_b/feign_service_b.iml&#10;#&#9;hystrix/hystrix.iml&#10;#&#9;swagger2/swagger2.iml">
+      <created>1561977508071</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1561977508071</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="68922000" />
+    <option name="totallyTimeSpent" value="70171000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="3" y="23" width="1440" height="796" extended-state="0" />
+    <frame x="0" y="23" width="1440" height="797" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2453505" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.11015737" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -509,7 +513,7 @@
       <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.8490701" weight="0.5724432" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.1509299" side_tool="true" weight="0.2539007" />
-      <window_info anchor="bottom" id="Terminal" order="12" weight="0.4630682" />
+      <window_info anchor="bottom" id="Terminal" order="12" weight="0.46241134" />
       <window_info anchor="bottom" id="Spring" order="13" sideWeight="0.49928468" weight="0.32907802" />
       <window_info anchor="bottom" id="Java Enterprise" order="14" weight="0.328125" />
       <window_info anchor="bottom" id="Messages" order="15" weight="0.3298647" />
@@ -620,7 +624,8 @@
     <MESSAGE value="eureka 集群配置项完善" />
     <MESSAGE value="eureka 集群配置项使用" />
     <MESSAGE value="微服务架构{Microservice Architecture}设计文档编辑" />
-    <option name="LAST_COMMIT_MESSAGE" value="微服务架构{Microservice Architecture}设计文档编辑" />
+    <MESSAGE value="Merge branch 'dev'&#10;&#10;# Conflicts:&#10;#&#9;.idea/Microservice_Experiment.iml&#10;#&#9;.idea/compiler.xml&#10;#&#9;.idea/workspace.xml&#10;#&#9;eureka/eureka.iml&#10;#&#9;eurekaCluster/eurekaCluster.iml&#10;#&#9;feign_service_a/feign_service_a.iml&#10;#&#9;feign_service_b/feign_service_b.iml&#10;#&#9;hystrix/hystrix.iml&#10;#&#9;swagger2/swagger2.iml" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge branch 'dev'&#10;&#10;# Conflicts:&#10;#&#9;.idea/Microservice_Experiment.iml&#10;#&#9;.idea/compiler.xml&#10;#&#9;.idea/workspace.xml&#10;#&#9;eureka/eureka.iml&#10;#&#9;eurekaCluster/eurekaCluster.iml&#10;#&#9;feign_service_a/feign_service_a.iml&#10;#&#9;feign_service_b/feign_service_b.iml&#10;#&#9;hystrix/hystrix.iml&#10;#&#9;swagger2/swagger2.iml" />
   </component>
   <component name="WindowStateProjectService">
     <state width="778" height="1298" key="Git.Branch.Popup" />
@@ -858,8 +863,8 @@
     <entry file="file://$PROJECT_DIR$/doc/微服务设计/微服务的设计.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="534">
-            <caret line="137" column="1" selection-start-line="137" selection-start-column="1" selection-end-line="137" selection-end-column="1" />
+          <first_editor relative-caret-position="144">
+            <caret line="168" column="1" selection-start-line="168" selection-start-column="1" selection-end-line="168" selection-end-column="1" />
           </first_editor>
           <second_editor />
         </state>
@@ -887,8 +892,8 @@
     <entry file="file://$PROJECT_DIR$/readme.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="180">
-            <caret line="10" selection-start-line="10" selection-end-line="11" />
+          <first_editor relative-caret-position="-241">
+            <caret line="139" column="3" lean-forward="true" selection-start-line="139" selection-start-column="3" selection-end-line="139" selection-end-column="3" />
           </first_editor>
           <second_editor />
         </state>
