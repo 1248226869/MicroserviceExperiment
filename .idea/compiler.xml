@@ -1,28 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CompilerConfiguration">
-    <annotationProcessing>
-      <profile name="Maven default annotation processors profile" enabled="true">
-        <sourceOutputDir name="target/generated-sources/annotations" />
-        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
-        <module name="jwt" />
-        <module name="unit_test" />
-        <module name="sleuth" />
-        <module name="feign_service_b" />
-        <module name="ribbon_service_b" />
-        <module name="ribbon_service_a" />
-        <module name="gateway" />
-        <module name="feign_service_a" />
-        <module name="swagger2" />
-        <module name="zuul" />
-        <module name="hystrix" />
-        <module name="apollo_config" />
-        <module name="xxl_job" />
-        <module name="eureka" />
-        <module name="eurekaCluster" />
-        <module name="thread_pool_async" />
-      </profile>
-    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Microservice_Experiment" target="1.5" />
+      <module name="swagger2" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
