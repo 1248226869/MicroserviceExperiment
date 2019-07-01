@@ -52,8 +52,8 @@
         <entry file="file://$PROJECT_DIR$/doc/微服务设计/微服务的设计.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="770">
-                <caret line="149" selection-start-line="149" selection-end-line="149" />
+              <first_editor relative-caret-position="534">
+                <caret line="137" column="1" selection-start-line="137" selection-start-column="1" selection-end-line="137" selection-end-column="1" />
               </first_editor>
               <second_editor />
             </state>
@@ -64,7 +64,7 @@
         <entry file="file://$PROJECT_DIR$/readme.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="-8" />
+              <first_editor />
               <second_editor />
             </state>
           </provider>
@@ -96,7 +96,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="test" />
       </map>
     </option>
   </component>
@@ -296,6 +296,8 @@
       <list>
         <item itemvalue="Spring Boot.EurekaApplication (1)" />
         <item itemvalue="Spring Boot.EurekaApplication" />
+        <item itemvalue="Spring Boot.EurekaApplication (1)" />
+        <item itemvalue="Spring Boot.EurekaApplication" />
         <item itemvalue="Spring Boot.EurekaApplication" />
       </list>
     </recent_temporary>
@@ -491,13 +493,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="66760000" />
+    <option name="totallyTimeSpent" value="68368000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="3" y="23" width="1440" height="796" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17238913" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17238913" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -800,11 +802,19 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/feign_service_a/src/main/java/com/tailen/microservice/manager/FeignServiceB.java" />
-    <entry file="file://$PROJECT_DIR$/eurekaCluster/src/main/resources/application.yaml" />
+    <entry file="file://$PROJECT_DIR$/eurekaCluster/src/main/resources/application.yaml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/eureka/pom.xml" />
     <entry file="file://$PROJECT_DIR$/eureka/src/main/java/com/tailen/microservice/eureka/EurekaApplication.java" />
     <entry file="file://$PROJECT_DIR$/eurekaCluster/pom.xml" />
-    <entry file="file://$PROJECT_DIR$/eurekaCluster/src/main/java/com/tailen/microservice/eureka/EurekaApplication.java" />
+    <entry file="file://$PROJECT_DIR$/eurekaCluster/src/main/java/com/tailen/microservice/eureka/EurekaApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/eureka/src/main/resources/application.yaml" />
     <entry file="file://$PROJECT_DIR$/feign_service_b/src/main/java/com/tailen/microservice/FeignServiceBApplication.java" />
     <entry file="file://$PROJECT_DIR$/feign_service_b/pom.xml" />
@@ -871,7 +881,7 @@
     <entry file="file://$PROJECT_DIR$/readme.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="-8" />
+          <first_editor />
           <second_editor />
         </state>
       </provider>
@@ -879,8 +889,8 @@
     <entry file="file://$PROJECT_DIR$/doc/微服务设计/微服务的设计.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="770">
-            <caret line="149" selection-start-line="149" selection-end-line="149" />
+          <first_editor relative-caret-position="534">
+            <caret line="137" column="1" selection-start-line="137" selection-start-column="1" selection-end-line="137" selection-end-column="1" />
           </first_editor>
           <second_editor />
         </state>
