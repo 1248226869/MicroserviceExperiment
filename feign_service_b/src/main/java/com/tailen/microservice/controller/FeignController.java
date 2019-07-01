@@ -1,4 +1,4 @@
-package com.tailen.microservice.contrller;
+package com.tailen.microservice.controller;
 
 import com.tailen.microservice.FeignServiceBApplication;
 import com.tailen.microservice.manager.FeignServiceA;
@@ -23,7 +23,7 @@ import java.util.Objects;
 @RestController
 @RequestMapping(value = "/api")
 @Api(tags="fegin service b")
-public class FeignContrller {
+public class FeignController {
     private final Logger log = LoggerFactory.getLogger(FeignServiceBApplication.class);
     @Autowired
     private DemoService demoService;
