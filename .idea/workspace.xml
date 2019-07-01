@@ -52,8 +52,8 @@
         <entry file="file://$PROJECT_DIR$/doc/微服务设计/微服务的设计.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor>
-                <caret column="5" selection-start-column="5" selection-end-column="5" />
+              <first_editor relative-caret-position="434">
+                <caret line="81" column="55" selection-start-line="81" selection-start-column="55" selection-end-line="81" selection-end-column="55" />
               </first_editor>
               <second_editor />
             </state>
@@ -78,6 +78,7 @@
       <find>eureka</find>
       <find>RateLimiterFullFetchAverageRate</find>
       <find>eureka-service-url-poll-interval-seconds</find>
+      <find>公共</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -164,17 +165,6 @@
             <path>
               <item name="Microservice_Experiment" type="b2602c69:ProjectViewProjectNode" />
               <item name="Microservice_Experiment" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Microservice_Experiment" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Microservice_Experiment" type="462c0819:PsiDirectoryNode" />
-              <item name="doc" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Microservice_Experiment" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Microservice_Experiment" type="462c0819:PsiDirectoryNode" />
-              <item name="doc" type="462c0819:PsiDirectoryNode" />
-              <item name="微服务设计" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -318,7 +308,7 @@
       <workItem from="1561732098604" duration="754000" />
       <workItem from="1561944703155" duration="2507000" />
       <workItem from="1561950163168" duration="1199000" />
-      <workItem from="1561951477667" duration="3737000" />
+      <workItem from="1561951477667" duration="7317000" />
     </task>
     <task id="LOCAL-00001" summary="readme初始化">
       <created>1561368318870</created>
@@ -453,17 +443,31 @@
       <option name="project" value="LOCAL" />
       <updated>1561952520409</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="微服务架构{Microservice Architecture}设计文档编辑">
+      <created>1561961379498</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1561961379498</updated>
+    </task>
+    <task id="LOCAL-00021" summary="微服务架构{Microservice Architecture}设计文档编辑">
+      <created>1561964127190</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1561964127190</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57966000" />
+    <option name="totallyTimeSpent" value="61546000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="796" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17238913" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17238913" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -840,8 +844,8 @@
     <entry file="file://$PROJECT_DIR$/doc/微服务设计/微服务的设计.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor>
-            <caret column="5" selection-start-column="5" selection-end-column="5" />
+          <first_editor relative-caret-position="434">
+            <caret line="81" column="55" selection-start-line="81" selection-start-column="55" selection-end-line="81" selection-end-column="55" />
           </first_editor>
           <second_editor />
         </state>
