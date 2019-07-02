@@ -25,7 +25,7 @@ public class DemoServiceImpl implements DemoService {
     @Autowired
     private FeignServiceB feignServiceB;
 
-    @HystrixCommand(fallbackMethod = "addFallback")
+
     @Override
     public Integer add(Integer numA, Integer numB) {
         Integer add = feignServiceA.add(numA, numB);
@@ -33,10 +33,7 @@ public class DemoServiceImpl implements DemoService {
         return add;
     }
 
-    public Integer addFallback() {
-        log.info("降级服务 addFallback");
-        return -1;
-    }
+
 
     @HystrixCommand(fallbackMethod = "multiplicationFallback")
     @Override
@@ -46,7 +43,7 @@ public class DemoServiceImpl implements DemoService {
         return multiplication;
     }
 
-    public Integer multiplicationFallback() {
+    public Integer multiplicationFallback(Integer numA, Integer numB) {
         log.info("降级服务 multiplicationFallback");
         return -2;
     }

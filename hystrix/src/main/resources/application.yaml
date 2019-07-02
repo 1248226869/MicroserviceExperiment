@@ -73,6 +73,69 @@ eureka:
 ##    缓存刷新线程池初始化线程数量，默认2
 #    cache-refresh-executor-thread-pool-size: 1
 
+########################################################
+#Execution：控制HystrixCommand.run() 的如何执行
+#Fallback: 控制HystrixCommand.getFallback() 如何执行
+#Circuit Breaker： 控制断路器的行为
+#Metrics: 捕获和HystrixCommand 和 HystrixObservableCommand 执行信息相关的配置属性
+#Request Context：设置请求上下文的属性
+#Collapser Properties：设置请求合并的属性
+#Thread Pool Properties：设置线程池的属性
+#########################################################
+hystrix:
+  collapser:
+    default:
+      maxRequestsInBatch: ''
+      requestCache:
+        enabled: true
+      timerDelayInMilliseconds: 10
+  command:
+    default:
+      circuitBreaker:
+        #该属性设置滚动窗口中将使断路器跳闸的最小请求数量,默认20
+        #如果此属性值为20，则在窗口时间内（如10s内），如果只收到19个请求且都失败了，则断路器也不会开启。
+        requestVolumeThreshold: 20
+        #是否开启断路器功能,默认true
+        enabled: true
+        #断路器跳闸后，在此值的时间的内，hystrix会拒绝新的请求，只有过了这个时间断路器才会打开闸门,默认5000
+        sleepWindowInMilliseconds: 5000
+        #如果设置true，则强制使断路器进行关闭状态，此时会允许执行所有请求，无论是否失败的次数达到,默认false
+        forceClosed: false
+      execution:
+        isolation:
+          thread:
+            #是否执行取消动作时，中断正在执行的run,默认false
+            interruptOnCancel: false
+            #是否超时中断正在执行的run,默认true
+            interruptOnTimeout: true
+            #超时时间：默认1000毫秒,超过该时间会执行回退逻辑
+            timeoutInMilliseconds: 1000
+        timeout:
+          #是否启用超时设置,默认true
+          enabled: true
+      fallback:
+        enabled: true
+        isolation:
+          semaphore:
+            # * 如果超出该数，则后续的会被拒绝，如果没有实现回退逻辑的，则会抛出异常,默认10
+            maxConcurrentRequests: 10
+      requestCache:
+        enabled: true
+      requestLog:
+        enabled: true
+  threadpool:
+    default:
+      #执行线程数,默认10
+      coreSize: 10
+      #设置最大的BlockingQueue队列的值。如果设置-1，则使用SynchronousQueue队列，如果设置正数，则使用LinkedBlockingQueue队列
+      maxQueueSize: -1
+      #最大执行线程数,默认10
+      maximumSize: 10
+      #因为maxQueueSize值不能被动态修改，所有通过设置此值可以实现动态修改等待队列长度。
+      #即等待的队列的数量大于queueSizeRejectionThreshold时（但是没有达到maxQueueSize值），
+      #则开始拒绝后续的请求进入队列。
+      queueSizeRejectionThreshold: 5
+
 
 
 

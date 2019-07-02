@@ -15,13 +15,13 @@
         <module>feign_service_a</module>
         <module>feign_service_b</module>
         <module>hystrix</module>
-        <module>zuul</module>
         <module>apollo_config</module>
         <module>xxl_job</module>
         <module>sleuth</module>
         <module>gateway</module>
         <module>thread_pool_async</module>
         <module>jwt</module>
+        <module>Limiting</module>
     </modules>
 
 

@@ -24,6 +24,8 @@ public class DemoServiceImpl implements DemoService {
             return null;
         }
         log.info("fegin service b : multiplication method numA is {} ;numB is {} ", numA, numB);
+        int a =0 ;
+        int b = a/a;
         return numA * numB;
 
     }
