@@ -12,7 +12,7 @@ ribbon:
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://10.0.1.31:1000/eureka/,http://10.0.1.31:1001/eureka/
+      defaultZone: http://localhost:1000/eureka/
     enabled: true
     healthcheck:
         enabled: true

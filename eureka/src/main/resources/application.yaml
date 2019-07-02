@@ -7,9 +7,9 @@ spring:
 eureka:
   instance:
     #以IP地址注册到服务中心，相互注册使用IP地址
-    prefer-ip-address: true
-  #    hostname: localhost
-  server:
+#    prefer-ip-address: true
+      hostname: localhost
+#  server:
 #    # 单机配置
 #    #    启用自我保护机制，默认为true
 #    enable-self-preservation: true
@@ -96,5 +96,5 @@ eureka:
 
 
   client:
-    service-url:
-      defaultZone: http://10.0.1.31:1001/eureka/
+    register-with-eureka: false
+    fetch-registry: false
