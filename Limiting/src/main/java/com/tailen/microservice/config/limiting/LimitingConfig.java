@@ -11,6 +11,7 @@ import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Component;
 
 import java.lang.reflect.Method;
+import java.util.Date;
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.atomic.AtomicInteger;
@@ -25,8 +26,8 @@ import java.util.concurrent.atomic.AtomicInteger;
 @JsonInclude(JsonInclude.Include.NON_NULL)
 public class LimitingConfig {
     private final Logger log = LoggerFactory.getLogger(LimitingConfig.class);
-    Map<String, ConcurrentHashMap<String, String>> signaStoragel =
-            new ConcurrentHashMap<String, ConcurrentHashMap<String, String>>();
+    Map<String, ConcurrentHashMap<String, Integer>> signaStoragel =
+            new ConcurrentHashMap<String, ConcurrentHashMap<String, Integer>>();
 
     @Pointcut("@annotation(com.tailen.microservice.config.limiting.Limiting)")
     public void Limiting() {
@@ -45,19 +46,20 @@ public class LimitingConfig {
         String methodName = joinPoint.getSignature().getName();
         log.info("开始执行{}#{}方法，入参为{}", className, methodName, joinPoint.getArgs());
         String key = new StringBuffer().append(className).append("#").append(methodName).toString();
-        ConcurrentHashMap<String, String> signa = signaStoragel.get(key);
+        ConcurrentHashMap<String, Integer> signa = signaStoragel.get(key);
         if (signa == null){
-            signa = new ConcurrentHashMap<String, String>();
+            signa = new ConcurrentHashMap<String, Integer>();
         }
 
         if (signa.size() < frequency) {
             //租借信号
-            signa.put(key, key);
+            String concurrentTime = (new Date()).toString();
+            signa.put(concurrentTime,0);
             signaStoragel.put(key, signa);
             //执行方法
             Object result = joinPoint.proceed();
             //归还信号
-            signa.remove(key);
+            signa.remove(concurrentTime);
             signaStoragel.put(key, signa);
 
             log.info("执行{}#{}方法结束，入参为{},结果为{}", joinPoint.getTarget().getClass().getSimpleName(), joinPoint.getSignature().getName(), joinPoint.getArgs(), result);

@@ -5,6 +5,7 @@ import com.tailen.microservice.config.limiting.LimitingConfig;
 import com.tailen.microservice.manager.FeignServiceA;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
+import io.swagger.annotations.ApiParam;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -28,7 +29,7 @@ public class LimitingController {
     @Autowired
     private FeignServiceA feignServiceA;
 
-    @RequestMapping(value = "",method = RequestMethod.GET)
+    @RequestMapping(value = "/add",method = RequestMethod.GET)
     @ApiOperation(value="加法")
     @Limiting(frequency = 1000)
     public Integer add(@RequestParam(value = "numA") Integer numA, @RequestParam(value = "numB") Integer numB) {

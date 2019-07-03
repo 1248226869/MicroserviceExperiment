@@ -25,9 +25,9 @@
       <module name="eurekaCluster" target="1.8" />
       <module name="feign_service_a" target="1.8" />
       <module name="feign_service_b" target="1.8" />
-      <module name="gateway" target="1.5" />
+      <module name="gateway" target="1.8" />
       <module name="hystrix" target="1.8" />
-      <module name="jwt" target="1.5" />
+      <module name="jwt" target="1.8" />
       <module name="Limiting" target="1.8" />
       <module name="Microservice_Experiment" target="1.5" />
       <module name="ribbon_service_a" target="1.8" />
