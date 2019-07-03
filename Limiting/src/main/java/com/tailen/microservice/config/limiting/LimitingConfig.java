@@ -46,18 +46,20 @@ public class LimitingConfig {
         log.info("开始执行{}#{}方法，入参为{}", className, methodName, joinPoint.getArgs());
         String key = new StringBuffer().append(className).append("#").append(methodName).toString();
         ConcurrentHashMap<String, String> signa = signaStoragel.get(key);
-        Object result = null;
+        if (signa == null){
+            signa = new ConcurrentHashMap<String, String>();
+        }
 
-        if (signa == null || signa.size() < frequency) {
-            //通过
+        if (signa.size() < frequency) {
             //租借信号
             signa.put(key, key);
             signaStoragel.put(key, signa);
             //执行方法
-            result = joinPoint.proceed();
+            Object result = joinPoint.proceed();
             //归还信号
             signa.remove(key);
             signaStoragel.put(key, signa);
+
             log.info("执行{}#{}方法结束，入参为{},结果为{}", joinPoint.getTarget().getClass().getSimpleName(), joinPoint.getSignature().getName(), joinPoint.getArgs(), result);
             return result;
         }

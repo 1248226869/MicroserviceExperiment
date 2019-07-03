@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RequestParam;
  * @date 2019-06-28
  */
 
-@FeignClient(name = "userServiceApplication",
+@FeignClient(name = "feign-service-a",
         fallback = FeignServiceAFallback.class
         /*, configuration = FeignDisableHystrixConfiguration.class*/)
 public interface FeignServiceA {
