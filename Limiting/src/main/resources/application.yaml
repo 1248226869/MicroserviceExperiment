@@ -4,6 +4,9 @@ server:
 spring:
   application:
     name: limiting
+  aop:
+    #    指定CGLIB实现AOP
+    proxy-target-class: true
 
 ribbon:
   eureka:

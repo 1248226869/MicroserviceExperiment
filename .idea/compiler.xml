@@ -8,7 +8,6 @@
         <outputRelativeToContentRoot value="true" />
         <module name="jwt" />
         <module name="unit_test" />
-        <module name="sleuth" />
         <module name="feign_service_b" />
         <module name="gateway" />
         <module name="feign_service_a" />

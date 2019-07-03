@@ -17,7 +17,6 @@
         <module>hystrix</module>
         <module>apollo_config</module>
         <module>xxl_job</module>
-        <module>sleuth</module>
         <module>gateway</module>
         <module>thread_pool_async</module>
         <module>jwt</module>
