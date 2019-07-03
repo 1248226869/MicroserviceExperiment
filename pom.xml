@@ -10,7 +10,6 @@
     <version>1.0.0</version>
     <modules>
         <module>swagger2</module>
-        <module>unit_test</module>
         <module>eureka</module>
         <module>feign_service_a</module>
         <module>feign_service_b</module>

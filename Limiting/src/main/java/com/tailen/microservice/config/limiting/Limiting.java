@@ -13,6 +13,6 @@ import java.lang.annotation.*;
 public @interface Limiting {
 
     int frequency();
-    TimeUnit timeUnit();
-    LimitingType limitingType();
+//    TimeUnit timeUnit();
+//    LimitingType limitingType();
 }

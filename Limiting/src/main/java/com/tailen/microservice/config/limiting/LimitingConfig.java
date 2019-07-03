@@ -13,6 +13,7 @@ import org.springframework.stereotype.Component;
 import java.lang.reflect.Method;
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
+import java.util.concurrent.atomic.AtomicInteger;
 
 /**
  * @author zhao tailen
@@ -23,9 +24,9 @@ import java.util.concurrent.ConcurrentHashMap;
 @Component
 @JsonInclude(JsonInclude.Include.NON_NULL)
 public class LimitingConfig {
-
-    Map<String, String> sf = new ConcurrentHashMap<String, String>();
     private final Logger log = LoggerFactory.getLogger(LimitingConfig.class);
+    Map<String, ConcurrentHashMap<String, String>> signaStoragel =
+            new ConcurrentHashMap<String, ConcurrentHashMap<String, String>>();
 
     @Pointcut("@annotation(com.tailen.microservice.config.limiting.Limiting)")
     public void Limiting() {
@@ -40,19 +41,29 @@ public class LimitingConfig {
         Limiting annotation = method.getAnnotation(Limiting.class);
         //获取注解参数
         int frequency = annotation.frequency();
-        LimitingType limitingType = annotation.limitingType();
-        TimeUnit timeUnit = annotation.timeUnit();
+        String className = joinPoint.getTarget().getClass().getSimpleName();
+        String methodName = joinPoint.getSignature().getName();
+        log.info("开始执行{}#{}方法，入参为{}", className, methodName, joinPoint.getArgs());
+        String key = new StringBuffer().append(className).append("#").append(methodName).toString();
+        ConcurrentHashMap<String, String> signa = signaStoragel.get(key);
+        Object result = null;
 
-        log.info("开始执行{}#{}方法，入参为{}", joinPoint.getTarget().getClass().getSimpleName(), joinPoint.getSignature().getName(), joinPoint.getArgs());
-        Object result = joinPoint.proceed();
-        log.info("执行{}#{}方法结束，入参为{},结果为{}", joinPoint.getTarget().getClass().getSimpleName(), joinPoint.getSignature().getName(), joinPoint.getArgs(), result);
-        //通过
-        return result;
-    }
-
-    private boolean tokenBucket() {
-
-        return false;
+        if (signa == null || signa.size() < frequency) {
+            //通过
+            //租借信号
+            signa.put(key, key);
+            signaStoragel.put(key, signa);
+            //执行方法
+            result = joinPoint.proceed();
+            //归还信号
+            signa.remove(key);
+            signaStoragel.put(key, signa);
+            log.info("执行{}#{}方法结束，入参为{},结果为{}", joinPoint.getTarget().getClass().getSimpleName(), joinPoint.getSignature().getName(), joinPoint.getArgs(), result);
+            return result;
+        }
+        log.info("暂时无权执行{}#{}", joinPoint.getTarget().getClass().getSimpleName(), joinPoint.getSignature().getName());
+        //重试
+        return null;
     }
 
 
