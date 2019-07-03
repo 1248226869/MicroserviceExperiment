@@ -250,8 +250,10 @@ Spring AOP（CGLIB实现）
 # 分布式算法
 * 分布式事务
 * 分布式锁
-* 
+* 数据一致性
 
 # 持续交付与devops
 
 # 工业级别的Spring cloud构建工具：JHipster
+
+# Service Mesh：无侵入的微服务技术
