@@ -34,7 +34,7 @@
       <module name="ribbon_service_b" target="1.8" />
       <module name="sleuth" target="1.5" />
       <module name="swagger2" target="1.8" />
-      <module name="thread_pool_async" target="1.5" />
+      <module name="thread_pool_async" target="1.8" />
       <module name="unit_test" target="1.5" />
       <module name="xxl_job" target="1.5" />
       <module name="zuul" target="1.5" />
