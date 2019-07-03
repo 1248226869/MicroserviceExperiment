@@ -71,6 +71,15 @@
 ```
 
 ## 微服务的实施
+* CAP原则
+```
+CAP原则又称CAP定理，指的是在一个分布式系统中，一致性（Consistency）、可用性（Availability）、分区容忍性（Partition tolerance）。
+CAP 原则指的是，这三个要素最多只能同时实现两点，不可能三者兼顾
+```
+* BASE一致性
+```
+Basically Available(基本可用)，Soft state（软状态）,和 Eventually consistent（最终一致性）三个短语的缩写
+```
 * 分区
 ```
     1 确定服务边界以及服务上下文【提供的API和调用的API】
@@ -157,22 +166,79 @@ devops是持续集成、交付和部署与容器化、容器管理、自动化�
 ## 前端
 推荐vue.js
 
-## 网关
-* 前端、客户端与服务端网关（用户网关）
-* 同域服务API网关
-* 异域服务API网关
+## 网关（devops）
+* 前端、客户端与服务端网关（用户网关）,以安全认证、路由为组
+* 同域服务API网关,以路由和复杂均衡为组
+* 异域服务API网关,以安全认证、路由为组
 
 ## 注册中心
-* eureka
+* Eureka
+```
+Register：服务注册
+当Eureka Client(Feign、 Robbin具体的服务提供者，下同)向Eureka Server注册时，它提供自身的元数据（IP地址、端口，运行状况指示符URL，主页等）。
+Eureka Server会将这些信息存放到具体的注册表中
 
+Renew：服务续约
+Eureka Client会默认每隔30秒发送一次心跳来续约。
+正常情况下，如果Eureka Server在90秒没有收到Eureka客户的续约，它会将实例从其注册表中删除。
+
+Fetch Registries：Eureka Client更新注册列表信息
+Eureka Client从服务器获取注册表信息，并将其缓存在本地。客户端会使用该信息查找其他服务，从而进行远程调用。
+该注册列表信息定期（每30秒钟）更新一次。
+每次返回注册列表信息可能与Eureka Client的缓存信息不同， Eureka Client自动处理。
+如果由于某种原因导致注册列表信息不能及时匹配，Eureka Client则会重新获取整个注册表信息。
+Eureka Client和Eureka Server可以使用JSON / XML格式进行通讯。在默认的情况下Eureka客户端使用压缩JSON格式来获取注册列表的信息。
+
+Cancel：服务下线
+Eureka Client在程序关闭时向Eureka服务器发送取消请求。 发送请求后，该Eureka Client实例信息将从服务器的实例注册表中删除。
+
+Eviction 服务剔除
+在默认的情况下，当Eureka Client连续90秒没有向Eureka Server发送服务续约，Eureka服务器会将该服务实例从服务注册列表删除，即服务剔除。
+
+```
 ## 服务调用
-* feign
+* Feign 
+```
+Feign 客户端通过通过jdk的代理处理注解生成http请求，然后由具体的执行http请求。
+httpClient结合类Ribbon做负载均衡。
+```
+
 * ribbon （不常用）
+```
+RestTemplate:
+ get
+	getForEntry(String usl,Class responsetype,Object...urlVariables):urlVariables:为URL的占位符，responsetype：返回类型
+	getForEntry(String usl,Class responsetype,Map urlVariables):urlVariables:为URL的占位符的map集合
+	getForEntry(String usl,Class responsetype)无占位符	
+    返回为ResponseEntry对象，然后通过getBody转换
+	
+	通过getForObject,可以去除业务层的转换，直接回去到所需的类型
+	getForObject(String usl,Class responsetype,Object...urlVariables)
+	getForObject(String usl,Class responsetype,Map urlVariables)
+	getForObject(String usl,Class responsetype）
+ Post
+    同get类似。第二个参数，无请求体，第三个参数为返回类型
+ Put请求：void类型，无返回
+	put(string url,Object request,Object...urlVariables)
+	put(string url,Object request)
+	put(string url,Object request,map urlVariables)
+ Delete:void类型，无返回	
+	delete(string url Object...urlVariables)
+	delete(string url)
+	delete(string url,map urlVariables)
+ 负载均衡器:@LoadBalanced 注解
+ 区域亲和策略：将不同机房不同地域的配置为对应的区域值，在客户端通过区域值，连接到最近的区域服务。
+```
 ## 服务治理
 * 限流：保护自己（服务提供方）不被其他服务（服务消费方）消费而宕机
 * 容错：保护自己（服务消费方）不因调用其他服务（服务提供方）异常而宕机
+```
+Hystrix
 
-## 统一异常处理
+```
+## API 统一参数校验、权限认证、结果封装、异常处理
+Spring AOP（CGLIB实现）
+
 ## JWT使用
 
 ## 分布式配置中心
@@ -186,6 +252,9 @@ devops是持续集成、交付和部署与容器化、容器管理、自动化�
 ## 全链路追踪与ELK
 
 # 分布式算法
+* 分布式事务
+* 分布式锁
+* 
 
 # 持续交付与devops
 
