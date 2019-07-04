@@ -1,0 +1,2291 @@
+{
+                "timestamp":"2019-07-03 10:55:49.401",
+                "level": "INFO",
+                "service": "hystrix-service",
+                "trace": "",
+                "span": "",
+                "pid": "1515",
+                "thread": "main",
+                "class": "c.tailen.microservice.HystrixApplication",
+                "message": "No active profile set, falling back to default profiles: default"
+                }{
+                "timestamp":"2019-07-03 10:55:49.416",
+                "level": "INFO",
+                "service": "hystrix-service",
+                "trace": "",
+                "span": "",
+                "pid": "1515",
+                "thread": "main",
+                "class": "o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext",
+                "message": "Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@33aeca0b: startup date [Wed Jul 03 10:55:49 CST 2019]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@217ed35e"
+                }{
+                "timestamp":"2019-07-03 10:55:50.015",
+                "level": "INFO",
+                "service": "hystrix-service",
+                "trace": "",
+                "span": "",
+                "pid": "1515",
+                "thread": "main",
+                "class": "o.s.b.f.s.DefaultListableBeanFactory",
+                "message": "Overriding bean definition for bean 'managementServletContext' with a different definition: replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.actuate.autoconfigure.EndpointWebMvcHypermediaManagementContextConfiguration; factoryMethodName=managementServletContext; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/actuate/autoconfigure/EndpointWebMvcHypermediaManagementContextConfiguration.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.actuate.autoconfigure.EndpointWebMvcAutoConfiguration; factoryMethodName=managementServletContext; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/actuate/autoconfigure/EndpointWebMvcAutoConfiguration.class]]"
+                }{
+                "timestamp":"2019-07-03 10:55:50.228",
+                "level": "INFO",
+                "service": "hystrix-service",
+                "trace": "",
+                "span": "",
+                "pid": "1515",
+                "thread": "main",
+                "class": "o.s.cloud.context.scope.GenericScope",
+                "message": "BeanFactory id=38c48242-5d99-3283-b26d-8bb9741c2ae0"
+                }{
+                "timestamp":"2019-07-03 10:55:50.249",
+                "level": "INFO",
+                "service": "hystrix-service",
+                "trace": "",
+                "span": "",
+                "pid": "1515",
+                "thread": "main",
+                "class": "o.s.b.f.a.AutowiredAnnotationBeanPostProcessor",
+                "message": "JSR-330 'javax.inject.Inject' annotation found and supported for autowiring"
+                }{
+                "timestamp":"2019-07-03 10:55:50.288",
+                "level": "INFO",
+                "service": "hystrix-service",
+                "trace": "",
+                "span": "",
+                "pid": "1515",
+                "thread": "main",
+                "class": "o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker",
+                "message": "Bean 'com.tailen.microservice.manager.FeignServiceA' of type [org.springframework.cloud.netflix.feign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)"
+                }{
+                "timestamp":"2019-07-03 10:55:50.289",
+                "level": "INFO",
+                "service": "hystrix-service",
+                "trace": "",
+                "span": "",
+                "pid": "1515",
+                "thread": "main",
+                "class": "o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker",
+                "message": "Bean 'com.tailen.microservice.manager.FeignServiceB' of type [org.springframework.cloud.netflix.feign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)"
+                }{
+                "timestamp":"2019-07-03 10:55:50.332",
+                "level": "INFO",
+                "service": "hystrix-service",
+                "trace": "",
+                "span": "",
+                "pid": "1515",
+                "thread": "main",
+                "class": "o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker",
+                "message": "Bean 'org.springframework.cloud.sleuth.instrument.async.AsyncDefaultAutoConfiguration$DefaultAsyncConfigurerSupport' of type [org.springframework.cloud.sleuth.instrument.async.AsyncDefaultAutoConfiguration$DefaultAsyncConfigurerSupport$$EnhancerBySpringCGLIB$$23c6903c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)"
+                }{
+                "timestamp":"2019-07-03 10:55:50.389",
+                "level": "INFO",
+                "service": "hystrix-service",
+                "trace": "",
+                "span": "",
+                "pid": "1515",
+                "thread": "main",
+                "class": "o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker",
+                "message": "Bean 'org.springframework.cloud.sleuth.annotation.SleuthAnnotationAutoConfiguration' of type [org.springframework.cloud.sleuth.annotation.SleuthAnnotationAutoConfiguration$$EnhancerBySpringCGLIB$$e8ea38ab] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)"
+                }{
+                "timestamp":"2019-07-03 10:55:50.505",
+                "level": "INFO",
+                "service": "hystrix-service",
+                "trace": "",
+                "span": "",
+                "pid": "1515",
+                "thread": "main",
+                "class": "o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker",
+                "message": "Bean 'sleuthAdvisorConfig' of type [org.springframework.cloud.sleuth.annotation.SleuthAdvisorConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)"
+                }{
+                "timestamp":"2019-07-03 10:55:50.518",
+                "level": "INFO",
+                "service": "hystrix-service",
+                "trace": "",
+                "span": "",
+                "pid": "1515",
+                "thread": "main",
+                "class": "o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker",
+                "message": "Bean 'org.springframework.cloud.netflix.metrics.MetricsInterceptorConfiguration$MetricsRestTemplateConfiguration' of type [org.springframework.cloud.netflix.metrics.MetricsInterceptorConfiguration$MetricsRestTemplateConfiguration$$EnhancerBySpringCGLIB$$18b198ba] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)"
+                }{
+                "timestamp":"2019-07-03 10:55:50.547",
+                "level": "INFO",
+                "service": "hystrix-service",
+                "trace": "",
+                "span": "",
+                "pid": "1515",
+                "thread": "main",
+                "class": "o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker",
+                "message": "Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$29ef576] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)"
+                }{
+                "timestamp":"2019-07-03 10:55:50.562",
+                "level": "INFO",
+                "service": "hystrix-service",
+                "trace": "",
+                "span": "",
+                "pid": "1515",
+                "thread": "main",
+                "class": "o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker",
+                "message": "Bean 'org.springframework.cloud.sleuth.instrument.web.client.feign.TraceFeignClientAutoConfiguration$FeignBeanPostProcessorConfiguration' of type [org.springframework.cloud.sleuth.instrument.web.client.feign.TraceFeignClientAutoConfiguration$FeignBeanPostProcessorConfiguration$$EnhancerBySpringCGLIB$$2616cb3f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)"
+                }{
+                "timestamp":"2019-07-03 10:55:50.578",
+                "level": "INFO",
+                "service": "hystrix-service",
+                "trace": "",
+                "span": "",
+                "pid": "1515",
+                "thread": "main",
+                "class": "o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker",
+                "message": "Bean 'org.springframework.cloud.sleuth.instrument.async.AsyncDefaultAutoConfiguration' of type [org.springframework.cloud.sleuth.instrument.async.AsyncDefaultAutoConfiguration$$EnhancerBySpringCGLIB$$ce689e98] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)"
+                }{
+                "timestamp":"2019-07-03 10:55:50.953",
+                "level": "INFO",
+                "service": "hystrix-service",
+                "trace": "",
+                "span": "",
+                "pid": "1515",
+                "thread": "main",
+                "class": "o.s.b.c.e.t.TomcatEmbeddedServletContainer",
+                "message": "Tomcat initialized with port(s): 1102 (http)"
+                }{
+                "timestamp":"2019-07-03 10:55:50.960",
+                "level": "INFO",
+                "service": "hystrix-service",
+                "trace": "",
+                "span": "",
+                "pid": "1515",
+                "thread": "main",
+                "class": "org.apache.catalina.core.StandardService",
+                "message": "Starting service [Tomcat]"
+                }{
+                "timestamp":"2019-07-03 10:55:50.961",
+                "level": "INFO",
+                "service": "hystrix-service",
+                "trace": "",
+                "span": "",
+                "pid": "1515",
+                "thread": "main",
+                "class": "org.apache.catalina.core.StandardEngine",
+                "message": "Starting Servlet Engine: Apache Tomcat/8.5.15"
+                }{
+                "timestamp":"2019-07-03 10:55:51.036",
+                "level": "INFO",
+                "service": "hystrix-service",
+                "trace": "",
+                "span": "",
+                "pid": "1515",
+                "thread": "localhost-startStop-1",
+                "class": "o.a.c.c.C.[Tomcat].[localhost].[/]",
+                "message": "Initializing Spring embedded WebApplicationContext"
+                }{
+                "timestamp":"2019-07-03 10:55:51.037",
+                "level": "INFO",
+                "service": "hystrix-service",
+                "trace": "",
+                "span": "",
+                "pid": "1515",
+                "thread": "localhost-startStop-1",
+                "class": "o.s.web.context.ContextLoader",
+                "message": "Root WebApplicationContext: initialization completed in 1620 ms"
+                }{
+                "timestamp":"2019-07-03 10:55:51.687",
+                "level": "INFO",
+                "service": "hystrix-service",
+                "trace": "",
+                "span": "",
+                "pid": "1515",
+                "thread": "localhost-startStop-1",
+                "class": "o.s.b.web.servlet.FilterRegistrationBean",
+                "message": "Mapping filter: 'metricsFilter' to: [/*]"
+                }{
+                "timestamp":"2019-07-03 10:55:51.688",
+                "level": "INFO",
+                "service": "hystrix-service",
+                "trace": "",
+                "span": "",
+                "pid": "1515",
+                "thread": "localhost-startStop-1",
+                "class": "o.s.b.web.servlet.FilterRegistrationBean",
+                "message": "Mapping filter: 'characterEncodingFilter' to: [/*]"
+                }{
+                "timestamp":"2019-07-03 10:55:51.688",
+                "level": "INFO",
+                "service": "hystrix-service",
+                "trace": "",
+                "span": "",
+                "pid": "1515",
+                "thread": "localhost-startStop-1",
+                "class": "o.s.b.web.servlet.FilterRegistrationBean",
+                "message": "Mapping filter: 'traceFilter' to: [/*]"
+                }{
+                "timestamp":"2019-07-03 10:55:51.688",
+                "level": "INFO",
+                "service": "hystrix-service",
+                "trace": "",
+                "span": "",
+                "pid": "1515",
+                "thread": "localhost-startStop-1",
+                "class": "o.s.b.web.servlet.FilterRegistrationBean",
+                "message": "Mapping filter: 'hiddenHttpMethodFilter' to: [/*]"
+                }{
+                "timestamp":"2019-07-03 10:55:51.688",
+                "level": "INFO",
+                "service": "hystrix-service",
+                "trace": "",
+                "span": "",
+                "pid": "1515",
+                "thread": "localhost-startStop-1",
+                "class": "o.s.b.web.servlet.FilterRegistrationBean",
+                "message": "Mapping filter: 'httpPutFormContentFilter' to: [/*]"
+                }{
+                "timestamp":"2019-07-03 10:55:51.688",
+                "level": "INFO",
+                "service": "hystrix-service",
+                "trace": "",
+                "span": "",
+                "pid": "1515",
+                "thread": "localhost-startStop-1",
+                "class": "o.s.b.web.servlet.FilterRegistrationBean",
+                "message": "Mapping filter: 'requestContextFilter' to: [/*]"
+                }{
+                "timestamp":"2019-07-03 10:55:51.688",
+                "level": "INFO",
+                "service": "hystrix-service",
+                "trace": "",
+                "span": "",
+                "pid": "1515",
+                "thread": "localhost-startStop-1",
+                "class": "o.s.b.web.servlet.FilterRegistrationBean",
+                "message": "Mapping filter: 'webRequestLoggingFilter' to: [/*]"
+                }{
+                "timestamp":"2019-07-03 10:55:51.689",
+                "level": "INFO",
+                "service": "hystrix-service",
+                "trace": "",
+                "span": "",
+                "pid": "1515",
+                "thread": "localhost-startStop-1",
+                "class": "o.s.b.web.servlet.FilterRegistrationBean",
+                "message": "Mapping filter: 'applicationContextIdFilter' to: [/*]"
+                }{
+                "timestamp":"2019-07-03 10:55:51.689",
+                "level": "INFO",
+                "service": "hystrix-service",
+                "trace": "",
+                "span": "",
+                "pid": "1515",
+                "thread": "localhost-startStop-1",
+                "class": "o.s.b.w.servlet.ServletRegistrationBean",
+                "message": "Mapping servlet: 'dispatcherServlet' to [/]"
+                }{
+                "timestamp":"2019-07-03 10:55:51.772",
+                "level": "INFO",
+                "service": "hystrix-service",
+                "trace": "",
+                "span": "",
+                "pid": "1515",
+                "thread": "main",
+                "class": "o.s.c.a.AnnotationConfigApplicationContext",
+                "message": "Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@76437e9b: startup date [Wed Jul 03 10:55:51 CST 2019]; parent: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@33aeca0b"
+                }{
+                "timestamp":"2019-07-03 10:55:51.781",
+                "level": "INFO",
+                "service": "hystrix-service",
+                "trace": "",
+                "span": "",
+                "pid": "1515",
+                "thread": "main",
+                "class": "o.s.b.f.a.AutowiredAnnotationBeanPostProcessor",
+                "message": "JSR-330 'javax.inject.Inject' annotation found and supported for autowiring"
+                }{
+                "timestamp":"2019-07-03 10:55:52.282",
+                "level": "INFO",
+                "service": "hystrix-service",
+                "trace": "",
+                "span": "",
+                "pid": "1515",
+                "thread": "main",
+                "class": "o.s.w.s.m.m.a.RequestMappingHandlerMapping",
+                "message": "Mapped "{[/api/hystrix/add],methods=[GET]}" onto public java.lang.Integer com.tailen.microservice.controller.HystrixControllor.add(java.lang.Integer,java.lang.Integer)"
+                }{
+                "timestamp":"2019-07-03 10:55:52.282",
+                "level": "INFO",
+                "service": "hystrix-service",
+                "trace": "",
+                "span": "",
+                "pid": "1515",
+                "thread": "main",
+                "class": "o.s.w.s.m.m.a.RequestMappingHandlerMapping",
+                "message": "Mapped "{[/api/hystrix/multiplication],methods=[GET]}" onto public java.lang.Integer com.tailen.microservice.controller.HystrixControllor.multiplication(java.lang.Integer,java.lang.Integer)"
+                }{
+                "timestamp":"2019-07-03 10:55:52.283",
+                "level": "INFO",
+                "service": "hystrix-service",
+                "trace": "",
+                "span": "",
+                "pid": "1515",
+                "thread": "main",
+                "class": "o.s.w.s.m.m.a.RequestMappingHandlerMapping",
+                "message": "Mapped "{[/v2/api-docs],methods=[GET]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String)"
+                }{
+                "timestamp":"2019-07-03 10:55:52.285",
+                "level": "INFO",
+                "service": "hystrix-service",
+                "trace": "",
+                "span": "",
+                "pid": "1515",
+                "thread": "main",
+                "class": "o.s.w.s.m.m.a.RequestMappingHandlerMapping",
+                "message": "Mapped "{[/configuration/security]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()"
+                }{
+                "timestamp":"2019-07-03 10:55:52.286",
+                "level": "INFO",
+                "service": "hystrix-service",
+                "trace": "",
+                "span": "",
+                "pid": "1515",
+                "thread": "main",
+                "class": "o.s.w.s.m.m.a.RequestMappingHandlerMapping",
+                "message": "Mapped "{[/configuration/ui]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()"
+                }{
+                "timestamp":"2019-07-03 10:55:52.286",
+                "level": "INFO",
+                "service": "hystrix-service",
+                "trace": "",
+                "span": "",
+                "pid": "1515",
+                "thread": "main",
+                "class": "o.s.w.s.m.m.a.RequestMappingHandlerMapping",
+                "message": "Mapped "{[/swagger-resources]}" onto org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()"
+                }{
+                "timestamp":"2019-07-03 10:55:52.288",
+                "level": "INFO",
+                "service": "hystrix-service",
+                "trace": "",
+                "span": "",
+                "pid": "1515",
+                "thread": "main",
+                "class": "o.s.w.s.m.m.a.RequestMappingHandlerMapping",
+                "message": "Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)"
+                }{
+                "timestamp":"2019-07-03 10:55:52.288",
+                "level": "INFO",
+                "service": "hystrix-service",
+                "trace": "",
+                "span": "",
+                "pid": "1515",
+                "thread": "main",
+                "class": "o.s.w.s.m.m.a.RequestMappingHandlerMapping",
+                "message": "Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)"
+                }{
+                "timestamp":"2019-07-03 10:55:52.379",
+                "level": "WARN",
+                "service": "hystrix-service",
+                "trace": "",
+                "span": "",
+                "pid": "1515",
+                "thread": "main",
+                "class": "c.n.c.sources.URLConfigurationSource",
+                "message": "No URLs will be polled as dynamic configuration sources."
+                }{
+                "timestamp":"2019-07-03 10:55:52.380",
+                "level": "INFO",
+                "service": "hystrix-service",
+                "trace": "",
+                "span": "",
+                "pid": "1515",
+                "thread": "main",
+                "class": "c.n.c.sources.URLConfigurationSource",
+                "message": "To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath."
+                }{
+                "timestamp":"2019-07-03 10:55:52.383",
+                "level": "INFO",
+                "service": "hystrix-service",
+                "trace": "",
+                "span": "",
+                "pid": "1515",
+                "thread": "main",
+                "class": "c.netflix.config.DynamicPropertyFactory",
+                "message": "DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@52d96367"
+                }{
+                "timestamp":"2019-07-03 10:55:53.329",
+                "level": "INFO",
+                "service": "hystrix-service",
+                "trace": "",
+                "span": "",
+                "pid": "1515",
+                "thread": "main",
+                "class": "o.s.b.a.e.mvc.EndpointHandlerMapping",
+                "message": "Mapped "{[/trace || /trace.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()"
+                }{
+                "timestamp":"2019-07-03 10:55:53.330",
+                "level": "INFO",
+                "service": "hystrix-service",
+                "trace": "",
+                "span": "",
+                "pid": "1515",
+                "thread": "main",
+                "class": "o.s.b.a.e.mvc.EndpointHandlerMapping",
+                "message": "Mapped "{[/service-registry/instance-status],methods=[POST]}" onto public org.springframework.http.ResponseEntity<?> org.springframework.cloud.client.serviceregistry.endpoint.ServiceRegistryEndpoint.setStatus(java.lang.String)"
+                }{
+                "timestamp":"2019-07-03 10:55:53.330",
+                "level": "INFO",
+                "service": "hystrix-service",
+                "trace": "",
+                "span": "",
+                "pid": "1515",
+                "thread": "main",
+                "class": "o.s.b.a.e.mvc.EndpointHandlerMapping",
+                "message": "Mapped "{[/service-registry/instance-status],methods=[GET]}" onto public org.springframework.http.ResponseEntity org.springframework.cloud.client.serviceregistry.endpoint.ServiceRegistryEndpoint.getStatus()"
+                }{
+                "timestamp":"2019-07-03 10:55:53.330",
+                "level": "INFO",
+                "service": "hystrix-service",
+                "trace": "",
+                "span": "",
+                "pid": "1515",
+                "thread": "main",
+                "class": "o.s.b.a.e.mvc.EndpointHandlerMapping",
+                "message": "Mapped "{[/archaius || /archaius.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()"
+                }{
+                "timestamp":"2019-07-03 10:55:53.331",
+                "level": "INFO",
+                "service": "hystrix-service",
+                "trace": "",
+                "span": "",
+                "pid": "1515",
+                "thread": "main",
+                "class": "o.s.b.a.e.mvc.EndpointHandlerMapping",
+                "message": "Mapped "{[/refresh || /refresh.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.endpoint.GenericPostableMvcEndpoint.invoke()"
+                }{
+                "timestamp":"2019-07-03 10:55:53.331",
+                "level": "INFO",
+                "service": "hystrix-service",
+                "trace": "",
+                "span": "",
+                "pid": "1515",
+                "thread": "main",
+                "class": "o.s.b.a.e.mvc.EndpointHandlerMapping",
+                "message": "Mapped "{[/features || /features.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()"
+                }{
+                "timestamp":"2019-07-03 10:55:53.332",
+                "level": "INFO",
+                "service": "hystrix-service",
+                "trace": "",
+                "span": "",
+                "pid": "1515",
+                "thread": "main",
+                "class": "o.s.b.a.e.mvc.EndpointHandlerMapping",
+                "message": "Mapped "{[/env],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.context.environment.EnvironmentManagerMvcEndpoint.value(java.util.Map<java.lang.String, java.lang.String>)"
+                }{
+                "timestamp":"2019-07-03 10:55:53.332",
+                "level": "INFO",
+                "service": "hystrix-service",
+                "trace": "",
+                "span": "",
+                "pid": "1515",
+                "thread": "main",
+                "class": "o.s.b.a.e.mvc.EndpointHandlerMapping",
+                "message": "Mapped "{[/env/reset],methods=[POST]}" onto public java.util.Map<java.lang.String, java.lang.Object> org.springframework.cloud.context.environment.EnvironmentManagerMvcEndpoint.reset()"
+                }{
+                "timestamp":"2019-07-03 10:55:53.333",
+                "level": "INFO",
+                "service": "hystrix-service",
+                "trace": "",
+                "span": "",
+                "pid": "1515",
+                "thread": "main",
+                "class": "o.s.b.a.e.mvc.EndpointHandlerMapping",
+                "message": "Mapped "{[/env/{name:.*}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EnvironmentMvcEndpoint.value(java.lang.String)"
+                }{
+                "timestamp":"2019-07-03 10:55:53.333",
+                "level": "INFO",
+                "service": "hystrix-service",
+                "trace": "",
+                "span": "",
+                "pid": "1515",
+                "thread": "main",
+                "class": "o.s.b.a.e.mvc.EndpointHandlerMapping",
+                "message": "Mapped "{[/env || /env.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()"
+                }{
+                "timestamp":"2019-07-03 10:55:53.334",
+                "level": "INFO",
+                "service": "hystrix-service",
+                "trace": "",
+                "span": "",
+                "pid": "1515",
+                "thread": "main",
+                "class": "o.s.b.a.e.mvc.EndpointHandlerMapping",
+                "message": "Mapped "{[/heapdump || /heapdump.json],methods=[GET],produces=[application/octet-stream]}" onto public void org.springframework.boot.actuate.endpoint.mvc.HeapdumpMvcEndpoint.invoke(boolean,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.io.IOException,javax.servlet.ServletException"
+                }{
+                "timestamp":"2019-07-03 10:55:53.336",
+                "level": "INFO",
+                "service": "hystrix-service",
+                "trace": "",
+                "span": "",
+                "pid": "1515",
+                "thread": "main",
+                "class": "o.s.b.a.e.mvc.EndpointHandlerMapping",
+                "message": "Mapped "{[/metrics/{name:.*}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.MetricsMvcEndpoint.value(java.lang.String)"
+                }{
+                "timestamp":"2019-07-03 10:55:53.336",
+                "level": "INFO",
+                "service": "hystrix-service",
+                "trace": "",
+                "span": "",
+                "pid": "1515",
+                "thread": "main",
+                "class": "o.s.b.a.e.mvc.EndpointHandlerMapping",
+                "message": "Mapped "{[/metrics || /metrics.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()"
+                }{
+                "timestamp":"2019-07-03 10:55:53.336",
+                "level": "INFO",
+                "service": "hystrix-service",
+                "trace": "",
+                "span": "",
+                "pid": "1515",
+                "thread": "main",
+                "class": "o.s.b.a.e.mvc.EndpointHandlerMapping",
+                "message": "Mapped "{[/hystrix.stream/**]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.cloud.netflix.endpoint.ServletWrappingEndpoint.handle(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.lang.Exception"
+                }{
+                "timestamp":"2019-07-03 10:55:53.337",
+                "level": "INFO",
+                "service": "hystrix-service",
+                "trace": "",
+                "span": "",
+                "pid": "1515",
+                "thread": "main",
+                "class": "o.s.b.a.e.mvc.EndpointHandlerMapping",
+                "message": "Mapped "{[/actuator || /actuator.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public org.springframework.hateoas.ResourceSupport org.springframework.boot.actuate.endpoint.mvc.HalJsonMvcEndpoint.links()"
+                }{
+                "timestamp":"2019-07-03 10:55:53.337",
+                "level": "INFO",
+                "service": "hystrix-service",
+                "trace": "",
+                "span": "",
+                "pid": "1515",
+                "thread": "main",
+                "class": "o.s.b.a.e.mvc.EndpointHandlerMapping",
+                "message": "Mapped "{[/pause || /pause.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.endpoint.GenericPostableMvcEndpoint.invoke()"
+                }{
+                "timestamp":"2019-07-03 10:55:53.337",
+                "level": "INFO",
+                "service": "hystrix-service",
+                "trace": "",
+                "span": "",
+                "pid": "1515",
+                "thread": "main",
+                "class": "o.s.b.a.e.mvc.EndpointHandlerMapping",
+                "message": "Mapped "{[/beans || /beans.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()"
+                }{
+                "timestamp":"2019-07-03 10:55:53.338",
+                "level": "INFO",
+                "service": "hystrix-service",
+                "trace": "",
+                "span": "",
+                "pid": "1515",
+                "thread": "main",
+                "class": "o.s.b.a.e.mvc.EndpointHandlerMapping",
+                "message": "Mapped "{[/auditevents || /auditevents.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public org.springframework.http.ResponseEntity<?> org.springframework.boot.actuate.endpoint.mvc.AuditEventsMvcEndpoint.findByPrincipalAndAfterAndType(java.lang.String,java.util.Date,java.lang.String)"
+                }{
+                "timestamp":"2019-07-03 10:55:53.338",
+                "level": "INFO",
+                "service": "hystrix-service",
+                "trace": "",
+                "span": "",
+                "pid": "1515",
+                "thread": "main",
+                "class": "o.s.b.a.e.mvc.EndpointHandlerMapping",
+                "message": "Mapped "{[/dump || /dump.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()"
+                }{
+                "timestamp":"2019-07-03 10:55:53.339",
+                "level": "INFO",
+                "service": "hystrix-service",
+                "trace": "",
+                "span": "",
+                "pid": "1515",
+                "thread": "main",
+                "class": "o.s.b.a.e.mvc.EndpointHandlerMapping",
+                "message": "Mapped "{[/health || /health.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.HealthMvcEndpoint.invoke(javax.servlet.http.HttpServletRequest,java.security.Principal)"
+                }{
+                "timestamp":"2019-07-03 10:55:53.339",
+                "level": "INFO",
+                "service": "hystrix-service",
+                "trace": "",
+                "span": "",
+                "pid": "1515",
+                "thread": "main",
+                "class": "o.s.b.a.e.mvc.EndpointHandlerMapping",
+                "message": "Mapped "{[/resume || /resume.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.endpoint.GenericPostableMvcEndpoint.invoke()"
+                }{
+                "timestamp":"2019-07-03 10:55:53.340",
+                "level": "INFO",
+                "service": "hystrix-service",
+                "trace": "",
+                "span": "",
+                "pid": "1515",
+                "thread": "main",
+                "class": "o.s.b.a.e.mvc.EndpointHandlerMapping",
+                "message": "Mapped "{[/mappings || /mappings.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()"
+                }{
+                "timestamp":"2019-07-03 10:55:53.341",
+                "level": "INFO",
+                "service": "hystrix-service",
+                "trace": "",
+                "span": "",
+                "pid": "1515",
+                "thread": "main",
+                "class": "o.s.b.a.e.mvc.EndpointHandlerMapping",
+                "message": "Mapped "{[/loggers/{name:.*}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.LoggersMvcEndpoint.get(java.lang.String)"
+                }{
+                "timestamp":"2019-07-03 10:55:53.341",
+                "level": "INFO",
+                "service": "hystrix-service",
+                "trace": "",
+                "span": "",
+                "pid": "1515",
+                "thread": "main",
+                "class": "o.s.b.a.e.mvc.EndpointHandlerMapping",
+                "message": "Mapped "{[/loggers/{name:.*}],methods=[POST],consumes=[application/vnd.spring-boot.actuator.v1+json || application/json],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.LoggersMvcEndpoint.set(java.lang.String,java.util.Map<java.lang.String, java.lang.String>)"
+                }{
+                "timestamp":"2019-07-03 10:55:53.341",
+                "level": "INFO",
+                "service": "hystrix-service",
+                "trace": "",
+                "span": "",
+                "pid": "1515",
+                "thread": "main",
+                "class": "o.s.b.a.e.mvc.EndpointHandlerMapping",
+                "message": "Mapped "{[/loggers || /loggers.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()"
+                }{
+                "timestamp":"2019-07-03 10:55:53.342",
+                "level": "INFO",
+                "service": "hystrix-service",
+                "trace": "",
+                "span": "",
+                "pid": "1515",
+                "thread": "main",
+                "class": "o.s.b.a.e.mvc.EndpointHandlerMapping",
+                "message": "Mapped "{[/info || /info.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()"
+                }{
+                "timestamp":"2019-07-03 10:55:53.342",
+                "level": "INFO",
+                "service": "hystrix-service",
+                "trace": "",
+                "span": "",
+                "pid": "1515",
+                "thread": "main",
+                "class": "o.s.b.a.e.mvc.EndpointHandlerMapping",
+                "message": "Mapped "{[/restart || /restart.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.context.restart.RestartMvcEndpoint.invoke()"
+                }{
+                "timestamp":"2019-07-03 10:55:53.342",
+                "level": "INFO",
+                "service": "hystrix-service",
+                "trace": "",
+                "span": "",
+                "pid": "1515",
+                "thread": "main",
+                "class": "o.s.b.a.e.mvc.EndpointHandlerMapping",
+                "message": "Mapped "{[/configprops || /configprops.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()"
+                }{
+                "timestamp":"2019-07-03 10:55:53.343",
+                "level": "INFO",
+                "service": "hystrix-service",
+                "trace": "",
+                "span": "",
+                "pid": "1515",
+                "thread": "main",
+                "class": "o.s.b.a.e.mvc.EndpointHandlerMapping",
+                "message": "Mapped "{[/autoconfig || /autoconfig.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()"
+                }{
+                "timestamp":"2019-07-03 10:55:53.564",
+                "level": "INFO",
+                "service": "hystrix-service",
+                "trace": "",
+                "span": "",
+                "pid": "1515",
+                "thread": "main",
+                "class": "s.d.s.w.p.DocumentationPluginsBootstrapper",
+                "message": "Context refreshed"
+                }{
+                "timestamp":"2019-07-03 10:55:53.611",
+                "level": "INFO",
+                "service": "hystrix-service",
+                "trace": "",
+                "span": "",
+                "pid": "1515",
+                "thread": "main",
+                "class": "s.d.s.w.p.DocumentationPluginsBootstrapper",
+                "message": "Found {0} custom documentation plugin(s)"
+                }{
+                "timestamp":"2019-07-03 10:55:53.634",
+                "level": "INFO",
+                "service": "hystrix-service",
+                "trace": "",
+                "span": "",
+                "pid": "1515",
+                "thread": "main",
+                "class": "s.d.s.w.s.ApiListingReferenceScanner",
+                "message": "Scanning for api listing references"
+                }{
+                "timestamp":"2019-07-03 10:55:53.636",
+                "level": "INFO",
+                "service": "hystrix-service",
+                "trace": "",
+                "span": "",
+                "pid": "1515",
+                "thread": "main",
+                "class": "s.d.s.w.ClassOrApiAnnotationResourceGrouping",
+                "message": "Group for method add was hystrix"
+                }{
+                "timestamp":"2019-07-03 10:55:53.638",
+                "level": "INFO",
+                "service": "hystrix-service",
+                "trace": "",
+                "span": "",
+                "pid": "1515",
+                "thread": "main",
+                "class": "s.d.s.w.s.ApiListingReferenceScanner",
+                "message": "Request mapping: add belongs to groups: [[ResourceGroup{groupName='hystrix', position=0, controller=com.tailen.microservice.controller.HystrixControllor}]] "
+                }{
+                "timestamp":"2019-07-03 10:55:53.638",
+                "level": "INFO",
+                "service": "hystrix-service",
+                "trace": "",
+                "span": "",
+                "pid": "1515",
+                "thread": "main",
+                "class": "s.d.s.w.ClassOrApiAnnotationResourceGrouping",
+                "message": "Group for method multiplication was hystrix"
+                }{
+                "timestamp":"2019-07-03 10:55:53.639",
+                "level": "INFO",
+                "service": "hystrix-service",
+                "trace": "",
+                "span": "",
+                "pid": "1515",
+                "thread": "main",
+                "class": "s.d.s.w.s.ApiListingReferenceScanner",
+                "message": "Request mapping: multiplication belongs to groups: [[ResourceGroup{groupName='hystrix', position=0, controller=com.tailen.microservice.controller.HystrixControllor}]] "
+                }{
+                "timestamp":"2019-07-03 10:55:53.644",
+                "level": "INFO",
+                "service": "hystrix-service",
+                "trace": "",
+                "span": "",
+                "pid": "1515",
+                "thread": "main",
+                "class": "s.d.s.w.s.ApiListingReferenceScanner",
+                "message": "Created resource listing Path: /default/hystrix Description: hystrix Position: 0"
+                }{
+                "timestamp":"2019-07-03 10:55:53.675",
+                "level": "INFO",
+                "service": "hystrix-service",
+                "trace": "",
+                "span": "",
+                "pid": "1515",
+                "thread": "main",
+                "class": "s.d.schema.ModelContextKeyGenerator",
+                "message": "Cache Key Generated: java.lang.Integer(true)"
+                }{
+                "timestamp":"2019-07-03 10:55:53.675",
+                "level": "INFO",
+                "service": "hystrix-service",
+                "trace": "",
+                "span": "",
+                "pid": "1515",
+                "thread": "main",
+                "class": "s.d.spring.web.caching.CachingAspect",
+                "message": "Caching aspect applied for cache models with key java.lang.Integer(true)"
+                }{
+                "timestamp":"2019-07-03 10:55:53.680",
+                "level": "INFO",
+                "service": "hystrix-service",
+                "trace": "",
+                "span": "",
+                "pid": "1515",
+                "thread": "main",
+                "class": "s.d.schema.ModelContextKeyGenerator",
+                "message": "Cache Key Generated: java.lang.Integer(true)"
+                }{
+                "timestamp":"2019-07-03 10:55:53.680",
+                "level": "INFO",
+                "service": "hystrix-service",
+                "trace": "",
+                "span": "",
+                "pid": "1515",
+                "thread": "main",
+                "class": "s.d.spring.web.caching.CachingAspect",
+                "message": "Caching aspect applied for cache modelDependencies with key java.lang.Integer(true)"
+                }{
+                "timestamp":"2019-07-03 10:55:53.684",
+                "level": "INFO",
+                "service": "hystrix-service",
+                "trace": "",
+                "span": "",
+                "pid": "1515",
+                "thread": "main",
+                "class": "s.d.spring.web.OperationsKeyGenerator",
+                "message": "Cache key generated: /api/hystrix/add.com.tailen.microservice.controller.HystrixControllor.add.DefaultGenericTypeNamingStrategy"
+                }{
+                "timestamp":"2019-07-03 10:55:53.684",
+                "level": "INFO",
+                "service": "hystrix-service",
+                "trace": "",
+                "span": "",
+                "pid": "1515",
+                "thread": "main",
+                "class": "s.d.spring.web.caching.CachingAspect",
+                "message": "Caching aspect applied for cache operations with key /api/hystrix/add.com.tailen.microservice.controller.HystrixControllor.add.DefaultGenericTypeNamingStrategy"
+                }{
+                "timestamp":"2019-07-03 10:55:53.884",
+                "level": "INFO",
+                "service": "hystrix-service",
+                "trace": "",
+                "span": "",
+                "pid": "1515",
+                "thread": "main",
+                "class": "s.d.s.w.ClassOrApiAnnotationResourceGrouping",
+                "message": "Group for method add was hystrix"
+                }{
+                "timestamp":"2019-07-03 10:55:53.893",
+                "level": "INFO",
+                "service": "hystrix-service",
+                "trace": "",
+                "span": "",
+                "pid": "1515",
+                "thread": "main",
+                "class": "s.d.s.w.ClassOrApiAnnotationResourceGrouping",
+                "message": "Group for method add was hystrix"
+                }{
+                "timestamp":"2019-07-03 10:55:53.918",
+                "level": "INFO",
+                "service": "hystrix-service",
+                "trace": "",
+                "span": "",
+                "pid": "1515",
+                "thread": "main",
+                "class": "s.d.schema.ModelContextKeyGenerator",
+                "message": "Cache Key Generated: java.lang.Integer(true)"
+                }{
+                "timestamp":"2019-07-03 10:55:53.918",
+                "level": "INFO",
+                "service": "hystrix-service",
+                "trace": "",
+                "span": "",
+                "pid": "1515",
+                "thread": "main",
+                "class": "s.d.spring.web.caching.CachingAspect",
+                "message": "Caching aspect applied for cache models with key java.lang.Integer(true)"
+                }{
+                "timestamp":"2019-07-03 10:55:53.918",
+                "level": "INFO",
+                "service": "hystrix-service",
+                "trace": "",
+                "span": "",
+                "pid": "1515",
+                "thread": "main",
+                "class": "s.d.schema.ModelContextKeyGenerator",
+                "message": "Cache Key Generated: java.lang.Integer(true)"
+                }{
+                "timestamp":"2019-07-03 10:55:53.918",
+                "level": "INFO",
+                "service": "hystrix-service",
+                "trace": "",
+                "span": "",
+                "pid": "1515",
+                "thread": "main",
+                "class": "s.d.spring.web.caching.CachingAspect",
+                "message": "Caching aspect applied for cache modelDependencies with key java.lang.Integer(true)"
+                }{
+                "timestamp":"2019-07-03 10:55:53.918",
+                "level": "INFO",
+                "service": "hystrix-service",
+                "trace": "",
+                "span": "",
+                "pid": "1515",
+                "thread": "main",
+                "class": "s.d.spring.web.OperationsKeyGenerator",
+                "message": "Cache key generated: /api/hystrix/multiplication.com.tailen.microservice.controller.HystrixControllor.multiplication.DefaultGenericTypeNamingStrategy"
+                }{
+                "timestamp":"2019-07-03 10:55:53.918",
+                "level": "INFO",
+                "service": "hystrix-service",
+                "trace": "",
+                "span": "",
+                "pid": "1515",
+                "thread": "main",
+                "class": "s.d.spring.web.caching.CachingAspect",
+                "message": "Caching aspect applied for cache operations with key /api/hystrix/multiplication.com.tailen.microservice.controller.HystrixControllor.multiplication.DefaultGenericTypeNamingStrategy"
+                }{
+                "timestamp":"2019-07-03 10:55:53.920",
+                "level": "INFO",
+                "service": "hystrix-service",
+                "trace": "",
+                "span": "",
+                "pid": "1515",
+                "thread": "main",
+                "class": "s.d.s.w.ClassOrApiAnnotationResourceGrouping",
+                "message": "Group for method multiplication was hystrix"
+                }{
+                "timestamp":"2019-07-03 10:55:53.921",
+                "level": "INFO",
+                "service": "hystrix-service",
+                "trace": "",
+                "span": "",
+                "pid": "1515",
+                "thread": "main",
+                "class": "s.d.s.w.ClassOrApiAnnotationResourceGrouping",
+                "message": "Group for method multiplication was hystrix"
+                }{
+                "timestamp":"2019-07-03 10:55:54.046",
+                "level": "INFO",
+                "service": "hystrix-service",
+                "trace": "",
+                "span": "",
+                "pid": "1515",
+                "thread": "main",
+                "class": "o.s.c.a.AnnotationConfigApplicationContext",
+                "message": "Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@15a41088: startup date [Wed Jul 03 10:55:54 CST 2019]; parent: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@33aeca0b"
+                }{
+                "timestamp":"2019-07-03 10:55:54.055",
+                "level": "INFO",
+                "service": "hystrix-service",
+                "trace": "",
+                "span": "",
+                "pid": "1515",
+                "thread": "main",
+                "class": "o.s.b.f.a.AutowiredAnnotationBeanPostProcessor",
+                "message": "JSR-330 'javax.inject.Inject' annotation found and supported for autowiring"
+                }{
+                "timestamp":"2019-07-03 10:55:55.046",
+                "level": "INFO",
+                "service": "hystrix-service",
+                "trace": "",
+                "span": "",
+                "pid": "1515",
+                "thread": "main",
+                "class": "o.s.w.s.m.m.a.RequestMappingHandlerAdapter",
+                "message": "Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@33aeca0b: startup date [Wed Jul 03 10:55:49 CST 2019]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@217ed35e"
+                }{
+                "timestamp":"2019-07-03 10:55:55.057",
+                "level": "INFO",
+                "service": "hystrix-service",
+                "trace": "",
+                "span": "",
+                "pid": "1515",
+                "thread": "main",
+                "class": "o.s.w.s.m.m.a.RequestMappingHandlerAdapter",
+                "message": "Detected ResponseBodyAdvice bean in org.springframework.boot.actuate.autoconfigure.EndpointWebMvcHypermediaManagementContextConfiguration$ActuatorEndpointLinksAdvice"
+                }{
+                "timestamp":"2019-07-03 10:55:55.292",
+                "level": "INFO",
+                "service": "hystrix-service",
+                "trace": "",
+                "span": "",
+                "pid": "1515",
+                "thread": "main",
+                "class": "o.s.w.s.handler.SimpleUrlHandlerMapping",
+                "message": "Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]"
+                }{
+                "timestamp":"2019-07-03 10:55:55.293",
+                "level": "INFO",
+                "service": "hystrix-service",
+                "trace": "",
+                "span": "",
+                "pid": "1515",
+                "thread": "main",
+                "class": "o.s.w.s.handler.SimpleUrlHandlerMapping",
+                "message": "Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]"
+                }{
+                "timestamp":"2019-07-03 10:55:55.319",
+                "level": "INFO",
+                "service": "hystrix-service",
+                "trace": "",
+                "span": "",
+                "pid": "1515",
+                "thread": "main",
+                "class": "o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver",
+                "message": "Detected ResponseBodyAdvice implementation in org.springframework.boot.actuate.autoconfigure.EndpointWebMvcHypermediaManagementContextConfiguration$ActuatorEndpointLinksAdvice"
+                }{
+                "timestamp":"2019-07-03 10:55:55.369",
+                "level": "INFO",
+                "service": "hystrix-service",
+                "trace": "",
+                "span": "",
+                "pid": "1515",
+                "thread": "main",
+                "class": "o.s.w.s.handler.SimpleUrlHandlerMapping",
+                "message": "Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]"
+                }{
+                "timestamp":"2019-07-03 10:55:56.096",
+                "level": "WARN",
+                "service": "hystrix-service",
+                "trace": "",
+                "span": "",
+                "pid": "1515",
+                "thread": "main",
+                "class": "c.n.c.sources.URLConfigurationSource",
+                "message": "No URLs will be polled as dynamic configuration sources."
+                }{
+                "timestamp":"2019-07-03 10:55:56.097",
+                "level": "INFO",
+                "service": "hystrix-service",
+                "trace": "",
+                "span": "",
+                "pid": "1515",
+                "thread": "main",
+                "class": "c.n.c.sources.URLConfigurationSource",
+                "message": "To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath."
+                }{
+                "timestamp":"2019-07-03 10:55:56.386",
+                "level": "INFO",
+                "service": "hystrix-service",
+                "trace": "",
+                "span": "",
+                "pid": "1515",
+                "thread": "main",
+                "class": "o.s.s.concurrent.ThreadPoolTaskScheduler",
+                "message": "Initializing ExecutorService "
+                }{
+                "timestamp":"2019-07-03 10:55:56.640",
+                "level": "INFO",
+                "service": "hystrix-service",
+                "trace": "",
+                "span": "",
+                "pid": "1515",
+                "thread": "main",
+                "class": "o.s.j.e.a.AnnotationMBeanExporter",
+                "message": "Registering beans for JMX exposure on startup"
+                }{
+                "timestamp":"2019-07-03 10:55:56.647",
+                "level": "INFO",
+                "service": "hystrix-service",
+                "trace": "",
+                "span": "",
+                "pid": "1515",
+                "thread": "main",
+                "class": "o.s.j.e.a.AnnotationMBeanExporter",
+                "message": "Bean with name 'environmentManager' has been autodetected for JMX exposure"
+                }{
+                "timestamp":"2019-07-03 10:55:56.649",
+                "level": "INFO",
+                "service": "hystrix-service",
+                "trace": "",
+                "span": "",
+                "pid": "1515",
+                "thread": "main",
+                "class": "o.s.j.e.a.AnnotationMBeanExporter",
+                "message": "Bean with name 'configurationPropertiesRebinder' has been autodetected for JMX exposure"
+                }{
+                "timestamp":"2019-07-03 10:55:56.649",
+                "level": "INFO",
+                "service": "hystrix-service",
+                "trace": "",
+                "span": "",
+                "pid": "1515",
+                "thread": "main",
+                "class": "o.s.j.e.a.AnnotationMBeanExporter",
+                "message": "Bean with name 'refreshEndpoint' has been autodetected for JMX exposure"
+                }{
+                "timestamp":"2019-07-03 10:55:56.650",
+                "level": "INFO",
+                "service": "hystrix-service",
+                "trace": "",
+                "span": "",
+                "pid": "1515",
+                "thread": "main",
+                "class": "o.s.j.e.a.AnnotationMBeanExporter",
+                "message": "Bean with name 'restartEndpoint' has been autodetected for JMX exposure"
+                }{
+                "timestamp":"2019-07-03 10:55:56.650",
+                "level": "INFO",
+                "service": "hystrix-service",
+                "trace": "",
+                "span": "",
+                "pid": "1515",
+                "thread": "main",
+                "class": "o.s.j.e.a.AnnotationMBeanExporter",
+                "message": "Bean with name 'serviceRegistryEndpoint' has been autodetected for JMX exposure"
+                }{
+                "timestamp":"2019-07-03 10:55:56.651",
+                "level": "INFO",
+                "service": "hystrix-service",
+                "trace": "",
+                "span": "",
+                "pid": "1515",
+                "thread": "main",
+                "class": "o.s.j.e.a.AnnotationMBeanExporter",
+                "message": "Bean with name 'refreshScope' has been autodetected for JMX exposure"
+                }{
+                "timestamp":"2019-07-03 10:55:56.653",
+                "level": "INFO",
+                "service": "hystrix-service",
+                "trace": "",
+                "span": "",
+                "pid": "1515",
+                "thread": "main",
+                "class": "o.s.j.e.a.AnnotationMBeanExporter",
+                "message": "Located managed bean 'environmentManager': registering with JMX server as MBean [org.springframework.cloud.context.environment:name=environmentManager,type=EnvironmentManager]"
+                }{
+                "timestamp":"2019-07-03 10:55:56.662",
+                "level": "INFO",
+                "service": "hystrix-service",
+                "trace": "",
+                "span": "",
+                "pid": "1515",
+                "thread": "main",
+                "class": "o.s.j.e.a.AnnotationMBeanExporter",
+                "message": "Located managed bean 'restartEndpoint': registering with JMX server as MBean [org.springframework.cloud.context.restart:name=restartEndpoint,type=RestartEndpoint]"
+                }{
+                "timestamp":"2019-07-03 10:55:56.670",
+                "level": "INFO",
+                "service": "hystrix-service",
+                "trace": "",
+                "span": "",
+                "pid": "1515",
+                "thread": "main",
+                "class": "o.s.j.e.a.AnnotationMBeanExporter",
+                "message": "Located managed bean 'serviceRegistryEndpoint': registering with JMX server as MBean [org.springframework.cloud.client.serviceregistry.endpoint:name=serviceRegistryEndpoint,type=ServiceRegistryEndpoint]"
+                }{
+                "timestamp":"2019-07-03 10:55:56.675",
+                "level": "INFO",
+                "service": "hystrix-service",
+                "trace": "",
+                "span": "",
+                "pid": "1515",
+                "thread": "main",
+                "class": "o.s.j.e.a.AnnotationMBeanExporter",
+                "message": "Located managed bean 'refreshScope': registering with JMX server as MBean [org.springframework.cloud.context.scope.refresh:name=refreshScope,type=RefreshScope]"
+                }{
+                "timestamp":"2019-07-03 10:55:56.681",
+                "level": "INFO",
+                "service": "hystrix-service",
+                "trace": "",
+                "span": "",
+                "pid": "1515",
+                "thread": "main",
+                "class": "o.s.j.e.a.AnnotationMBeanExporter",
+                "message": "Located managed bean 'configurationPropertiesRebinder': registering with JMX server as MBean [org.springframework.cloud.context.properties:name=configurationPropertiesRebinder,context=33aeca0b,type=ConfigurationPropertiesRebinder]"
+                }{
+                "timestamp":"2019-07-03 10:55:56.686",
+                "level": "INFO",
+                "service": "hystrix-service",
+                "trace": "",
+                "span": "",
+                "pid": "1515",
+                "thread": "main",
+                "class": "o.s.j.e.a.AnnotationMBeanExporter",
+                "message": "Located managed bean 'refreshEndpoint': registering with JMX server as MBean [org.springframework.cloud.endpoint:name=refreshEndpoint,type=RefreshEndpoint]"
+                }{
+                "timestamp":"2019-07-03 10:55:56.932",
+                "level": "INFO",
+                "service": "hystrix-service",
+                "trace": "",
+                "span": "",
+                "pid": "1515",
+                "thread": "main",
+                "class": "o.s.c.support.DefaultLifecycleProcessor",
+                "message": "Starting beans in phase 0"
+                }{
+                "timestamp":"2019-07-03 10:55:56.937",
+                "level": "INFO",
+                "service": "hystrix-service",
+                "trace": "",
+                "span": "",
+                "pid": "1515",
+                "thread": "main",
+                "class": "o.s.c.netflix.eureka.InstanceInfoFactory",
+                "message": "Setting initial instance status as: STARTING"
+                }{
+                "timestamp":"2019-07-03 10:55:56.964",
+                "level": "INFO",
+                "service": "hystrix-service",
+                "trace": "",
+                "span": "",
+                "pid": "1515",
+                "thread": "main",
+                "class": "com.netflix.discovery.DiscoveryClient",
+                "message": "Initializing Eureka in region us-east-1"
+                }{
+                "timestamp":"2019-07-03 10:55:57.093",
+                "level": "INFO",
+                "service": "hystrix-service",
+                "trace": "",
+                "span": "",
+                "pid": "1515",
+                "thread": "main",
+                "class": "c.n.d.provider.DiscoveryJerseyProvider",
+                "message": "Using JSON encoding codec LegacyJacksonJson"
+                }{
+                "timestamp":"2019-07-03 10:55:57.093",
+                "level": "INFO",
+                "service": "hystrix-service",
+                "trace": "",
+                "span": "",
+                "pid": "1515",
+                "thread": "main",
+                "class": "c.n.d.provider.DiscoveryJerseyProvider",
+                "message": "Using JSON decoding codec LegacyJacksonJson"
+                }{
+                "timestamp":"2019-07-03 10:55:57.143",
+                "level": "INFO",
+                "service": "hystrix-service",
+                "trace": "",
+                "span": "",
+                "pid": "1515",
+                "thread": "main",
+                "class": "c.n.d.provider.DiscoveryJerseyProvider",
+                "message": "Using XML encoding codec XStreamXml"
+                }{
+                "timestamp":"2019-07-03 10:55:57.143",
+                "level": "INFO",
+                "service": "hystrix-service",
+                "trace": "",
+                "span": "",
+                "pid": "1515",
+                "thread": "main",
+                "class": "c.n.d.provider.DiscoveryJerseyProvider",
+                "message": "Using XML decoding codec XStreamXml"
+                }{
+                "timestamp":"2019-07-03 10:55:57.236",
+                "level": "INFO",
+                "service": "hystrix-service",
+                "trace": "",
+                "span": "",
+                "pid": "1515",
+                "thread": "main",
+                "class": "c.n.d.s.r.aws.ConfigClusterResolver",
+                "message": "Resolving eureka endpoints via configuration"
+                }{
+                "timestamp":"2019-07-03 10:55:57.243",
+                "level": "INFO",
+                "service": "hystrix-service",
+                "trace": "",
+                "span": "",
+                "pid": "1515",
+                "thread": "main",
+                "class": "com.netflix.discovery.DiscoveryClient",
+                "message": "Disable delta property : false"
+                }{
+                "timestamp":"2019-07-03 10:55:57.243",
+                "level": "INFO",
+                "service": "hystrix-service",
+                "trace": "",
+                "span": "",
+                "pid": "1515",
+                "thread": "main",
+                "class": "com.netflix.discovery.DiscoveryClient",
+                "message": "Single vip registry refresh property : null"
+                }{
+                "timestamp":"2019-07-03 10:55:57.243",
+                "level": "INFO",
+                "service": "hystrix-service",
+                "trace": "",
+                "span": "",
+                "pid": "1515",
+                "thread": "main",
+                "class": "com.netflix.discovery.DiscoveryClient",
+                "message": "Force full registry fetch : false"
+                }{
+                "timestamp":"2019-07-03 10:55:57.243",
+                "level": "INFO",
+                "service": "hystrix-service",
+                "trace": "",
+                "span": "",
+                "pid": "1515",
+                "thread": "main",
+                "class": "com.netflix.discovery.DiscoveryClient",
+                "message": "Application is null : false"
+                }{
+                "timestamp":"2019-07-03 10:55:57.243",
+                "level": "INFO",
+                "service": "hystrix-service",
+                "trace": "",
+                "span": "",
+                "pid": "1515",
+                "thread": "main",
+                "class": "com.netflix.discovery.DiscoveryClient",
+                "message": "Registered Applications size is zero : true"
+                }{
+                "timestamp":"2019-07-03 10:55:57.243",
+                "level": "INFO",
+                "service": "hystrix-service",
+                "trace": "",
+                "span": "",
+                "pid": "1515",
+                "thread": "main",
+                "class": "com.netflix.discovery.DiscoveryClient",
+                "message": "Application version is -1: true"
+                }{
+                "timestamp":"2019-07-03 10:55:57.243",
+                "level": "INFO",
+                "service": "hystrix-service",
+                "trace": "",
+                "span": "",
+                "pid": "1515",
+                "thread": "main",
+                "class": "com.netflix.discovery.DiscoveryClient",
+                "message": "Getting all instance registry info from the eureka server"
+                }{
+                "timestamp":"2019-07-03 10:55:57.328",
+                "level": "INFO",
+                "service": "hystrix-service",
+                "trace": "",
+                "span": "",
+                "pid": "1515",
+                "thread": "main",
+                "class": "com.netflix.discovery.DiscoveryClient",
+                "message": "The response status is 200"
+                }{
+                "timestamp":"2019-07-03 10:55:57.329",
+                "level": "INFO",
+                "service": "hystrix-service",
+                "trace": "",
+                "span": "",
+                "pid": "1515",
+                "thread": "main",
+                "class": "com.netflix.discovery.DiscoveryClient",
+                "message": "Starting heartbeat executor: renew interval is: 30"
+                }{
+                "timestamp":"2019-07-03 10:55:57.331",
+                "level": "INFO",
+                "service": "hystrix-service",
+                "trace": "",
+                "span": "",
+                "pid": "1515",
+                "thread": "main",
+                "class": "c.n.discovery.InstanceInfoReplicator",
+                "message": "InstanceInfoReplicator onDemand update allowed rate per min is 4"
+                }{
+                "timestamp":"2019-07-03 10:55:57.333",
+                "level": "INFO",
+                "service": "hystrix-service",
+                "trace": "",
+                "span": "",
+                "pid": "1515",
+                "thread": "main",
+                "class": "com.netflix.discovery.DiscoveryClient",
+                "message": "Discovery Client initialized at timestamp 1562122557333 with initial instances count: 2"
+                }{
+                "timestamp":"2019-07-03 10:55:57.437",
+                "level": "INFO",
+                "service": "hystrix-service",
+                "trace": "",
+                "span": "",
+                "pid": "1515",
+                "thread": "main",
+                "class": "o.s.c.n.e.s.EurekaServiceRegistry",
+                "message": "Registering application hystrix-service with eureka with status UP"
+                }{
+                "timestamp":"2019-07-03 10:55:57.447",
+                "level": "INFO",
+                "service": "hystrix-service",
+                "trace": "",
+                "span": "",
+                "pid": "1515",
+                "thread": "main",
+                "class": "com.netflix.discovery.DiscoveryClient",
+                "message": "Saw local status change event StatusChangeEvent [timestamp=1562122557447, current=UP, previous=STARTING]"
+                }{
+                "timestamp":"2019-07-03 10:55:57.452",
+                "level": "INFO",
+                "service": "hystrix-service",
+                "trace": "",
+                "span": "",
+                "pid": "1515",
+                "thread": "DiscoveryClient-InstanceInfoReplicator-0",
+                "class": "com.netflix.discovery.DiscoveryClient",
+                "message": "DiscoveryClient_HYSTRIX-SERVICE/10.0.1.31:hystrix-service:1102: registering service..."
+                }{
+                "timestamp":"2019-07-03 10:55:57.477",
+                "level": "INFO",
+                "service": "hystrix-service",
+                "trace": "",
+                "span": "",
+                "pid": "1515",
+                "thread": "DiscoveryClient-InstanceInfoReplicator-0",
+                "class": "com.netflix.discovery.DiscoveryClient",
+                "message": "DiscoveryClient_HYSTRIX-SERVICE/10.0.1.31:hystrix-service:1102 - registration status: 204"
+                }{
+                "timestamp":"2019-07-03 10:55:57.489",
+                "level": "INFO",
+                "service": "hystrix-service",
+                "trace": "",
+                "span": "",
+                "pid": "1515",
+                "thread": "main",
+                "class": "o.s.c.support.DefaultLifecycleProcessor",
+                "message": "Starting beans in phase 2147483647"
+                }{
+                "timestamp":"2019-07-03 10:55:57.493",
+                "level": "INFO",
+                "service": "hystrix-service",
+                "trace": "",
+                "span": "",
+                "pid": "1515",
+                "thread": "main",
+                "class": "o.s.c.n.h.HystrixCircuitBreakerConfiguration$HystrixMetricsPollerConfiguration",
+                "message": "Starting poller"
+                }{
+                "timestamp":"2019-07-03 10:55:57.548",
+                "level": "INFO",
+                "service": "hystrix-service",
+                "trace": "",
+                "span": "",
+                "pid": "1515",
+                "thread": "main",
+                "class": "o.s.b.c.e.t.TomcatEmbeddedServletContainer",
+                "message": "Tomcat started on port(s): 1102 (http)"
+                }{
+                "timestamp":"2019-07-03 10:55:57.549",
+                "level": "INFO",
+                "service": "hystrix-service",
+                "trace": "",
+                "span": "",
+                "pid": "1515",
+                "thread": "main",
+                "class": "o.s.c.n.e.s.EurekaAutoServiceRegistration",
+                "message": "Updating port to 1102"
+                }{
+                "timestamp":"2019-07-03 10:55:57.553",
+                "level": "INFO",
+                "service": "hystrix-service",
+                "trace": "",
+                "span": "",
+                "pid": "1515",
+                "thread": "main",
+                "class": "c.tailen.microservice.HystrixApplication",
+                "message": "Started HystrixApplication in 29.302 seconds (JVM running for 34.815)"
+                }{
+                "timestamp":"2019-07-03 11:00:57.249",
+                "level": "INFO",
+                "service": "hystrix-service",
+                "trace": "",
+                "span": "",
+                "pid": "1515",
+                "thread": "AsyncResolver-bootstrap-executor-0",
+                "class": "c.n.d.s.r.aws.ConfigClusterResolver",
+                "message": "Resolving eureka endpoints via configuration"
+                }{
+                "timestamp":"2019-07-03 11:05:57.259",
+                "level": "INFO",
+                "service": "hystrix-service",
+                "trace": "",
+                "span": "",
+                "pid": "1515",
+                "thread": "AsyncResolver-bootstrap-executor-0",
+                "class": "c.n.d.s.r.aws.ConfigClusterResolver",
+                "message": "Resolving eureka endpoints via configuration"
+                }{
+                "timestamp":"2019-07-03 11:10:57.265",
+                "level": "INFO",
+                "service": "hystrix-service",
+                "trace": "",
+                "span": "",
+                "pid": "1515",
+                "thread": "AsyncResolver-bootstrap-executor-0",
+                "class": "c.n.d.s.r.aws.ConfigClusterResolver",
+                "message": "Resolving eureka endpoints via configuration"
+                }{
+                "timestamp":"2019-07-03 11:15:57.279",
+                "level": "INFO",
+                "service": "hystrix-service",
+                "trace": "",
+                "span": "",
+                "pid": "1515",
+                "thread": "AsyncResolver-bootstrap-executor-0",
+                "class": "c.n.d.s.r.aws.ConfigClusterResolver",
+                "message": "Resolving eureka endpoints via configuration"
+                }{
+                "timestamp":"2019-07-03 11:22:06.205",
+                "level": "INFO",
+                "service": "hystrix-service",
+                "trace": "",
+                "span": "",
+                "pid": "1515",
+                "thread": "AsyncResolver-bootstrap-executor-0",
+                "class": "c.n.d.s.r.aws.ConfigClusterResolver",
+                "message": "Resolving eureka endpoints via configuration"
+                }{
+                "timestamp":"2019-07-03 11:27:06.210",
+                "level": "INFO",
+                "service": "hystrix-service",
+                "trace": "",
+                "span": "",
+                "pid": "1515",
+                "thread": "AsyncResolver-bootstrap-executor-0",
+                "class": "c.n.d.s.r.aws.ConfigClusterResolver",
+                "message": "Resolving eureka endpoints via configuration"
+                }{
+                "timestamp":"2019-07-03 11:32:06.217",
+                "level": "INFO",
+                "service": "hystrix-service",
+                "trace": "",
+                "span": "",
+                "pid": "1515",
+                "thread": "AsyncResolver-bootstrap-executor-0",
+                "class": "c.n.d.s.r.aws.ConfigClusterResolver",
+                "message": "Resolving eureka endpoints via configuration"
+                }{
+                "timestamp":"2019-07-03 11:37:06.238",
+                "level": "INFO",
+                "service": "hystrix-service",
+                "trace": "",
+                "span": "",
+                "pid": "1515",
+                "thread": "AsyncResolver-bootstrap-executor-0",
+                "class": "c.n.d.s.r.aws.ConfigClusterResolver",
+                "message": "Resolving eureka endpoints via configuration"
+                }{
+                "timestamp":"2019-07-03 11:42:06.247",
+                "level": "INFO",
+                "service": "hystrix-service",
+                "trace": "",
+                "span": "",
+                "pid": "1515",
+                "thread": "AsyncResolver-bootstrap-executor-0",
+                "class": "c.n.d.s.r.aws.ConfigClusterResolver",
+                "message": "Resolving eureka endpoints via configuration"
+                }{
+                "timestamp":"2019-07-03 11:47:06.272",
+                "level": "INFO",
+                "service": "hystrix-service",
+                "trace": "",
+                "span": "",
+                "pid": "1515",
+                "thread": "AsyncResolver-bootstrap-executor-0",
+                "class": "c.n.d.s.r.aws.ConfigClusterResolver",
+                "message": "Resolving eureka endpoints via configuration"
+                }{
+                "timestamp":"2019-07-03 11:52:06.287",
+                "level": "INFO",
+                "service": "hystrix-service",
+                "trace": "",
+                "span": "",
+                "pid": "1515",
+                "thread": "AsyncResolver-bootstrap-executor-0",
+                "class": "c.n.d.s.r.aws.ConfigClusterResolver",
+                "message": "Resolving eureka endpoints via configuration"
+                }{
+                "timestamp":"2019-07-03 11:57:06.323",
+                "level": "INFO",
+                "service": "hystrix-service",
+                "trace": "",
+                "span": "",
+                "pid": "1515",
+                "thread": "AsyncResolver-bootstrap-executor-0",
+                "class": "c.n.d.s.r.aws.ConfigClusterResolver",
+                "message": "Resolving eureka endpoints via configuration"
+                }{
+                "timestamp":"2019-07-03 12:02:06.331",
+                "level": "INFO",
+                "service": "hystrix-service",
+                "trace": "",
+                "span": "",
+                "pid": "1515",
+                "thread": "AsyncResolver-bootstrap-executor-0",
+                "class": "c.n.d.s.r.aws.ConfigClusterResolver",
+                "message": "Resolving eureka endpoints via configuration"
+                }{
+                "timestamp":"2019-07-03 12:56:55.281",
+                "level": "INFO",
+                "service": "hystrix-service",
+                "trace": "",
+                "span": "",
+                "pid": "1515",
+                "thread": "AsyncResolver-bootstrap-executor-0",
+                "class": "c.n.d.s.r.aws.ConfigClusterResolver",
+                "message": "Resolving eureka endpoints via configuration"
+                }{
+                "timestamp":"2019-07-03 12:59:55.554",
+                "level": "INFO",
+                "service": "hystrix-service",
+                "trace": "",
+                "span": "",
+                "pid": "1515",
+                "thread": "Thread-64",
+                "class": "o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext",
+                "message": "Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@33aeca0b: startup date [Wed Jul 03 10:55:49 CST 2019]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@217ed35e"
+                }{
+                "timestamp":"2019-07-03 12:59:55.558",
+                "level": "INFO",
+                "service": "hystrix-service",
+                "trace": "",
+                "span": "",
+                "pid": "1515",
+                "thread": "Thread-64",
+                "class": "o.s.c.n.e.s.EurekaServiceRegistry",
+                "message": "Unregistering application hystrix-service with eureka with status DOWN"
+                }{
+                "timestamp":"2019-07-03 12:59:55.559",
+                "level": "WARN",
+                "service": "hystrix-service",
+                "trace": "",
+                "span": "",
+                "pid": "1515",
+                "thread": "Thread-64",
+                "class": "com.netflix.discovery.DiscoveryClient",
+                "message": "Saw local status change event StatusChangeEvent [timestamp=1562129995559, current=DOWN, previous=UP]"
+                }{
+                "timestamp":"2019-07-03 12:59:55.559",
+                "level": "WARN",
+                "service": "hystrix-service",
+                "trace": "",
+                "span": "",
+                "pid": "1515",
+                "thread": "DiscoveryClient-InstanceInfoReplicator-0",
+                "class": "com.netflix.discovery.DiscoveryClient",
+                "message": "Saw local status change event StatusChangeEvent [timestamp=1562129995559, current=UP, previous=DOWN]"
+                }{
+                "timestamp":"2019-07-03 12:59:55.560",
+                "level": "INFO",
+                "service": "hystrix-service",
+                "trace": "",
+                "span": "",
+                "pid": "1515",
+                "thread": "Thread-64",
+                "class": "com.netflix.discovery.DiscoveryClient",
+                "message": "Shutting down DiscoveryClient ..."
+                }{
+                "timestamp":"2019-07-03 12:59:55.560",
+                "level": "INFO",
+                "service": "hystrix-service",
+                "trace": "",
+                "span": "",
+                "pid": "1515",
+                "thread": "DiscoveryClient-InstanceInfoReplicator-0",
+                "class": "com.netflix.discovery.DiscoveryClient",
+                "message": "DiscoveryClient_HYSTRIX-SERVICE/10.0.1.31:hystrix-service:1102: registering service..."
+                }{
+                "timestamp":"2019-07-03 12:59:55.561",
+                "level": "INFO",
+                "service": "hystrix-service",
+                "trace": "",
+                "span": "",
+                "pid": "1515",
+                "thread": "Thread-64",
+                "class": "com.netflix.discovery.DiscoveryClient",
+                "message": "Unregistering ..."
+                }{
+                "timestamp":"2019-07-03 12:59:55.570",
+                "level": "INFO",
+                "service": "hystrix-service",
+                "trace": "",
+                "span": "",
+                "pid": "1515",
+                "thread": "DiscoveryClient-InstanceInfoReplicator-0",
+                "class": "o.a.http.impl.client.DefaultHttpClient",
+                "message": "I/O exception (java.net.SocketException) caught when processing request to {}->http://localhost:1000: Broken pipe (Write failed)"
+                }{
+                "timestamp":"2019-07-03 12:59:55.571",
+                "level": "INFO",
+                "service": "hystrix-service",
+                "trace": "",
+                "span": "",
+                "pid": "1515",
+                "thread": "DiscoveryClient-InstanceInfoReplicator-0",
+                "class": "o.a.http.impl.client.DefaultHttpClient",
+                "message": "Retrying request to {}->http://localhost:1000"
+                }{
+                "timestamp":"2019-07-03 12:59:55.575",
+                "level": "INFO",
+                "service": "hystrix-service",
+                "trace": "",
+                "span": "",
+                "pid": "1515",
+                "thread": "Thread-64",
+                "class": "o.a.http.impl.client.DefaultHttpClient",
+                "message": "I/O exception (java.net.SocketException) caught when processing request to {}->http://localhost:1000: Connection reset"
+                }{
+                "timestamp":"2019-07-03 12:59:55.576",
+                "level": "INFO",
+                "service": "hystrix-service",
+                "trace": "",
+                "span": "",
+                "pid": "1515",
+                "thread": "Thread-64",
+                "class": "o.a.http.impl.client.DefaultHttpClient",
+                "message": "Retrying request to {}->http://localhost:1000"
+                }{
+                "timestamp":"2019-07-03 12:59:55.581",
+                "level": "ERROR",
+                "service": "hystrix-service",
+                "trace": "",
+                "span": "",
+                "pid": "1515",
+                "thread": "Thread-64",
+                "class": "c.n.d.s.t.d.RedirectingEurekaHttpClient",
+                "message": "Request execution error"
+                }com.sun.jersey.api.client.ClientHandlerException: java.net.ConnectException: Connection refused (Connection refused)
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:187)
+	at com.sun.jersey.api.client.filter.GZIPContentEncodingFilter.handle(GZIPContentEncodingFilter.java:123)
+	at com.netflix.discovery.EurekaIdentityHeaderFilter.handle(EurekaIdentityHeaderFilter.java:27)
+	at com.sun.jersey.api.client.Client.handle(Client.java:652)
+	at com.sun.jersey.api.client.WebResource.handle(WebResource.java:682)
+	at com.sun.jersey.api.client.WebResource.access$200(WebResource.java:74)
+	at com.sun.jersey.api.client.WebResource$Builder.delete(WebResource.java:591)
+	at com.netflix.discovery.shared.transport.jersey.AbstractJerseyEurekaHttpClient.cancel(AbstractJerseyEurekaHttpClient.java:76)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.MetricsCollectingEurekaHttpClient.execute(MetricsCollectingEurekaHttpClient.java:73)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:89)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:119)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.DiscoveryClient.unregister(DiscoveryClient.java:885)
+	at com.netflix.discovery.DiscoveryClient.shutdown(DiscoveryClient.java:863)
+	at com.netflix.discovery.DiscoveryClient$$FastClassBySpringCGLIB$$a84c8cb4.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:204)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:738)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:157)
+	at org.springframework.cloud.context.config.StandardBeanLifecycleDecorator$2.invoke(StandardBeanLifecycleDecorator.java:85)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:673)
+	at org.springframework.cloud.netflix.eureka.CloudEurekaClient$$EnhancerBySpringCGLIB$$ca990e65.shutdown(<generated>)
+	at org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry.deregister(EurekaServiceRegistry.java:71)
+	at org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration.stop(EurekaAutoServiceRegistration.java:82)
+	at org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration.onApplicationEvent(EurekaAutoServiceRegistration.java:126)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.context.event.ApplicationListenerMethodAdapter.doInvoke(ApplicationListenerMethodAdapter.java:253)
+	at org.springframework.context.event.ApplicationListenerMethodAdapter.processEvent(ApplicationListenerMethodAdapter.java:174)
+	at org.springframework.context.event.ApplicationListenerMethodAdapter.onApplicationEvent(ApplicationListenerMethodAdapter.java:137)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:167)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:393)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:347)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:991)
+	at org.springframework.context.support.AbstractApplicationContext$2.run(AbstractApplicationContext.java:929)
+Caused by: java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:121)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:134)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryExecute(DefaultRequestDirector.java:673)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:486)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:118)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:173)
+	... 45 common frames omitted
+{
+                "timestamp":"2019-07-03 12:59:55.583",
+                "level": "WARN",
+                "service": "hystrix-service",
+                "trace": "",
+                "span": "",
+                "pid": "1515",
+                "thread": "Thread-64",
+                "class": "c.n.d.s.t.d.RetryableEurekaHttpClient",
+                "message": "Request execution failed with message: java.net.ConnectException: Connection refused (Connection refused)"
+                }{
+                "timestamp":"2019-07-03 12:59:55.582",
+                "level": "ERROR",
+                "service": "hystrix-service",
+                "trace": "",
+                "span": "",
+                "pid": "1515",
+                "thread": "DiscoveryClient-InstanceInfoReplicator-0",
+                "class": "c.n.d.s.t.d.RedirectingEurekaHttpClient",
+                "message": "Request execution error"
+                }com.sun.jersey.api.client.ClientHandlerException: org.apache.http.client.ClientProtocolException
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:187)
+	at com.sun.jersey.api.client.filter.GZIPContentEncodingFilter.handle(GZIPContentEncodingFilter.java:123)
+	at com.netflix.discovery.EurekaIdentityHeaderFilter.handle(EurekaIdentityHeaderFilter.java:27)
+	at com.sun.jersey.api.client.Client.handle(Client.java:652)
+	at com.sun.jersey.api.client.WebResource.handle(WebResource.java:682)
+	at com.sun.jersey.api.client.WebResource.access$200(WebResource.java:74)
+	at com.sun.jersey.api.client.WebResource$Builder.post(WebResource.java:570)
+	at com.netflix.discovery.shared.transport.jersey.AbstractJerseyEurekaHttpClient.register(AbstractJerseyEurekaHttpClient.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.MetricsCollectingEurekaHttpClient.execute(MetricsCollectingEurekaHttpClient.java:73)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:89)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:119)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:798)
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:104)
+	at com.netflix.discovery.InstanceInfoReplicator$1.run(InstanceInfoReplicator.java:88)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.apache.http.client.ClientProtocolException: null
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:839)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:118)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:173)
+	... 29 common frames omitted
+Caused by: org.apache.http.client.NonRepeatableRequestException: Cannot retry request with a non-repeatable request entity.  The cause lists the reason the original request failed.
+	at org.apache.http.impl.client.DefaultRequestDirector.tryExecute(DefaultRequestDirector.java:658)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:486)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)
+	... 32 common frames omitted
+Caused by: java.net.SocketException: Broken pipe (Write failed)
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:111)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:155)
+	at org.apache.http.impl.io.AbstractSessionOutputBuffer.flushBuffer(AbstractSessionOutputBuffer.java:157)
+	at org.apache.http.impl.io.AbstractSessionOutputBuffer.flush(AbstractSessionOutputBuffer.java:164)
+	at org.apache.http.impl.io.ChunkedOutputStream.flush(ChunkedOutputStream.java:192)
+	at com.fasterxml.jackson.core.json.UTF8JsonGenerator.flush(UTF8JsonGenerator.java:1054)
+	at com.fasterxml.jackson.databind.ObjectMapper.writeValue(ObjectMapper.java:2495)
+	at com.fasterxml.jackson.core.base.GeneratorBase.writeObject(GeneratorBase.java:378)
+	at com.fasterxml.jackson.core.JsonGenerator.writeObjectField(JsonGenerator.java:1662)
+	at com.netflix.discovery.converters.EurekaJacksonCodec$InstanceInfoSerializer.serialize(EurekaJacksonCodec.java:358)
+	at com.netflix.discovery.converters.EurekaJacksonCodec$InstanceInfoSerializer.serialize(EurekaJacksonCodec.java:316)
+	at com.fasterxml.jackson.databind.ser.DefaultSerializerProvider.serializeValue(DefaultSerializerProvider.java:416)
+	at com.fasterxml.jackson.databind.ObjectWriter$Prefetch.serialize(ObjectWriter.java:1425)
+	at com.fasterxml.jackson.databind.ObjectWriter._configAndWriteValue(ObjectWriter.java:1158)
+	at com.fasterxml.jackson.databind.ObjectWriter.writeValue(ObjectWriter.java:988)
+	at com.netflix.discovery.converters.EurekaJacksonCodec.writeTo(EurekaJacksonCodec.java:194)
+	at com.netflix.discovery.converters.wrappers.CodecWrappers$LegacyJacksonJson.encode(CodecWrappers.java:304)
+	at com.netflix.discovery.provider.DiscoveryJerseyProvider.writeTo(DiscoveryJerseyProvider.java:135)
+	at com.sun.jersey.api.client.RequestWriter$RequestEntityWriterImpl.writeRequestEntity(RequestWriter.java:231)
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler$2.writeTo(ApacheHttpClient4Handler.java:289)
+	at org.apache.http.entity.HttpEntityWrapper.writeTo(HttpEntityWrapper.java:94)
+	at org.apache.http.impl.client.EntityEnclosingRequestWrapper$EntityWrapper.writeTo(EntityEnclosingRequestWrapper.java:110)
+	at org.apache.http.impl.entity.EntitySerializer.serialize(EntitySerializer.java:118)
+	at org.apache.http.impl.AbstractHttpClientConnection.sendRequestEntity(AbstractHttpClientConnection.java:263)
+	at org.apache.http.impl.conn.AbstractClientConnAdapter.sendRequestEntity(AbstractClientConnAdapter.java:239)
+	at org.apache.http.protocol.HttpRequestExecutor.doSendRequest(HttpRequestExecutor.java:238)
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:123)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryExecute(DefaultRequestDirector.java:684)
+	... 34 common frames omitted
+	Suppressed: java.net.SocketException: Broken pipe (Write failed)
+		at java.net.SocketOutputStream.socketWrite0(Native Method)
+		at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:111)
+		at java.net.SocketOutputStream.write(SocketOutputStream.java:155)
+		at org.apache.http.impl.io.AbstractSessionOutputBuffer.flushBuffer(AbstractSessionOutputBuffer.java:157)
+		at org.apache.http.impl.io.AbstractSessionOutputBuffer.flush(AbstractSessionOutputBuffer.java:164)
+		at org.apache.http.impl.io.ChunkedOutputStream.close(ChunkedOutputStream.java:203)
+		at com.fasterxml.jackson.core.json.UTF8JsonGenerator.close(UTF8JsonGenerator.java:1092)
+		at com.fasterxml.jackson.databind.util.ClassUtil.closeOnFailAndThrowAsIAE(ClassUtil.java:499)
+		at com.fasterxml.jackson.databind.ObjectWriter._configAndWriteValue(ObjectWriter.java:1160)
+		... 48 common frames omitted
+{
+                "timestamp":"2019-07-03 12:59:55.584",
+                "level": "WARN",
+                "service": "hystrix-service",
+                "trace": "",
+                "span": "",
+                "pid": "1515",
+                "thread": "DiscoveryClient-InstanceInfoReplicator-0",
+                "class": "c.n.d.s.t.d.RetryableEurekaHttpClient",
+                "message": "Request execution failed with message: org.apache.http.client.ClientProtocolException"
+                }{
+                "timestamp":"2019-07-03 12:59:55.585",
+                "level": "ERROR",
+                "service": "hystrix-service",
+                "trace": "",
+                "span": "",
+                "pid": "1515",
+                "thread": "Thread-64",
+                "class": "c.n.d.s.t.d.RedirectingEurekaHttpClient",
+                "message": "Request execution error"
+                }com.sun.jersey.api.client.ClientHandlerException: java.net.ConnectException: Connection refused (Connection refused)
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:187)
+	at com.sun.jersey.api.client.filter.GZIPContentEncodingFilter.handle(GZIPContentEncodingFilter.java:123)
+	at com.netflix.discovery.EurekaIdentityHeaderFilter.handle(EurekaIdentityHeaderFilter.java:27)
+	at com.sun.jersey.api.client.Client.handle(Client.java:652)
+	at com.sun.jersey.api.client.WebResource.handle(WebResource.java:682)
+	at com.sun.jersey.api.client.WebResource.access$200(WebResource.java:74)
+	at com.sun.jersey.api.client.WebResource$Builder.delete(WebResource.java:591)
+	at com.netflix.discovery.shared.transport.jersey.AbstractJerseyEurekaHttpClient.cancel(AbstractJerseyEurekaHttpClient.java:76)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.MetricsCollectingEurekaHttpClient.execute(MetricsCollectingEurekaHttpClient.java:73)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.executeOnNewServer(RedirectingEurekaHttpClient.java:118)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:79)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:119)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.DiscoveryClient.unregister(DiscoveryClient.java:885)
+	at com.netflix.discovery.DiscoveryClient.shutdown(DiscoveryClient.java:863)
+	at com.netflix.discovery.DiscoveryClient$$FastClassBySpringCGLIB$$a84c8cb4.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:204)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:738)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:157)
+	at org.springframework.cloud.context.config.StandardBeanLifecycleDecorator$2.invoke(StandardBeanLifecycleDecorator.java:85)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:673)
+	at org.springframework.cloud.netflix.eureka.CloudEurekaClient$$EnhancerBySpringCGLIB$$ca990e65.shutdown(<generated>)
+	at org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry.deregister(EurekaServiceRegistry.java:71)
+	at org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration.stop(EurekaAutoServiceRegistration.java:82)
+	at org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration.onApplicationEvent(EurekaAutoServiceRegistration.java:126)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.context.event.ApplicationListenerMethodAdapter.doInvoke(ApplicationListenerMethodAdapter.java:253)
+	at org.springframework.context.event.ApplicationListenerMethodAdapter.processEvent(ApplicationListenerMethodAdapter.java:174)
+	at org.springframework.context.event.ApplicationListenerMethodAdapter.onApplicationEvent(ApplicationListenerMethodAdapter.java:137)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:167)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:393)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:347)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:991)
+	at org.springframework.context.support.AbstractApplicationContext$2.run(AbstractApplicationContext.java:929)
+Caused by: java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:121)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:134)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:610)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:445)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:118)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:173)
+	... 46 common frames omitted
+{
+                "timestamp":"2019-07-03 12:59:55.586",
+                "level": "WARN",
+                "service": "hystrix-service",
+                "trace": "",
+                "span": "",
+                "pid": "1515",
+                "thread": "Thread-64",
+                "class": "c.n.d.s.t.d.RetryableEurekaHttpClient",
+                "message": "Request execution failed with message: java.net.ConnectException: Connection refused (Connection refused)"
+                }{
+                "timestamp":"2019-07-03 12:59:55.587",
+                "level": "ERROR",
+                "service": "hystrix-service",
+                "trace": "",
+                "span": "",
+                "pid": "1515",
+                "thread": "DiscoveryClient-InstanceInfoReplicator-0",
+                "class": "c.n.d.s.t.d.RedirectingEurekaHttpClient",
+                "message": "Request execution error"
+                }com.sun.jersey.api.client.ClientHandlerException: java.net.ConnectException: Connection refused (Connection refused)
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:187)
+	at com.sun.jersey.api.client.filter.GZIPContentEncodingFilter.handle(GZIPContentEncodingFilter.java:123)
+	at com.netflix.discovery.EurekaIdentityHeaderFilter.handle(EurekaIdentityHeaderFilter.java:27)
+	at com.sun.jersey.api.client.Client.handle(Client.java:652)
+	at com.sun.jersey.api.client.WebResource.handle(WebResource.java:682)
+	at com.sun.jersey.api.client.WebResource.access$200(WebResource.java:74)
+	at com.sun.jersey.api.client.WebResource$Builder.post(WebResource.java:570)
+	at com.netflix.discovery.shared.transport.jersey.AbstractJerseyEurekaHttpClient.register(AbstractJerseyEurekaHttpClient.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.MetricsCollectingEurekaHttpClient.execute(MetricsCollectingEurekaHttpClient.java:73)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.executeOnNewServer(RedirectingEurekaHttpClient.java:118)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:79)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:119)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:798)
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:104)
+	at com.netflix.discovery.InstanceInfoReplicator$1.run(InstanceInfoReplicator.java:88)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:121)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:134)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:610)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:445)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:118)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:173)
+	... 30 common frames omitted
+{
+                "timestamp":"2019-07-03 12:59:55.591",
+                "level": "WARN",
+                "service": "hystrix-service",
+                "trace": "",
+                "span": "",
+                "pid": "1515",
+                "thread": "DiscoveryClient-InstanceInfoReplicator-0",
+                "class": "c.n.d.s.t.d.RetryableEurekaHttpClient",
+                "message": "Request execution failed with message: java.net.ConnectException: Connection refused (Connection refused)"
+                }{
+                "timestamp":"2019-07-03 12:59:55.594",
+                "level": "WARN",
+                "service": "hystrix-service",
+                "trace": "",
+                "span": "",
+                "pid": "1515",
+                "thread": "DiscoveryClient-InstanceInfoReplicator-0",
+                "class": "com.netflix.discovery.DiscoveryClient",
+                "message": "DiscoveryClient_HYSTRIX-SERVICE/10.0.1.31:hystrix-service:1102 - registration failed Cannot execute request on any known server"
+                }com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:111)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:798)
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:104)
+	at com.netflix.discovery.InstanceInfoReplicator$1.run(InstanceInfoReplicator.java:88)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+{
+                "timestamp":"2019-07-03 12:59:55.594",
+                "level": "WARN",
+                "service": "hystrix-service",
+                "trace": "",
+                "span": "",
+                "pid": "1515",
+                "thread": "DiscoveryClient-InstanceInfoReplicator-0",
+                "class": "c.n.discovery.InstanceInfoReplicator",
+                "message": "There was a problem with the instance info replicator"
+                }com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:111)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:798)
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:104)
+	at com.netflix.discovery.InstanceInfoReplicator$1.run(InstanceInfoReplicator.java:88)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+{
+                "timestamp":"2019-07-03 12:59:55.595",
+                "level": "ERROR",
+                "service": "hystrix-service",
+                "trace": "",
+                "span": "",
+                "pid": "1515",
+                "thread": "Thread-64",
+                "class": "com.netflix.discovery.DiscoveryClient",
+                "message": "DiscoveryClient_HYSTRIX-SERVICE/10.0.1.31:hystrix-service:1102 - de-registration failedCannot execute request on any known server"
+                }com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:111)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
+	at com.netflix.discovery.DiscoveryClient.unregister(DiscoveryClient.java:885)
+	at com.netflix.discovery.DiscoveryClient.shutdown(DiscoveryClient.java:863)
+	at com.netflix.discovery.DiscoveryClient$$FastClassBySpringCGLIB$$a84c8cb4.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:204)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:738)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:157)
+	at org.springframework.cloud.context.config.StandardBeanLifecycleDecorator$2.invoke(StandardBeanLifecycleDecorator.java:85)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:673)
+	at org.springframework.cloud.netflix.eureka.CloudEurekaClient$$EnhancerBySpringCGLIB$$ca990e65.shutdown(<generated>)
+	at org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry.deregister(EurekaServiceRegistry.java:71)
+	at org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration.stop(EurekaAutoServiceRegistration.java:82)
+	at org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration.onApplicationEvent(EurekaAutoServiceRegistration.java:126)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.context.event.ApplicationListenerMethodAdapter.doInvoke(ApplicationListenerMethodAdapter.java:253)
+	at org.springframework.context.event.ApplicationListenerMethodAdapter.processEvent(ApplicationListenerMethodAdapter.java:174)
+	at org.springframework.context.event.ApplicationListenerMethodAdapter.onApplicationEvent(ApplicationListenerMethodAdapter.java:137)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:167)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:393)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:347)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:991)
+	at org.springframework.context.support.AbstractApplicationContext$2.run(AbstractApplicationContext.java:929)
+{
+                "timestamp":"2019-07-03 12:59:55.600",
+                "level": "INFO",
+                "service": "hystrix-service",
+                "trace": "",
+                "span": "",
+                "pid": "1515",
+                "thread": "Thread-64",
+                "class": "com.netflix.discovery.DiscoveryClient",
+                "message": "Completed shut down of DiscoveryClient"
+                }{
+                "timestamp":"2019-07-03 12:59:55.631",
+                "level": "INFO",
+                "service": "hystrix-service",
+                "trace": "",
+                "span": "",
+                "pid": "1515",
+                "thread": "Thread-64",
+                "class": "o.s.c.support.DefaultLifecycleProcessor",
+                "message": "Stopping beans in phase 2147483647"
+                }{
+                "timestamp":"2019-07-03 12:59:55.636",
+                "level": "INFO",
+                "service": "hystrix-service",
+                "trace": "",
+                "span": "",
+                "pid": "1515",
+                "thread": "Thread-64",
+                "class": "o.s.c.support.DefaultLifecycleProcessor",
+                "message": "Stopping beans in phase 0"
+                }{
+                "timestamp":"2019-07-03 12:59:55.646",
+                "level": "INFO",
+                "service": "hystrix-service",
+                "trace": "",
+                "span": "",
+                "pid": "1515",
+                "thread": "Thread-64",
+                "class": "o.s.j.e.a.AnnotationMBeanExporter",
+                "message": "Unregistering JMX-exposed beans on shutdown"
+                }{
+                "timestamp":"2019-07-03 12:59:55.647",
+                "level": "INFO",
+                "service": "hystrix-service",
+                "trace": "",
+                "span": "",
+                "pid": "1515",
+                "thread": "Thread-64",
+                "class": "o.s.j.e.a.AnnotationMBeanExporter",
+                "message": "Unregistering JMX-exposed beans"
+                }{
+                "timestamp":"2019-07-03 12:59:55.663",
+                "level": "INFO",
+                "service": "hystrix-service",
+                "trace": "",
+                "span": "",
+                "pid": "1515",
+                "thread": "Thread-64",
+                "class": "o.s.c.a.AnnotationConfigApplicationContext",
+                "message": "Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@15a41088: startup date [Wed Jul 03 10:55:54 CST 2019]; parent: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@33aeca0b"
+                }{
+                "timestamp":"2019-07-03 12:59:55.665",
+                "level": "WARN",
+                "service": "hystrix-service",
+                "trace": "",
+                "span": "",
+                "pid": "1515",
+                "thread": "Thread-64",
+                "class": "o.s.c.a.AnnotationConfigApplicationContext",
+                "message": "Exception thrown from ApplicationListener handling ContextClosedEvent"
+                }org.springframework.beans.factory.BeanCreationNotAllowedException: Error creating bean with name 'eurekaAutoServiceRegistration': Singleton bean creation not allowed while singletons of this factory are in destruction (Do not request a bean from a BeanFactory in a destroy method implementation!)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:216)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1078)
+	at org.springframework.context.event.ApplicationListenerMethodAdapter.getTargetBean(ApplicationListenerMethodAdapter.java:280)
+	at org.springframework.context.event.ApplicationListenerMethodAdapter.doInvoke(ApplicationListenerMethodAdapter.java:250)
+	at org.springframework.context.event.ApplicationListenerMethodAdapter.processEvent(ApplicationListenerMethodAdapter.java:174)
+	at org.springframework.context.event.ApplicationListenerMethodAdapter.onApplicationEvent(ApplicationListenerMethodAdapter.java:137)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:167)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:393)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:399)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:347)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:991)
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:958)
+	at org.springframework.cloud.context.named.NamedContextFactory.destroy(NamedContextFactory.java:76)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:272)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:578)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:554)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:961)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:523)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:968)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1030)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1006)
+	at org.springframework.context.support.AbstractApplicationContext$2.run(AbstractApplicationContext.java:929)
+{
+                "timestamp":"2019-07-03 12:59:55.666",
+                "level": "INFO",
+                "service": "hystrix-service",
+                "trace": "",
+                "span": "",
+                "pid": "1515",
+                "thread": "Thread-64",
+                "class": "o.s.c.a.AnnotationConfigApplicationContext",
+                "message": "Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@76437e9b: startup date [Wed Jul 03 10:55:51 CST 2019]; parent: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@33aeca0b"
+                }{
+                "timestamp":"2019-07-03 12:59:55.667",
+                "level": "WARN",
+                "service": "hystrix-service",
+                "trace": "",
+                "span": "",
+                "pid": "1515",
+                "thread": "Thread-64",
+                "class": "o.s.c.a.AnnotationConfigApplicationContext",
+                "message": "Exception thrown from ApplicationListener handling ContextClosedEvent"
+                }org.springframework.beans.factory.BeanCreationNotAllowedException: Error creating bean with name 'eurekaAutoServiceRegistration': Singleton bean creation not allowed while singletons of this factory are in destruction (Do not request a bean from a BeanFactory in a destroy method implementation!)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:216)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1078)
+	at org.springframework.context.event.ApplicationListenerMethodAdapter.getTargetBean(ApplicationListenerMethodAdapter.java:280)
+	at org.springframework.context.event.ApplicationListenerMethodAdapter.doInvoke(ApplicationListenerMethodAdapter.java:250)
+	at org.springframework.context.event.ApplicationListenerMethodAdapter.processEvent(ApplicationListenerMethodAdapter.java:174)
+	at org.springframework.context.event.ApplicationListenerMethodAdapter.onApplicationEvent(ApplicationListenerMethodAdapter.java:137)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:167)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:393)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:399)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:347)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:991)
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:958)
+	at org.springframework.cloud.context.named.NamedContextFactory.destroy(NamedContextFactory.java:76)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:272)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:578)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:554)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:961)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:523)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:968)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1030)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1006)
+	at org.springframework.context.support.AbstractApplicationContext$2.run(AbstractApplicationContext.java:929)

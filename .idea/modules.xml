@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Limiting/Limiting.iml" filepath="$PROJECT_DIR$/Limiting/Limiting.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Microservice_Experiment.iml" filepath="$PROJECT_DIR$/.idea/Microservice_Experiment.iml" />
+      <module fileurl="file://$PROJECT_DIR$/apollo_config/apollo_config.iml" filepath="$PROJECT_DIR$/apollo_config/apollo_config.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka/eureka.iml" filepath="$PROJECT_DIR$/eureka/eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/feign_service_a/feign_service_a.iml" filepath="$PROJECT_DIR$/feign_service_a/feign_service_a.iml" />
+      <module fileurl="file://$PROJECT_DIR$/feign_service_b/feign_service_b.iml" filepath="$PROJECT_DIR$/feign_service_b/feign_service_b.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gateway/gateway.iml" filepath="$PROJECT_DIR$/gateway/gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hystrix/hystrix.iml" filepath="$PROJECT_DIR$/hystrix/hystrix.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jwt/jwt.iml" filepath="$PROJECT_DIR$/jwt/jwt.iml" />
+      <module fileurl="file://$PROJECT_DIR$/swagger2/swagger2.iml" filepath="$PROJECT_DIR$/swagger2/swagger2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/thread_pool_async/thread_pool_async.iml" filepath="$PROJECT_DIR$/thread_pool_async/thread_pool_async.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xxl_job/xxl_job.iml" filepath="$PROJECT_DIR$/xxl_job/xxl_job.iml" />
+    </modules>
+  </component>
+</project>
