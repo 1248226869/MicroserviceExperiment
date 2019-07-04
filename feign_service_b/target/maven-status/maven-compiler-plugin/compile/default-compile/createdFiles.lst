@@ -1,5 +1,5 @@
 com/tailen/microservice/config/Swagger2Config.class
-com/tailen/microservice/contrller/FeignContrller.class
+com/tailen/microservice/controller/FeignController.class
 com/tailen/microservice/service/DemoService.class
 com/tailen/microservice/FeignServiceBApplication.class
 com/tailen/microservice/manager/FeignServiceA.class
