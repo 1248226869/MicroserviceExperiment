@@ -8,14 +8,14 @@
         <outputRelativeToContentRoot value="true" />
         <module name="jwt" />
         <module name="gateway" />
-        <module name="thread_pool_async" />
-        <module name="Limiting" />
-        <module name="eureka" />
-        <module name="xxl_job" />
-        <module name="feign_service_b" />
-        <module name="feign_service_a" />
         <module name="hystrix" />
+        <module name="Limiting" />
+        <module name="xxl_job" />
+        <module name="eureka" />
+        <module name="feign_service_a" />
+        <module name="thread_pool_async" />
         <module name="swagger2" />
+        <module name="feign_service_b" />
         <module name="apollo_config" />
       </profile>
     </annotationProcessing>
@@ -39,5 +39,18 @@
       <module name="xxl_job" target="1.5" />
       <module name="zuul" target="1.5" />
     </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Limiting" options="-parameters" />
+      <module name="eureka" options="-parameters" />
+      <module name="feign_service_a" options="-parameters" />
+      <module name="feign_service_b" options="-parameters" />
+      <module name="gateway" options="-parameters" />
+      <module name="hystrix" options="-parameters" />
+      <module name="jwt" options="-parameters" />
+      <module name="swagger2" options="-parameters" />
+      <module name="thread_pool_async" options="-parameters" />
+    </option>
   </component>
 </project>

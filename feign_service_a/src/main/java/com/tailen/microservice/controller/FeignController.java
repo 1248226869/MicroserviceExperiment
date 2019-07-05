@@ -38,6 +38,7 @@ public class FeignController {
         log.info("fegin service a provide service:add");
         return demoService.add(numA, numB);
     }
+
     @ApiOperation(value="feign调用B服务乘法")
     @RequestMapping(value = "/multiplication", method = RequestMethod.GET)
     public Integer multiplication(@RequestParam(value = "numA") Integer numA, @RequestParam(value = "numB") Integer numB) {
