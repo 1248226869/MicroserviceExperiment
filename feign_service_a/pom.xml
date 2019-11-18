@@ -57,6 +57,13 @@
             <artifactId>logstash-logback-encoder</artifactId>
             <version>4.6</version>
         </dependency>
+
+        <!-- 缓存-->
+        <dependency>
+            <groupId>com.chaoxing.academy.component</groupId>
+            <artifactId>spring-cacheComponent</artifactId>
+            <version>1.0.0</version>
+        </dependency>
     </dependencies>
 
     <dependencyManagement>

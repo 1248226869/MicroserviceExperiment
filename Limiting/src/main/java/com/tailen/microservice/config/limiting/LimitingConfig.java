@@ -26,6 +26,7 @@ import java.util.concurrent.atomic.AtomicInteger;
 @JsonInclude(JsonInclude.Include.NON_NULL)
 public class LimitingConfig {
     private final Logger log = LoggerFactory.getLogger(LimitingConfig.class);
+
     Map<String, ConcurrentHashMap<String, Integer>> signaStoragel =
             new ConcurrentHashMap<String, ConcurrentHashMap<String, Integer>>();
 
@@ -52,12 +53,15 @@ public class LimitingConfig {
         }
 
         if (signa.size() < frequency) {
+            //参数校验
+            //权限校验
             //租借信号
             String concurrentTime = (new Date()).toString();
             signa.put(concurrentTime,0);
             signaStoragel.put(key, signa);
             //执行方法
             Object result = joinPoint.proceed();
+            //
             //归还信号
             signa.remove(concurrentTime);
             signaStoragel.put(key, signa);

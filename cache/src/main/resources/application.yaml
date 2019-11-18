@@ -1,0 +1,39 @@
+server:
+  port: 1234
+
+spring:
+  application:
+    name: cache-test
+
+cache:
+  creater:
+    limitSizeList[0]:
+      cachePriority: local
+      name: local
+      maxSize: 6
+    limitSizeList[1]:
+      cachePriority: remote
+      name: remote
+      maxSize: 6
+    limitSizeList[2]:
+      cachePriority: firstRemote
+      name: firstRemote@accessThreshold
+      maxSize: 6
+      cacheChangeStrategy: accessThreshold
+    limitSizeList[3:
+      cachePriority: firstLocal
+      name: firstLocal&overflowMaxSize
+      maxSize: 6
+      cacheChangeStrategy: overflowMaxSize
+    limitSizeList[4]:
+      cachePriority: localRemote
+      name: localRemote
+      maxSize: 6
+
+
+
+
+
+
+
+

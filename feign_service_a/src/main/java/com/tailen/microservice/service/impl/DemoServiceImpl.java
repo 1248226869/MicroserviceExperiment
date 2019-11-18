@@ -1,11 +1,15 @@
 package com.tailen.microservice.service.impl;
 
 import com.tailen.microservice.FeignServiceAApplication;
+import com.tailen.microservice.manager.FeignServiceB;
 import com.tailen.microservice.service.DemoService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Objects;
 
 /**
@@ -16,6 +20,9 @@ import java.util.Objects;
 @Service
 public class DemoServiceImpl implements DemoService {
     private final Logger log = LoggerFactory.getLogger(FeignServiceAApplication.class);
+
+    @Autowired
+    private FeignServiceB feignServiceB;
 
     @Override
     public Integer add(Integer numA, Integer numB) {
@@ -29,5 +36,6 @@ public class DemoServiceImpl implements DemoService {
         return numA + numB;
 
     }
+
 
 }

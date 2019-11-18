@@ -1,6 +1,7 @@
 package com.tailen.microservice.controller;
 
 import com.tailen.microservice.FeignServiceAApplication;
+import com.tailen.microservice.config.TXMachinesProperties;
 import com.tailen.microservice.manager.FeignServiceB;
 import com.tailen.microservice.service.DemoService;
 import io.swagger.annotations.Api;
@@ -24,6 +25,8 @@ import java.util.Objects;
 public class FeignController {
     private final Logger log = LoggerFactory.getLogger(FeignServiceAApplication.class);
     @Autowired
+    private TXMachinesProperties txMachinesProperties;
+    @Autowired
     private DemoService demoService;
     @Autowired
     private FeignServiceB feignServiceB;
@@ -31,6 +34,7 @@ public class FeignController {
     @ApiOperation(value="加法")
     @RequestMapping(value = "/add", method = RequestMethod.GET)
     public Integer add(@RequestParam(value = "numA") Integer numA, @RequestParam(value = "numB") Integer numB) {
+        txMachinesProperties.getMachine1s();
         if (Objects.isNull(numA) || Objects.isNull(numB)) {
             log.warn("fegin service a : add param check fail");
             return null;

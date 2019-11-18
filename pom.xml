@@ -20,6 +20,8 @@
         <module>thread_pool_async</module>
         <module>jwt</module>
         <module>Limiting</module>
+        <module>cache</module>
+        <module>mybatis_plus_dev</module>
     </modules>
 
 

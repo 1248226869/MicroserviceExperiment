@@ -8,11 +8,13 @@
         <outputRelativeToContentRoot value="true" />
         <module name="jwt" />
         <module name="gateway" />
-        <module name="hystrix" />
         <module name="Limiting" />
-        <module name="xxl_job" />
-        <module name="eureka" />
         <module name="feign_service_a" />
+        <module name="cache" />
+        <module name="xxl_job" />
+        <module name="mybatis_plus_dev" />
+        <module name="eureka" />
+        <module name="hystrix" />
         <module name="thread_pool_async" />
         <module name="swagger2" />
         <module name="feign_service_b" />
@@ -21,6 +23,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="apollo_config" target="1.5" />
+      <module name="cache" target="1.8" />
       <module name="eureka" target="1.8" />
       <module name="eurekaCluster" target="1.8" />
       <module name="feign_service_a" target="1.8" />
@@ -30,6 +33,7 @@
       <module name="jwt" target="1.8" />
       <module name="Limiting" target="1.8" />
       <module name="Microservice_Experiment" target="1.5" />
+      <module name="mybatis_plus_dev" target="1.8" />
       <module name="ribbon_service_a" target="1.8" />
       <module name="ribbon_service_b" target="1.8" />
       <module name="sleuth" target="1.5" />
@@ -43,12 +47,14 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="Limiting" options="-parameters" />
+      <module name="cache" options="-parameters" />
       <module name="eureka" options="-parameters" />
       <module name="feign_service_a" options="-parameters" />
       <module name="feign_service_b" options="-parameters" />
-      <module name="gateway" options="-parameters" />
+      <module name="gateway" options="-parameters -parameters" />
       <module name="hystrix" options="-parameters" />
       <module name="jwt" options="-parameters" />
+      <module name="mybatis_plus_dev" options="-parameters" />
       <module name="swagger2" options="-parameters" />
       <module name="thread_pool_async" options="-parameters" />
     </option>

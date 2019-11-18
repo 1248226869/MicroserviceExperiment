@@ -8,6 +8,7 @@ import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
 /**
  * @author zhao tailen
  * @description 服务注册中心
+ * 我是一条河，在你的心中奔流不息
  * @date 2019-06-28
  */
 @EnableEurekaServer

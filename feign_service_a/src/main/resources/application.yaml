@@ -14,7 +14,7 @@ eureka:
   client:
     #    可用区域映射到与eureka服务器通信的完全限定URL列表。每个值可以是单个URL或逗号分隔的备用位置列表。
     serviceUrl:
-      defaultZone: http://localhost:1000/eureka/
+      defaultZone: http://10.0.1.15:7100/eureka/
       #   询问Eureka服务url信息变化的时间间隔（s），默认为300秒
       pollIntervalSeconds: 1800
     #    用于指示Eureka客户端已启用的标志，默认true
