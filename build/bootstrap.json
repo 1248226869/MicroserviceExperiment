@@ -148,4 +148,34 @@
                 "thread": "main",
                 "class": "o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker",
                 "message": "Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$5d4213f9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)"
+                }{
+                "timestamp":"2021-07-07 09:54:21.638",
+                "level": "INFO",
+                "service": "bootstrap",
+                "trace": "",
+                "span": "",
+                "pid": "2952",
+                "thread": "main",
+                "class": "o.s.c.a.AnnotationConfigApplicationContext",
+                "message": "Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@32f232a5: startup date [Wed Jul 07 09:54:21 CST 2021]; root of context hierarchy"
+                }{
+                "timestamp":"2021-07-07 09:54:22.003",
+                "level": "INFO",
+                "service": "bootstrap",
+                "trace": "",
+                "span": "",
+                "pid": "2952",
+                "thread": "main",
+                "class": "o.s.b.f.a.AutowiredAnnotationBeanPostProcessor",
+                "message": "JSR-330 'javax.inject.Inject' annotation found and supported for autowiring"
+                }{
+                "timestamp":"2021-07-07 09:54:22.079",
+                "level": "INFO",
+                "service": "bootstrap",
+                "trace": "",
+                "span": "",
+                "pid": "2952",
+                "thread": "main",
+                "class": "o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker",
+                "message": "Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$4e2acfc5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)"
                 }
