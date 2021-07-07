@@ -3388,4 +3388,114 @@
                 "thread": "main",
                 "class": "com.tailen.EurekaServiceApplication",
                 "message": "Started EurekaServiceApplication in 31.233 seconds (JVM running for 37.344)"
+                }{
+                "timestamp":"2021-07-07 09:51:12.047",
+                "level": "INFO",
+                "service": "eureka-server-cluster-a",
+                "trace": "",
+                "span": "",
+                "pid": "2380",
+                "thread": "Eureka-EvictionTimer",
+                "class": "c.n.e.registry.AbstractInstanceRegistry",
+                "message": "Running the evict task with compensationTime 0ms"
+                }{
+                "timestamp":"2021-07-07 09:52:12.048",
+                "level": "INFO",
+                "service": "eureka-server-cluster-a",
+                "trace": "",
+                "span": "",
+                "pid": "2380",
+                "thread": "Eureka-EvictionTimer",
+                "class": "c.n.e.registry.AbstractInstanceRegistry",
+                "message": "Running the evict task with compensationTime 0ms"
+                }{
+                "timestamp":"2021-07-07 09:53:09.775",
+                "level": "INFO",
+                "service": "eureka-server-cluster-a",
+                "trace": "",
+                "span": "",
+                "pid": "2380",
+                "thread": "Thread-74",
+                "class": "o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext",
+                "message": "Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@c2db68f: startup date [Wed Jul 07 09:50:01 CST 2021]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@3fc2959f"
+                }{
+                "timestamp":"2021-07-07 09:53:09.775",
+                "level": "INFO",
+                "service": "eureka-server-cluster-a",
+                "trace": "",
+                "span": "",
+                "pid": "2380",
+                "thread": "Thread-74",
+                "class": "o.s.c.n.e.s.EurekaServiceRegistry",
+                "message": "Unregistering application eureka-server-cluster-a with eureka with status DOWN"
+                }{
+                "timestamp":"2021-07-07 09:53:09.776",
+                "level": "INFO",
+                "service": "eureka-server-cluster-a",
+                "trace": "",
+                "span": "",
+                "pid": "2380",
+                "thread": "Thread-74",
+                "class": "com.netflix.discovery.DiscoveryClient",
+                "message": "Shutting down DiscoveryClient ..."
+                }{
+                "timestamp":"2021-07-07 09:53:09.776",
+                "level": "INFO",
+                "service": "eureka-server-cluster-a",
+                "trace": "",
+                "span": "",
+                "pid": "2380",
+                "thread": "Thread-74",
+                "class": "com.netflix.discovery.DiscoveryClient",
+                "message": "Completed shut down of DiscoveryClient"
+                }{
+                "timestamp":"2021-07-07 09:53:09.777",
+                "level": "INFO",
+                "service": "eureka-server-cluster-a",
+                "trace": "",
+                "span": "",
+                "pid": "2380",
+                "thread": "Thread-74",
+                "class": "o.s.c.support.DefaultLifecycleProcessor",
+                "message": "Stopping beans in phase 0"
+                }{
+                "timestamp":"2021-07-07 09:53:09.780",
+                "level": "INFO",
+                "service": "eureka-server-cluster-a",
+                "trace": "",
+                "span": "",
+                "pid": "2380",
+                "thread": "Thread-74",
+                "class": "c.n.eureka.DefaultEurekaServerContext",
+                "message": "Shutting down ..."
+                }{
+                "timestamp":"2021-07-07 09:53:09.783",
+                "level": "INFO",
+                "service": "eureka-server-cluster-a",
+                "trace": "",
+                "span": "",
+                "pid": "2380",
+                "thread": "Thread-74",
+                "class": "c.n.eureka.DefaultEurekaServerContext",
+                "message": "Shut down"
+                }{
+                "timestamp":"2021-07-07 09:53:09.788",
+                "level": "INFO",
+                "service": "eureka-server-cluster-a",
+                "trace": "",
+                "span": "",
+                "pid": "2380",
+                "thread": "Thread-74",
+                "class": "o.s.j.e.a.AnnotationMBeanExporter",
+                "message": "Unregistering JMX-exposed beans on shutdown"
+                }{
+                "timestamp":"2021-07-07 09:53:09.788",
+                "level": "INFO",
+                "service": "eureka-server-cluster-a",
+                "trace": "",
+                "span": "",
+                "pid": "2380",
+                "thread": "Thread-74",
+                "class": "o.s.j.e.a.AnnotationMBeanExporter",
+                "message": "Unregistering JMX-exposed beans"
                 }
