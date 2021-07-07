@@ -88,4 +88,64 @@
                 "thread": "main",
                 "class": "o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker",
                 "message": "Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$ded78fad] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)"
+                }{
+                "timestamp":"2021-07-07 09:47:12.904",
+                "level": "INFO",
+                "service": "bootstrap",
+                "trace": "",
+                "span": "",
+                "pid": "2115",
+                "thread": "main",
+                "class": "o.s.c.a.AnnotationConfigApplicationContext",
+                "message": "Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@3fc2959f: startup date [Wed Jul 07 09:47:12 CST 2021]; root of context hierarchy"
+                }{
+                "timestamp":"2021-07-07 09:47:13.134",
+                "level": "INFO",
+                "service": "bootstrap",
+                "trace": "",
+                "span": "",
+                "pid": "2115",
+                "thread": "main",
+                "class": "o.s.b.f.a.AutowiredAnnotationBeanPostProcessor",
+                "message": "JSR-330 'javax.inject.Inject' annotation found and supported for autowiring"
+                }{
+                "timestamp":"2021-07-07 09:47:13.206",
+                "level": "INFO",
+                "service": "bootstrap",
+                "trace": "",
+                "span": "",
+                "pid": "2115",
+                "thread": "main",
+                "class": "o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker",
+                "message": "Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$4a6f92d8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)"
+                }{
+                "timestamp":"2021-07-07 09:49:51.265",
+                "level": "INFO",
+                "service": "bootstrap",
+                "trace": "",
+                "span": "",
+                "pid": "2380",
+                "thread": "main",
+                "class": "o.s.c.a.AnnotationConfigApplicationContext",
+                "message": "Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@3fc2959f: startup date [Wed Jul 07 09:49:51 CST 2021]; root of context hierarchy"
+                }{
+                "timestamp":"2021-07-07 09:49:51.509",
+                "level": "INFO",
+                "service": "bootstrap",
+                "trace": "",
+                "span": "",
+                "pid": "2380",
+                "thread": "main",
+                "class": "o.s.b.f.a.AutowiredAnnotationBeanPostProcessor",
+                "message": "JSR-330 'javax.inject.Inject' annotation found and supported for autowiring"
+                }{
+                "timestamp":"2021-07-07 09:49:51.570",
+                "level": "INFO",
+                "service": "bootstrap",
+                "trace": "",
+                "span": "",
+                "pid": "2380",
+                "thread": "main",
+                "class": "o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker",
+                "message": "Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$5d4213f9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)"
                 }

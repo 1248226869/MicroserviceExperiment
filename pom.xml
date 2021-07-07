@@ -10,7 +10,6 @@
     <version>1.0.0</version>
     <modules>
         <module>swagger2</module>
-        <module>eureka</module>
         <module>feign_service_a</module>
         <module>feign_service_b</module>
         <module>hystrix</module>
@@ -20,6 +19,8 @@
         <module>thread_pool_async</module>
         <module>jwt</module>
         <module>Limiting</module>
+        <module>eureka-1</module>
+        <module>eureka-2</module>
     </modules>
 
 

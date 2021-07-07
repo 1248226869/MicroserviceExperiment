@@ -1,4 +1,4 @@
-package com.tailen.microservice.eureka;
+package eureka;
 
 
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -12,9 +12,9 @@ import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
  */
 @EnableEurekaServer
 @SpringBootApplication
-public class EurekaApplication {
+public class EurekaServiceApplication {
     public static void main(String[] args) {
-        new SpringApplicationBuilder(EurekaApplication.class)
+        new SpringApplicationBuilder(EurekaServiceApplication.class)
                 .web(true).run(args);
     }
 }
