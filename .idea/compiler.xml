@@ -47,9 +47,9 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="Limiting" options="-parameters" />
       <module name="eureka" options="-parameters" />
-      <module name="eureka1" options="-parameters" />
-      <module name="eureka2" options="-parameters" />
-      <module name="feign_service_a" options="-parameters" />
+      <module name="eureka1" options="-parameters -parameters" />
+      <module name="eureka2" options="-parameters -parameters" />
+      <module name="feign_service_a" options="-parameters -parameters" />
       <module name="feign_service_b" options="-parameters" />
       <module name="gateway" options="-parameters" />
       <module name="hystrix" options="-parameters" />

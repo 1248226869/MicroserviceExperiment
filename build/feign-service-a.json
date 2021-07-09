@@ -1,1953 +1,451 @@
 {
-                "timestamp":"2019-07-05 09:41:25.170",
+                "timestamp":"2021-07-09 09:31:22.008",
                 "level": "INFO",
                 "service": "feign-service-a",
                 "trace": "",
                 "span": "",
-                "pid": "735",
+                "pid": "1693",
                 "thread": "main",
                 "class": "c.t.m.FeignServiceAApplication",
                 "message": "No active profile set, falling back to default profiles: default"
                 }{
-                "timestamp":"2019-07-05 09:41:25.189",
-                "level": "INFO",
-                "service": "feign-service-a",
-                "trace": "",
-                "span": "",
-                "pid": "735",
-                "thread": "main",
-                "class": "o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext",
-                "message": "Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@ccb4b1b: startup date [Fri Jul 05 09:41:25 CST 2019]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@44c03695"
-                }{
-                "timestamp":"2019-07-05 09:41:28.134",
-                "level": "INFO",
-                "service": "feign-service-a",
-                "trace": "",
-                "span": "",
-                "pid": "735",
-                "thread": "main",
-                "class": "o.s.b.f.s.DefaultListableBeanFactory",
-                "message": "Overriding bean definition for bean 'managementServletContext' with a different definition: replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.actuate.autoconfigure.EndpointWebMvcHypermediaManagementContextConfiguration; factoryMethodName=managementServletContext; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/actuate/autoconfigure/EndpointWebMvcHypermediaManagementContextConfiguration.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.actuate.autoconfigure.EndpointWebMvcAutoConfiguration; factoryMethodName=managementServletContext; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/actuate/autoconfigure/EndpointWebMvcAutoConfiguration.class]]"
-                }{
-                "timestamp":"2019-07-05 09:41:29.617",
-                "level": "INFO",
-                "service": "feign-service-a",
-                "trace": "",
-                "span": "",
-                "pid": "735",
-                "thread": "main",
-                "class": "o.s.cloud.context.scope.GenericScope",
-                "message": "BeanFactory id=66e46e80-df35-313b-9e14-d69c1bc19ad7"
-                }{
-                "timestamp":"2019-07-05 09:41:29.691",
-                "level": "INFO",
-                "service": "feign-service-a",
-                "trace": "",
-                "span": "",
-                "pid": "735",
-                "thread": "main",
-                "class": "o.s.b.f.a.AutowiredAnnotationBeanPostProcessor",
-                "message": "JSR-330 'javax.inject.Inject' annotation found and supported for autowiring"
-                }{
-                "timestamp":"2019-07-05 09:41:29.889",
-                "level": "INFO",
-                "service": "feign-service-a",
-                "trace": "",
-                "span": "",
-                "pid": "735",
-                "thread": "main",
-                "class": "o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker",
-                "message": "Bean 'com.tailen.microservice.manager.FeignServiceB' of type [org.springframework.cloud.netflix.feign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)"
-                }{
-                "timestamp":"2019-07-05 09:41:30.068",
-                "level": "INFO",
-                "service": "feign-service-a",
-                "trace": "",
-                "span": "",
-                "pid": "735",
-                "thread": "main",
-                "class": "o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker",
-                "message": "Bean 'org.springframework.cloud.sleuth.instrument.async.AsyncDefaultAutoConfiguration$DefaultAsyncConfigurerSupport' of type [org.springframework.cloud.sleuth.instrument.async.AsyncDefaultAutoConfiguration$DefaultAsyncConfigurerSupport$$EnhancerBySpringCGLIB$$9fb043e2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)"
-                }{
-                "timestamp":"2019-07-05 09:41:30.288",
-                "level": "INFO",
-                "service": "feign-service-a",
-                "trace": "",
-                "span": "",
-                "pid": "735",
-                "thread": "main",
-                "class": "o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker",
-                "message": "Bean 'org.springframework.cloud.sleuth.annotation.SleuthAnnotationAutoConfiguration' of type [org.springframework.cloud.sleuth.annotation.SleuthAnnotationAutoConfiguration$$EnhancerBySpringCGLIB$$64d3ec51] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)"
-                }{
-                "timestamp":"2019-07-05 09:41:30.942",
-                "level": "INFO",
-                "service": "feign-service-a",
-                "trace": "",
-                "span": "",
-                "pid": "735",
-                "thread": "main",
-                "class": "o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker",
-                "message": "Bean 'sleuthAdvisorConfig' of type [org.springframework.cloud.sleuth.annotation.SleuthAdvisorConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)"
-                }{
-                "timestamp":"2019-07-05 09:41:31.074",
-                "level": "INFO",
-                "service": "feign-service-a",
-                "trace": "",
-                "span": "",
-                "pid": "735",
-                "thread": "main",
-                "class": "o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker",
-                "message": "Bean 'org.springframework.cloud.netflix.metrics.MetricsInterceptorConfiguration$MetricsRestTemplateConfiguration' of type [org.springframework.cloud.netflix.metrics.MetricsInterceptorConfiguration$MetricsRestTemplateConfiguration$$EnhancerBySpringCGLIB$$949b4c60] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)"
-                }{
-                "timestamp":"2019-07-05 09:41:31.278",
-                "level": "INFO",
-                "service": "feign-service-a",
-                "trace": "",
-                "span": "",
-                "pid": "735",
-                "thread": "main",
-                "class": "o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker",
-                "message": "Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$7e88a91c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)"
-                }{
-                "timestamp":"2019-07-05 09:41:31.323",
-                "level": "INFO",
-                "service": "feign-service-a",
-                "trace": "",
-                "span": "",
-                "pid": "735",
-                "thread": "main",
-                "class": "o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker",
-                "message": "Bean 'org.springframework.cloud.sleuth.instrument.web.client.feign.TraceFeignClientAutoConfiguration$FeignBeanPostProcessorConfiguration' of type [org.springframework.cloud.sleuth.instrument.web.client.feign.TraceFeignClientAutoConfiguration$FeignBeanPostProcessorConfiguration$$EnhancerBySpringCGLIB$$a2007ee5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)"
-                }{
-                "timestamp":"2019-07-05 09:41:31.434",
-                "level": "INFO",
-                "service": "feign-service-a",
-                "trace": "",
-                "span": "",
-                "pid": "735",
-                "thread": "main",
-                "class": "o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker",
-                "message": "Bean 'org.springframework.cloud.sleuth.instrument.async.AsyncDefaultAutoConfiguration' of type [org.springframework.cloud.sleuth.instrument.async.AsyncDefaultAutoConfiguration$$EnhancerBySpringCGLIB$$4a52523e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)"
-                }{
-                "timestamp":"2019-07-05 09:41:33.543",
-                "level": "INFO",
-                "service": "feign-service-a",
-                "trace": "",
-                "span": "",
-                "pid": "735",
-                "thread": "main",
-                "class": "o.s.b.c.e.t.TomcatEmbeddedServletContainer",
-                "message": "Tomcat initialized with port(s): 1100 (http)"
-                }{
-                "timestamp":"2019-07-05 09:41:33.555",
-                "level": "INFO",
-                "service": "feign-service-a",
-                "trace": "",
-                "span": "",
-                "pid": "735",
-                "thread": "main",
-                "class": "org.apache.catalina.core.StandardService",
-                "message": "Starting service [Tomcat]"
-                }{
-                "timestamp":"2019-07-05 09:41:33.556",
-                "level": "INFO",
-                "service": "feign-service-a",
-                "trace": "",
-                "span": "",
-                "pid": "735",
-                "thread": "main",
-                "class": "org.apache.catalina.core.StandardEngine",
-                "message": "Starting Servlet Engine: Apache Tomcat/8.5.15"
-                }{
-                "timestamp":"2019-07-05 09:41:33.938",
-                "level": "INFO",
-                "service": "feign-service-a",
-                "trace": "",
-                "span": "",
-                "pid": "735",
-                "thread": "localhost-startStop-1",
-                "class": "o.a.c.c.C.[Tomcat].[localhost].[/]",
-                "message": "Initializing Spring embedded WebApplicationContext"
-                }{
-                "timestamp":"2019-07-05 09:41:33.939",
-                "level": "INFO",
-                "service": "feign-service-a",
-                "trace": "",
-                "span": "",
-                "pid": "735",
-                "thread": "localhost-startStop-1",
-                "class": "o.s.web.context.ContextLoader",
-                "message": "Root WebApplicationContext: initialization completed in 8750 ms"
-                }{
-                "timestamp":"2019-07-05 09:41:37.987",
-                "level": "INFO",
-                "service": "feign-service-a",
-                "trace": "",
-                "span": "",
-                "pid": "735",
-                "thread": "localhost-startStop-1",
-                "class": "o.s.b.web.servlet.FilterRegistrationBean",
-                "message": "Mapping filter: 'metricsFilter' to: [/*]"
-                }{
-                "timestamp":"2019-07-05 09:41:37.988",
-                "level": "INFO",
-                "service": "feign-service-a",
-                "trace": "",
-                "span": "",
-                "pid": "735",
-                "thread": "localhost-startStop-1",
-                "class": "o.s.b.web.servlet.FilterRegistrationBean",
-                "message": "Mapping filter: 'characterEncodingFilter' to: [/*]"
-                }{
-                "timestamp":"2019-07-05 09:41:37.988",
-                "level": "INFO",
-                "service": "feign-service-a",
-                "trace": "",
-                "span": "",
-                "pid": "735",
-                "thread": "localhost-startStop-1",
-                "class": "o.s.b.web.servlet.FilterRegistrationBean",
-                "message": "Mapping filter: 'traceFilter' to: [/*]"
-                }{
-                "timestamp":"2019-07-05 09:41:37.988",
-                "level": "INFO",
-                "service": "feign-service-a",
-                "trace": "",
-                "span": "",
-                "pid": "735",
-                "thread": "localhost-startStop-1",
-                "class": "o.s.b.web.servlet.FilterRegistrationBean",
-                "message": "Mapping filter: 'hiddenHttpMethodFilter' to: [/*]"
-                }{
-                "timestamp":"2019-07-05 09:41:37.988",
-                "level": "INFO",
-                "service": "feign-service-a",
-                "trace": "",
-                "span": "",
-                "pid": "735",
-                "thread": "localhost-startStop-1",
-                "class": "o.s.b.web.servlet.FilterRegistrationBean",
-                "message": "Mapping filter: 'httpPutFormContentFilter' to: [/*]"
-                }{
-                "timestamp":"2019-07-05 09:41:37.988",
-                "level": "INFO",
-                "service": "feign-service-a",
-                "trace": "",
-                "span": "",
-                "pid": "735",
-                "thread": "localhost-startStop-1",
-                "class": "o.s.b.web.servlet.FilterRegistrationBean",
-                "message": "Mapping filter: 'requestContextFilter' to: [/*]"
-                }{
-                "timestamp":"2019-07-05 09:41:37.989",
-                "level": "INFO",
-                "service": "feign-service-a",
-                "trace": "",
-                "span": "",
-                "pid": "735",
-                "thread": "localhost-startStop-1",
-                "class": "o.s.b.web.servlet.FilterRegistrationBean",
-                "message": "Mapping filter: 'webRequestLoggingFilter' to: [/*]"
-                }{
-                "timestamp":"2019-07-05 09:41:37.989",
-                "level": "INFO",
-                "service": "feign-service-a",
-                "trace": "",
-                "span": "",
-                "pid": "735",
-                "thread": "localhost-startStop-1",
-                "class": "o.s.b.web.servlet.FilterRegistrationBean",
-                "message": "Mapping filter: 'applicationContextIdFilter' to: [/*]"
-                }{
-                "timestamp":"2019-07-05 09:41:37.989",
-                "level": "INFO",
-                "service": "feign-service-a",
-                "trace": "",
-                "span": "",
-                "pid": "735",
-                "thread": "localhost-startStop-1",
-                "class": "o.s.b.w.servlet.ServletRegistrationBean",
-                "message": "Mapping servlet: 'dispatcherServlet' to [/]"
-                }{
-                "timestamp":"2019-07-05 09:41:38.164",
-                "level": "INFO",
-                "service": "feign-service-a",
-                "trace": "",
-                "span": "",
-                "pid": "735",
-                "thread": "main",
-                "class": "o.s.c.a.AnnotationConfigApplicationContext",
-                "message": "Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@738d37fc: startup date [Fri Jul 05 09:41:38 CST 2019]; parent: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@ccb4b1b"
-                }{
-                "timestamp":"2019-07-05 09:41:38.183",
-                "level": "INFO",
-                "service": "feign-service-a",
-                "trace": "",
-                "span": "",
-                "pid": "735",
-                "thread": "main",
-                "class": "o.s.b.f.a.AutowiredAnnotationBeanPostProcessor",
-                "message": "JSR-330 'javax.inject.Inject' annotation found and supported for autowiring"
-                }{
-                "timestamp":"2019-07-05 09:41:40.262",
-                "level": "INFO",
-                "service": "feign-service-a",
-                "trace": "",
-                "span": "",
-                "pid": "735",
-                "thread": "main",
-                "class": "o.s.w.s.m.m.a.RequestMappingHandlerMapping",
-                "message": "Mapped "{[/api/add],methods=[GET]}" onto public java.lang.Integer com.tailen.microservice.controller.FeignController.add(java.lang.Integer,java.lang.Integer)"
-                }{
-                "timestamp":"2019-07-05 09:41:40.266",
+                "timestamp":"2021-07-09 09:31:25.344",
                 "level": "WARN",
                 "service": "feign-service-a",
                 "trace": "",
                 "span": "",
-                "pid": "735",
+                "pid": "1693",
                 "thread": "main",
-                "class": "o.s.c.a.AnnotationConfigApplicationContext",
-                "message": "Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'documentationPluginsBootstrapper' defined in URL [jar:file:/Users/zhaotailin/Public/repository/io/springfox/springfox-spring-web/2.2.2/springfox-spring-web-2.2.2.jar!/springfox/documentation/spring/web/plugins/DocumentationPluginsBootstrapper.class]: Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'webMvcRequestHandlerProvider' defined in URL [jar:file:/Users/zhaotailin/Public/repository/io/springfox/springfox-spring-web/2.2.2/springfox-spring-web-2.2.2.jar!/springfox/documentation/spring/web/plugins/WebMvcRequestHandlerProvider.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Invocation of init method failed; nested exception is java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'feignController' method 
-public java.lang.Integer com.tailen.microservice.controller.FeignController.addV2(java.lang.Integer,java.lang.Integer,java.lang.Integer)
-to {[/api/add],methods=[GET]}: There is already 'feignController' bean method
-public java.lang.Integer com.tailen.microservice.controller.FeignController.add(java.lang.Integer,java.lang.Integer) mapped."
+                "class": "o.s.boot.actuate.endpoint.EndpointId",
+                "message": "Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format."
                 }{
-                "timestamp":"2019-07-05 09:41:40.267",
-                "level": "WARN",
-                "service": "feign-service-a",
-                "trace": "",
-                "span": "",
-                "pid": "735",
-                "thread": "main",
-                "class": "o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext",
-                "message": "Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'feignController': Unsatisfied dependency expressed through field 'feignServiceB'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'com.tailen.microservice.manager.FeignServiceB': FactoryBean threw exception on object creation; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'documentationPluginsBootstrapper' defined in URL [jar:file:/Users/zhaotailin/Public/repository/io/springfox/springfox-spring-web/2.2.2/springfox-spring-web-2.2.2.jar!/springfox/documentation/spring/web/plugins/DocumentationPluginsBootstrapper.class]: Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'webMvcRequestHandlerProvider' defined in URL [jar:file:/Users/zhaotailin/Public/repository/io/springfox/springfox-spring-web/2.2.2/springfox-spring-web-2.2.2.jar!/springfox/documentation/spring/web/plugins/WebMvcRequestHandlerProvider.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Invocation of init method failed; nested exception is java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'feignController' method 
-public java.lang.Integer com.tailen.microservice.controller.FeignController.addV2(java.lang.Integer,java.lang.Integer,java.lang.Integer)
-to {[/api/add],methods=[GET]}: There is already 'feignController' bean method
-public java.lang.Integer com.tailen.microservice.controller.FeignController.add(java.lang.Integer,java.lang.Integer) mapped."
-                }{
-                "timestamp":"2019-07-05 09:41:40.268",
+                "timestamp":"2021-07-09 09:31:26.060",
                 "level": "INFO",
                 "service": "feign-service-a",
                 "trace": "",
                 "span": "",
-                "pid": "735",
-                "thread": "main",
-                "class": "org.apache.catalina.core.StandardService",
-                "message": "Stopping service [Tomcat]"
-                }{
-                "timestamp":"2019-07-05 09:41:40.298",
-                "level": "INFO",
-                "service": "feign-service-a",
-                "trace": "",
-                "span": "",
-                "pid": "735",
-                "thread": "main",
-                "class": "o.s.b.a.l.AutoConfigurationReportLoggingInitializer",
-                "message": "
-
-Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled."
-                }{
-                "timestamp":"2019-07-05 09:41:40.305",
-                "level": "ERROR",
-                "service": "feign-service-a",
-                "trace": "",
-                "span": "",
-                "pid": "735",
-                "thread": "main",
-                "class": "o.springframework.boot.SpringApplication",
-                "message": "Application startup failed"
-                }org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'feignController': Unsatisfied dependency expressed through field 'feignServiceB'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'com.tailen.microservice.manager.FeignServiceB': FactoryBean threw exception on object creation; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'documentationPluginsBootstrapper' defined in URL [jar:file:/Users/zhaotailin/Public/repository/io/springfox/springfox-spring-web/2.2.2/springfox-spring-web-2.2.2.jar!/springfox/documentation/spring/web/plugins/DocumentationPluginsBootstrapper.class]: Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'webMvcRequestHandlerProvider' defined in URL [jar:file:/Users/zhaotailin/Public/repository/io/springfox/springfox-spring-web/2.2.2/springfox-spring-web-2.2.2.jar!/springfox/documentation/spring/web/plugins/WebMvcRequestHandlerProvider.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Invocation of init method failed; nested exception is java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'feignController' method 
-public java.lang.Integer com.tailen.microservice.controller.FeignController.addV2(java.lang.Integer,java.lang.Integer,java.lang.Integer)
-to {[/api/add],methods=[GET]}: There is already 'feignController' bean method
-public java.lang.Integer com.tailen.microservice.controller.FeignController.add(java.lang.Integer,java.lang.Integer) mapped.
-	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:588)
-	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:88)
-	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:366)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1264)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:553)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
-	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
-	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:761)
-	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:867)
-	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:543)
-	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
-	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693)
-	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
-	at org.springframework.boot.builder.SpringApplicationBuilder.run(SpringApplicationBuilder.java:134)
-	at com.tailen.microservice.FeignServiceAApplication.main(FeignServiceAApplication.java:22)
-Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'com.tailen.microservice.manager.FeignServiceB': FactoryBean threw exception on object creation; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'documentationPluginsBootstrapper' defined in URL [jar:file:/Users/zhaotailin/Public/repository/io/springfox/springfox-spring-web/2.2.2/springfox-spring-web-2.2.2.jar!/springfox/documentation/spring/web/plugins/DocumentationPluginsBootstrapper.class]: Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'webMvcRequestHandlerProvider' defined in URL [jar:file:/Users/zhaotailin/Public/repository/io/springfox/springfox-spring-web/2.2.2/springfox-spring-web-2.2.2.jar!/springfox/documentation/spring/web/plugins/WebMvcRequestHandlerProvider.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Invocation of init method failed; nested exception is java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'feignController' method 
-public java.lang.Integer com.tailen.microservice.controller.FeignController.addV2(java.lang.Integer,java.lang.Integer,java.lang.Integer)
-to {[/api/add],methods=[GET]}: There is already 'feignController' bean method
-public java.lang.Integer com.tailen.microservice.controller.FeignController.add(java.lang.Integer,java.lang.Integer) mapped.
-	at org.springframework.beans.factory.support.FactoryBeanRegistrySupport.doGetObjectFromFactoryBean(FactoryBeanRegistrySupport.java:175)
-	at org.springframework.beans.factory.support.FactoryBeanRegistrySupport.getObjectFromFactoryBean(FactoryBeanRegistrySupport.java:103)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.getObjectForBeanInstance(AbstractBeanFactory.java:1634)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:254)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
-	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:208)
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.addCandidateEntry(DefaultListableBeanFactory.java:1316)
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAutowireCandidates(DefaultListableBeanFactory.java:1282)
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1101)
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1066)
-	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:585)
-	... 18 common frames omitted
-Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'documentationPluginsBootstrapper' defined in URL [jar:file:/Users/zhaotailin/Public/repository/io/springfox/springfox-spring-web/2.2.2/springfox-spring-web-2.2.2.jar!/springfox/documentation/spring/web/plugins/DocumentationPluginsBootstrapper.class]: Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'webMvcRequestHandlerProvider' defined in URL [jar:file:/Users/zhaotailin/Public/repository/io/springfox/springfox-spring-web/2.2.2/springfox-spring-web-2.2.2.jar!/springfox/documentation/spring/web/plugins/WebMvcRequestHandlerProvider.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Invocation of init method failed; nested exception is java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'feignController' method 
-public java.lang.Integer com.tailen.microservice.controller.FeignController.addV2(java.lang.Integer,java.lang.Integer,java.lang.Integer)
-to {[/api/add],methods=[GET]}: There is already 'feignController' bean method
-public java.lang.Integer com.tailen.microservice.controller.FeignController.add(java.lang.Integer,java.lang.Integer) mapped.
-	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:749)
-	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:189)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1193)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1095)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:513)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
-	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
-	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
-	at org.springframework.context.event.AbstractApplicationEventMulticaster.retrieveApplicationListeners(AbstractApplicationEventMulticaster.java:235)
-	at org.springframework.context.event.AbstractApplicationEventMulticaster.getApplicationListeners(AbstractApplicationEventMulticaster.java:192)
-	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:128)
-	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:393)
-	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:399)
-	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:347)
-	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:883)
-	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:546)
-	at org.springframework.cloud.context.named.NamedContextFactory.createContext(NamedContextFactory.java:116)
-	at org.springframework.cloud.context.named.NamedContextFactory.getContext(NamedContextFactory.java:85)
-	at org.springframework.cloud.context.named.NamedContextFactory.getInstance(NamedContextFactory.java:121)
-	at org.springframework.cloud.sleuth.instrument.web.client.feign.TraceFeignContext.getInstance(TraceFeignContext.java:28)
-	at org.springframework.cloud.netflix.feign.FeignClientFactoryBean.get(FeignClientFactoryBean.java:127)
-	at org.springframework.cloud.netflix.feign.FeignClientFactoryBean.feign(FeignClientFactoryBean.java:84)
-	at org.springframework.cloud.netflix.feign.FeignClientFactoryBean.getObject(FeignClientFactoryBean.java:155)
-	at org.springframework.beans.factory.support.FactoryBeanRegistrySupport.doGetObjectFromFactoryBean(FactoryBeanRegistrySupport.java:168)
-	... 28 common frames omitted
-Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'webMvcRequestHandlerProvider' defined in URL [jar:file:/Users/zhaotailin/Public/repository/io/springfox/springfox-spring-web/2.2.2/springfox-spring-web-2.2.2.jar!/springfox/documentation/spring/web/plugins/WebMvcRequestHandlerProvider.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Invocation of init method failed; nested exception is java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'feignController' method 
-public java.lang.Integer com.tailen.microservice.controller.FeignController.addV2(java.lang.Integer,java.lang.Integer,java.lang.Integer)
-to {[/api/add],methods=[GET]}: There is already 'feignController' bean method
-public java.lang.Integer com.tailen.microservice.controller.FeignController.add(java.lang.Integer,java.lang.Integer) mapped.
-	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:749)
-	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:189)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1193)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1095)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:513)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
-	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
-	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
-	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:208)
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1138)
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1066)
-	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:835)
-	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:741)
-	... 53 common frames omitted
-Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Invocation of init method failed; nested exception is java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'feignController' method 
-public java.lang.Integer com.tailen.microservice.controller.FeignController.addV2(java.lang.Integer,java.lang.Integer,java.lang.Integer)
-to {[/api/add],methods=[GET]}: There is already 'feignController' bean method
-public java.lang.Integer com.tailen.microservice.controller.FeignController.add(java.lang.Integer,java.lang.Integer) mapped.
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1628)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
-	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
-	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
-	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:208)
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.addCandidateEntry(DefaultListableBeanFactory.java:1316)
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAutowireCandidates(DefaultListableBeanFactory.java:1282)
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveMultipleBeans(DefaultListableBeanFactory.java:1180)
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1096)
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1066)
-	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:835)
-	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:741)
-	... 67 common frames omitted
-Caused by: java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'feignController' method 
-public java.lang.Integer com.tailen.microservice.controller.FeignController.addV2(java.lang.Integer,java.lang.Integer,java.lang.Integer)
-to {[/api/add],methods=[GET]}: There is already 'feignController' bean method
-public java.lang.Integer com.tailen.microservice.controller.FeignController.add(java.lang.Integer,java.lang.Integer) mapped.
-	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.assertUniqueMethodMapping(AbstractHandlerMethodMapping.java:576)
-	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:540)
-	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.registerHandlerMethod(AbstractHandlerMethodMapping.java:264)
-	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.detectHandlerMethods(AbstractHandlerMethodMapping.java:250)
-	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.initHandlerMethods(AbstractHandlerMethodMapping.java:214)
-	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.afterPropertiesSet(AbstractHandlerMethodMapping.java:184)
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.afterPropertiesSet(RequestMappingHandlerMapping.java:127)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1687)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1624)
-	... 81 common frames omitted
-{
-                "timestamp":"2019-07-05 09:43:20.525",
-                "level": "INFO",
-                "service": "feign-service-a",
-                "trace": "",
-                "span": "",
-                "pid": "849",
-                "thread": "main",
-                "class": "c.t.m.FeignServiceAApplication",
-                "message": "No active profile set, falling back to default profiles: default"
-                }{
-                "timestamp":"2019-07-05 09:43:20.541",
-                "level": "INFO",
-                "service": "feign-service-a",
-                "trace": "",
-                "span": "",
-                "pid": "849",
-                "thread": "main",
-                "class": "o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext",
-                "message": "Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@61ce23ac: startup date [Fri Jul 05 09:43:20 CST 2019]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@3b69e7d1"
-                }{
-                "timestamp":"2019-07-05 09:43:22.886",
-                "level": "INFO",
-                "service": "feign-service-a",
-                "trace": "",
-                "span": "",
-                "pid": "849",
-                "thread": "main",
-                "class": "o.s.b.f.s.DefaultListableBeanFactory",
-                "message": "Overriding bean definition for bean 'managementServletContext' with a different definition: replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.actuate.autoconfigure.EndpointWebMvcHypermediaManagementContextConfiguration; factoryMethodName=managementServletContext; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/actuate/autoconfigure/EndpointWebMvcHypermediaManagementContextConfiguration.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.actuate.autoconfigure.EndpointWebMvcAutoConfiguration; factoryMethodName=managementServletContext; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/actuate/autoconfigure/EndpointWebMvcAutoConfiguration.class]]"
-                }{
-                "timestamp":"2019-07-05 09:43:23.378",
-                "level": "INFO",
-                "service": "feign-service-a",
-                "trace": "",
-                "span": "",
-                "pid": "849",
+                "pid": "1693",
                 "thread": "main",
                 "class": "o.s.cloud.context.scope.GenericScope",
-                "message": "BeanFactory id=66e46e80-df35-313b-9e14-d69c1bc19ad7"
+                "message": "BeanFactory id=e5af8f11-0003-3187-ac16-90243fa4250f"
                 }{
-                "timestamp":"2019-07-05 09:43:23.422",
+                "timestamp":"2021-07-09 09:31:26.247",
                 "level": "INFO",
                 "service": "feign-service-a",
                 "trace": "",
                 "span": "",
-                "pid": "849",
-                "thread": "main",
-                "class": "o.s.b.f.a.AutowiredAnnotationBeanPostProcessor",
-                "message": "JSR-330 'javax.inject.Inject' annotation found and supported for autowiring"
-                }{
-                "timestamp":"2019-07-05 09:43:23.483",
-                "level": "INFO",
-                "service": "feign-service-a",
-                "trace": "",
-                "span": "",
-                "pid": "849",
+                "pid": "1693",
                 "thread": "main",
                 "class": "o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker",
-                "message": "Bean 'com.tailen.microservice.manager.FeignServiceB' of type [org.springframework.cloud.netflix.feign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)"
+                "message": "Bean 'com.tailen.microservice.manager.FeignServiceB' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)"
                 }{
-                "timestamp":"2019-07-05 09:43:23.569",
+                "timestamp":"2021-07-09 09:31:26.973",
                 "level": "INFO",
                 "service": "feign-service-a",
                 "trace": "",
                 "span": "",
-                "pid": "849",
+                "pid": "1693",
                 "thread": "main",
                 "class": "o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker",
-                "message": "Bean 'org.springframework.cloud.sleuth.instrument.async.AsyncDefaultAutoConfiguration$DefaultAsyncConfigurerSupport' of type [org.springframework.cloud.sleuth.instrument.async.AsyncDefaultAutoConfiguration$DefaultAsyncConfigurerSupport$$EnhancerBySpringCGLIB$$ffff2a73] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)"
+                "message": "Bean 'org.springframework.hateoas.config.HateoasConfiguration' of type [org.springframework.hateoas.config.HateoasConfiguration$$EnhancerBySpringCGLIB$$31487b17] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)"
                 }{
-                "timestamp":"2019-07-05 09:43:23.905",
+                "timestamp":"2021-07-09 09:31:26.979",
                 "level": "INFO",
                 "service": "feign-service-a",
                 "trace": "",
                 "span": "",
-                "pid": "849",
+                "pid": "1693",
                 "thread": "main",
                 "class": "o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker",
-                "message": "Bean 'org.springframework.cloud.sleuth.annotation.SleuthAnnotationAutoConfiguration' of type [org.springframework.cloud.sleuth.annotation.SleuthAnnotationAutoConfiguration$$EnhancerBySpringCGLIB$$c522d2e2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)"
+                "message": "Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$cde230e2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)"
                 }{
-                "timestamp":"2019-07-05 09:43:24.165",
+                "timestamp":"2021-07-09 09:31:27.904",
                 "level": "INFO",
                 "service": "feign-service-a",
                 "trace": "",
                 "span": "",
-                "pid": "849",
+                "pid": "1693",
                 "thread": "main",
-                "class": "o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker",
-                "message": "Bean 'sleuthAdvisorConfig' of type [org.springframework.cloud.sleuth.annotation.SleuthAdvisorConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)"
-                }{
-                "timestamp":"2019-07-05 09:43:24.188",
-                "level": "INFO",
-                "service": "feign-service-a",
-                "trace": "",
-                "span": "",
-                "pid": "849",
-                "thread": "main",
-                "class": "o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker",
-                "message": "Bean 'org.springframework.cloud.netflix.metrics.MetricsInterceptorConfiguration$MetricsRestTemplateConfiguration' of type [org.springframework.cloud.netflix.metrics.MetricsInterceptorConfiguration$MetricsRestTemplateConfiguration$$EnhancerBySpringCGLIB$$f4ea32f1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)"
-                }{
-                "timestamp":"2019-07-05 09:43:24.241",
-                "level": "INFO",
-                "service": "feign-service-a",
-                "trace": "",
-                "span": "",
-                "pid": "849",
-                "thread": "main",
-                "class": "o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker",
-                "message": "Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$ded78fad] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)"
-                }{
-                "timestamp":"2019-07-05 09:43:24.294",
-                "level": "INFO",
-                "service": "feign-service-a",
-                "trace": "",
-                "span": "",
-                "pid": "849",
-                "thread": "main",
-                "class": "o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker",
-                "message": "Bean 'org.springframework.cloud.sleuth.instrument.web.client.feign.TraceFeignClientAutoConfiguration$FeignBeanPostProcessorConfiguration' of type [org.springframework.cloud.sleuth.instrument.web.client.feign.TraceFeignClientAutoConfiguration$FeignBeanPostProcessorConfiguration$$EnhancerBySpringCGLIB$$24f6576] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)"
-                }{
-                "timestamp":"2019-07-05 09:43:24.319",
-                "level": "INFO",
-                "service": "feign-service-a",
-                "trace": "",
-                "span": "",
-                "pid": "849",
-                "thread": "main",
-                "class": "o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker",
-                "message": "Bean 'org.springframework.cloud.sleuth.instrument.async.AsyncDefaultAutoConfiguration' of type [org.springframework.cloud.sleuth.instrument.async.AsyncDefaultAutoConfiguration$$EnhancerBySpringCGLIB$$aaa138cf] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)"
-                }{
-                "timestamp":"2019-07-05 09:43:25.251",
-                "level": "INFO",
-                "service": "feign-service-a",
-                "trace": "",
-                "span": "",
-                "pid": "849",
-                "thread": "main",
-                "class": "o.s.b.c.e.t.TomcatEmbeddedServletContainer",
+                "class": "o.s.b.w.embedded.tomcat.TomcatWebServer",
                 "message": "Tomcat initialized with port(s): 1100 (http)"
                 }{
-                "timestamp":"2019-07-05 09:43:25.294",
+                "timestamp":"2021-07-09 09:31:28.011",
                 "level": "INFO",
                 "service": "feign-service-a",
                 "trace": "",
                 "span": "",
-                "pid": "849",
+                "pid": "1693",
                 "thread": "main",
                 "class": "org.apache.catalina.core.StandardService",
                 "message": "Starting service [Tomcat]"
                 }{
-                "timestamp":"2019-07-05 09:43:25.295",
+                "timestamp":"2021-07-09 09:31:28.012",
                 "level": "INFO",
                 "service": "feign-service-a",
                 "trace": "",
                 "span": "",
-                "pid": "849",
+                "pid": "1693",
                 "thread": "main",
                 "class": "org.apache.catalina.core.StandardEngine",
-                "message": "Starting Servlet Engine: Apache Tomcat/8.5.15"
+                "message": "Starting Servlet engine: [Apache Tomcat/9.0.21]"
                 }{
-                "timestamp":"2019-07-05 09:43:25.413",
+                "timestamp":"2021-07-09 09:31:28.559",
                 "level": "INFO",
                 "service": "feign-service-a",
                 "trace": "",
                 "span": "",
-                "pid": "849",
-                "thread": "localhost-startStop-1",
+                "pid": "1693",
+                "thread": "main",
                 "class": "o.a.c.c.C.[Tomcat].[localhost].[/]",
                 "message": "Initializing Spring embedded WebApplicationContext"
                 }{
-                "timestamp":"2019-07-05 09:43:25.415",
+                "timestamp":"2021-07-09 09:31:28.560",
                 "level": "INFO",
                 "service": "feign-service-a",
                 "trace": "",
                 "span": "",
-                "pid": "849",
-                "thread": "localhost-startStop-1",
+                "pid": "1693",
+                "thread": "main",
                 "class": "o.s.web.context.ContextLoader",
-                "message": "Root WebApplicationContext: initialization completed in 4874 ms"
+                "message": "Root WebApplicationContext: initialization completed in 6485 ms"
                 }{
-                "timestamp":"2019-07-05 09:43:27.483",
-                "level": "INFO",
+                "timestamp":"2021-07-09 09:31:28.964",
+                "level": "WARN",
                 "service": "feign-service-a",
                 "trace": "",
                 "span": "",
-                "pid": "849",
-                "thread": "localhost-startStop-1",
-                "class": "o.s.b.web.servlet.FilterRegistrationBean",
-                "message": "Mapping filter: 'metricsFilter' to: [/*]"
-                }{
-                "timestamp":"2019-07-05 09:43:27.484",
-                "level": "INFO",
-                "service": "feign-service-a",
-                "trace": "",
-                "span": "",
-                "pid": "849",
-                "thread": "localhost-startStop-1",
-                "class": "o.s.b.web.servlet.FilterRegistrationBean",
-                "message": "Mapping filter: 'characterEncodingFilter' to: [/*]"
-                }{
-                "timestamp":"2019-07-05 09:43:27.484",
-                "level": "INFO",
-                "service": "feign-service-a",
-                "trace": "",
-                "span": "",
-                "pid": "849",
-                "thread": "localhost-startStop-1",
-                "class": "o.s.b.web.servlet.FilterRegistrationBean",
-                "message": "Mapping filter: 'traceFilter' to: [/*]"
-                }{
-                "timestamp":"2019-07-05 09:43:27.485",
-                "level": "INFO",
-                "service": "feign-service-a",
-                "trace": "",
-                "span": "",
-                "pid": "849",
-                "thread": "localhost-startStop-1",
-                "class": "o.s.b.web.servlet.FilterRegistrationBean",
-                "message": "Mapping filter: 'hiddenHttpMethodFilter' to: [/*]"
-                }{
-                "timestamp":"2019-07-05 09:43:27.485",
-                "level": "INFO",
-                "service": "feign-service-a",
-                "trace": "",
-                "span": "",
-                "pid": "849",
-                "thread": "localhost-startStop-1",
-                "class": "o.s.b.web.servlet.FilterRegistrationBean",
-                "message": "Mapping filter: 'httpPutFormContentFilter' to: [/*]"
-                }{
-                "timestamp":"2019-07-05 09:43:27.485",
-                "level": "INFO",
-                "service": "feign-service-a",
-                "trace": "",
-                "span": "",
-                "pid": "849",
-                "thread": "localhost-startStop-1",
-                "class": "o.s.b.web.servlet.FilterRegistrationBean",
-                "message": "Mapping filter: 'requestContextFilter' to: [/*]"
-                }{
-                "timestamp":"2019-07-05 09:43:27.486",
-                "level": "INFO",
-                "service": "feign-service-a",
-                "trace": "",
-                "span": "",
-                "pid": "849",
-                "thread": "localhost-startStop-1",
-                "class": "o.s.b.web.servlet.FilterRegistrationBean",
-                "message": "Mapping filter: 'webRequestLoggingFilter' to: [/*]"
-                }{
-                "timestamp":"2019-07-05 09:43:27.486",
-                "level": "INFO",
-                "service": "feign-service-a",
-                "trace": "",
-                "span": "",
-                "pid": "849",
-                "thread": "localhost-startStop-1",
-                "class": "o.s.b.web.servlet.FilterRegistrationBean",
-                "message": "Mapping filter: 'applicationContextIdFilter' to: [/*]"
-                }{
-                "timestamp":"2019-07-05 09:43:27.486",
-                "level": "INFO",
-                "service": "feign-service-a",
-                "trace": "",
-                "span": "",
-                "pid": "849",
-                "thread": "localhost-startStop-1",
-                "class": "o.s.b.w.servlet.ServletRegistrationBean",
-                "message": "Mapping servlet: 'dispatcherServlet' to [/]"
-                }{
-                "timestamp":"2019-07-05 09:43:27.802",
-                "level": "INFO",
-                "service": "feign-service-a",
-                "trace": "",
-                "span": "",
-                "pid": "849",
+                "pid": "1693",
                 "thread": "main",
-                "class": "o.s.c.a.AnnotationConfigApplicationContext",
-                "message": "Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@e29f4f6: startup date [Fri Jul 05 09:43:27 CST 2019]; parent: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@61ce23ac"
+                "class": "c.n.c.sources.URLConfigurationSource",
+                "message": "No URLs will be polled as dynamic configuration sources."
                 }{
-                "timestamp":"2019-07-05 09:43:27.820",
+                "timestamp":"2021-07-09 09:31:28.967",
                 "level": "INFO",
                 "service": "feign-service-a",
                 "trace": "",
                 "span": "",
-                "pid": "849",
+                "pid": "1693",
                 "thread": "main",
-                "class": "o.s.b.f.a.AutowiredAnnotationBeanPostProcessor",
-                "message": "JSR-330 'javax.inject.Inject' annotation found and supported for autowiring"
+                "class": "c.n.c.sources.URLConfigurationSource",
+                "message": "To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath."
                 }{
-                "timestamp":"2019-07-05 09:43:29.897",
+                "timestamp":"2021-07-09 09:31:28.977",
                 "level": "INFO",
                 "service": "feign-service-a",
                 "trace": "",
                 "span": "",
-                "pid": "849",
+                "pid": "1693",
                 "thread": "main",
-                "class": "o.s.w.s.m.m.a.RequestMappingHandlerMapping",
-                "message": "Mapped "{[/api/add],methods=[GET]}" onto public java.lang.Integer com.tailen.microservice.controller.FeignController.add(java.lang.Integer,java.lang.Integer)"
+                "class": "c.netflix.config.DynamicPropertyFactory",
+                "message": "DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@19cdc217"
                 }{
-                "timestamp":"2019-07-05 09:43:29.898",
+                "timestamp":"2021-07-09 09:31:30.586",
                 "level": "INFO",
                 "service": "feign-service-a",
                 "trace": "",
                 "span": "",
-                "pid": "849",
+                "pid": "1693",
                 "thread": "main",
-                "class": "o.s.w.s.m.m.a.RequestMappingHandlerMapping",
-                "message": "Mapped "{[/api/multiplication],methods=[GET]}" onto public java.lang.Integer com.tailen.microservice.controller.FeignController.multiplication(java.lang.Integer,java.lang.Integer)"
+                "class": "o.s.cloud.commons.util.InetUtils",
+                "message": "Cannot determine local hostname"
                 }{
-                "timestamp":"2019-07-05 09:43:29.899",
+                "timestamp":"2021-07-09 09:33:02.964",
                 "level": "INFO",
                 "service": "feign-service-a",
                 "trace": "",
                 "span": "",
-                "pid": "849",
+                "pid": "1693",
                 "thread": "main",
-                "class": "o.s.w.s.m.m.a.RequestMappingHandlerMapping",
-                "message": "Mapped "{[/v2/api-docs],methods=[GET]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String)"
+                "class": "o.s.b.a.e.web.EndpointLinksResolver",
+                "message": "Exposing 2 endpoint(s) beneath base path '/actuator'"
                 }{
-                "timestamp":"2019-07-05 09:43:29.910",
+                "timestamp":"2021-07-09 09:33:03.232",
                 "level": "INFO",
                 "service": "feign-service-a",
                 "trace": "",
                 "span": "",
-                "pid": "849",
-                "thread": "main",
-                "class": "o.s.w.s.m.m.a.RequestMappingHandlerMapping",
-                "message": "Mapped "{[/configuration/security]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()"
-                }{
-                "timestamp":"2019-07-05 09:43:29.911",
-                "level": "INFO",
-                "service": "feign-service-a",
-                "trace": "",
-                "span": "",
-                "pid": "849",
-                "thread": "main",
-                "class": "o.s.w.s.m.m.a.RequestMappingHandlerMapping",
-                "message": "Mapped "{[/configuration/ui]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()"
-                }{
-                "timestamp":"2019-07-05 09:43:29.912",
-                "level": "INFO",
-                "service": "feign-service-a",
-                "trace": "",
-                "span": "",
-                "pid": "849",
-                "thread": "main",
-                "class": "o.s.w.s.m.m.a.RequestMappingHandlerMapping",
-                "message": "Mapped "{[/swagger-resources]}" onto org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()"
-                }{
-                "timestamp":"2019-07-05 09:43:29.915",
-                "level": "INFO",
-                "service": "feign-service-a",
-                "trace": "",
-                "span": "",
-                "pid": "849",
-                "thread": "main",
-                "class": "o.s.w.s.m.m.a.RequestMappingHandlerMapping",
-                "message": "Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)"
-                }{
-                "timestamp":"2019-07-05 09:43:29.916",
-                "level": "INFO",
-                "service": "feign-service-a",
-                "trace": "",
-                "span": "",
-                "pid": "849",
-                "thread": "main",
-                "class": "o.s.w.s.m.m.a.RequestMappingHandlerMapping",
-                "message": "Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)"
-                }{
-                "timestamp":"2019-07-05 09:43:33.655",
-                "level": "INFO",
-                "service": "feign-service-a",
-                "trace": "",
-                "span": "",
-                "pid": "849",
-                "thread": "main",
-                "class": "o.s.b.a.e.mvc.EndpointHandlerMapping",
-                "message": "Mapped "{[/heapdump || /heapdump.json],methods=[GET],produces=[application/octet-stream]}" onto public void org.springframework.boot.actuate.endpoint.mvc.HeapdumpMvcEndpoint.invoke(boolean,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.io.IOException,javax.servlet.ServletException"
-                }{
-                "timestamp":"2019-07-05 09:43:33.657",
-                "level": "INFO",
-                "service": "feign-service-a",
-                "trace": "",
-                "span": "",
-                "pid": "849",
-                "thread": "main",
-                "class": "o.s.b.a.e.mvc.EndpointHandlerMapping",
-                "message": "Mapped "{[/loggers/{name:.*}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.LoggersMvcEndpoint.get(java.lang.String)"
-                }{
-                "timestamp":"2019-07-05 09:43:33.658",
-                "level": "INFO",
-                "service": "feign-service-a",
-                "trace": "",
-                "span": "",
-                "pid": "849",
-                "thread": "main",
-                "class": "o.s.b.a.e.mvc.EndpointHandlerMapping",
-                "message": "Mapped "{[/loggers/{name:.*}],methods=[POST],consumes=[application/vnd.spring-boot.actuator.v1+json || application/json],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.LoggersMvcEndpoint.set(java.lang.String,java.util.Map<java.lang.String, java.lang.String>)"
-                }{
-                "timestamp":"2019-07-05 09:43:33.658",
-                "level": "INFO",
-                "service": "feign-service-a",
-                "trace": "",
-                "span": "",
-                "pid": "849",
-                "thread": "main",
-                "class": "o.s.b.a.e.mvc.EndpointHandlerMapping",
-                "message": "Mapped "{[/loggers || /loggers.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()"
-                }{
-                "timestamp":"2019-07-05 09:43:33.659",
-                "level": "INFO",
-                "service": "feign-service-a",
-                "trace": "",
-                "span": "",
-                "pid": "849",
-                "thread": "main",
-                "class": "o.s.b.a.e.mvc.EndpointHandlerMapping",
-                "message": "Mapped "{[/autoconfig || /autoconfig.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()"
-                }{
-                "timestamp":"2019-07-05 09:43:33.660",
-                "level": "INFO",
-                "service": "feign-service-a",
-                "trace": "",
-                "span": "",
-                "pid": "849",
-                "thread": "main",
-                "class": "o.s.b.a.e.mvc.EndpointHandlerMapping",
-                "message": "Mapped "{[/actuator || /actuator.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public org.springframework.hateoas.ResourceSupport org.springframework.boot.actuate.endpoint.mvc.HalJsonMvcEndpoint.links()"
-                }{
-                "timestamp":"2019-07-05 09:43:33.676",
-                "level": "INFO",
-                "service": "feign-service-a",
-                "trace": "",
-                "span": "",
-                "pid": "849",
-                "thread": "main",
-                "class": "o.s.b.a.e.mvc.EndpointHandlerMapping",
-                "message": "Mapped "{[/features || /features.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()"
-                }{
-                "timestamp":"2019-07-05 09:43:33.680",
-                "level": "INFO",
-                "service": "feign-service-a",
-                "trace": "",
-                "span": "",
-                "pid": "849",
-                "thread": "main",
-                "class": "o.s.b.a.e.mvc.EndpointHandlerMapping",
-                "message": "Mapped "{[/env/{name:.*}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EnvironmentMvcEndpoint.value(java.lang.String)"
-                }{
-                "timestamp":"2019-07-05 09:43:33.682",
-                "level": "INFO",
-                "service": "feign-service-a",
-                "trace": "",
-                "span": "",
-                "pid": "849",
-                "thread": "main",
-                "class": "o.s.b.a.e.mvc.EndpointHandlerMapping",
-                "message": "Mapped "{[/env || /env.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()"
-                }{
-                "timestamp":"2019-07-05 09:43:33.683",
-                "level": "INFO",
-                "service": "feign-service-a",
-                "trace": "",
-                "span": "",
-                "pid": "849",
-                "thread": "main",
-                "class": "o.s.b.a.e.mvc.EndpointHandlerMapping",
-                "message": "Mapped "{[/health || /health.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.HealthMvcEndpoint.invoke(javax.servlet.http.HttpServletRequest,java.security.Principal)"
-                }{
-                "timestamp":"2019-07-05 09:43:33.684",
-                "level": "INFO",
-                "service": "feign-service-a",
-                "trace": "",
-                "span": "",
-                "pid": "849",
-                "thread": "main",
-                "class": "o.s.b.a.e.mvc.EndpointHandlerMapping",
-                "message": "Mapped "{[/info || /info.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()"
-                }{
-                "timestamp":"2019-07-05 09:43:33.685",
-                "level": "INFO",
-                "service": "feign-service-a",
-                "trace": "",
-                "span": "",
-                "pid": "849",
-                "thread": "main",
-                "class": "o.s.b.a.e.mvc.EndpointHandlerMapping",
-                "message": "Mapped "{[/restart || /restart.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.context.restart.RestartMvcEndpoint.invoke()"
-                }{
-                "timestamp":"2019-07-05 09:43:33.686",
-                "level": "INFO",
-                "service": "feign-service-a",
-                "trace": "",
-                "span": "",
-                "pid": "849",
-                "thread": "main",
-                "class": "o.s.b.a.e.mvc.EndpointHandlerMapping",
-                "message": "Mapped "{[/trace || /trace.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()"
-                }{
-                "timestamp":"2019-07-05 09:43:33.687",
-                "level": "INFO",
-                "service": "feign-service-a",
-                "trace": "",
-                "span": "",
-                "pid": "849",
-                "thread": "main",
-                "class": "o.s.b.a.e.mvc.EndpointHandlerMapping",
-                "message": "Mapped "{[/service-registry/instance-status],methods=[GET]}" onto public org.springframework.http.ResponseEntity org.springframework.cloud.client.serviceregistry.endpoint.ServiceRegistryEndpoint.getStatus()"
-                }{
-                "timestamp":"2019-07-05 09:43:33.688",
-                "level": "INFO",
-                "service": "feign-service-a",
-                "trace": "",
-                "span": "",
-                "pid": "849",
-                "thread": "main",
-                "class": "o.s.b.a.e.mvc.EndpointHandlerMapping",
-                "message": "Mapped "{[/service-registry/instance-status],methods=[POST]}" onto public org.springframework.http.ResponseEntity<?> org.springframework.cloud.client.serviceregistry.endpoint.ServiceRegistryEndpoint.setStatus(java.lang.String)"
-                }{
-                "timestamp":"2019-07-05 09:43:33.689",
-                "level": "INFO",
-                "service": "feign-service-a",
-                "trace": "",
-                "span": "",
-                "pid": "849",
-                "thread": "main",
-                "class": "o.s.b.a.e.mvc.EndpointHandlerMapping",
-                "message": "Mapped "{[/auditevents || /auditevents.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public org.springframework.http.ResponseEntity<?> org.springframework.boot.actuate.endpoint.mvc.AuditEventsMvcEndpoint.findByPrincipalAndAfterAndType(java.lang.String,java.util.Date,java.lang.String)"
-                }{
-                "timestamp":"2019-07-05 09:43:33.691",
-                "level": "INFO",
-                "service": "feign-service-a",
-                "trace": "",
-                "span": "",
-                "pid": "849",
-                "thread": "main",
-                "class": "o.s.b.a.e.mvc.EndpointHandlerMapping",
-                "message": "Mapped "{[/resume || /resume.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.endpoint.GenericPostableMvcEndpoint.invoke()"
-                }{
-                "timestamp":"2019-07-05 09:43:33.692",
-                "level": "INFO",
-                "service": "feign-service-a",
-                "trace": "",
-                "span": "",
-                "pid": "849",
-                "thread": "main",
-                "class": "o.s.b.a.e.mvc.EndpointHandlerMapping",
-                "message": "Mapped "{[/beans || /beans.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()"
-                }{
-                "timestamp":"2019-07-05 09:43:33.692",
-                "level": "INFO",
-                "service": "feign-service-a",
-                "trace": "",
-                "span": "",
-                "pid": "849",
-                "thread": "main",
-                "class": "o.s.b.a.e.mvc.EndpointHandlerMapping",
-                "message": "Mapped "{[/archaius || /archaius.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()"
-                }{
-                "timestamp":"2019-07-05 09:43:33.693",
-                "level": "INFO",
-                "service": "feign-service-a",
-                "trace": "",
-                "span": "",
-                "pid": "849",
-                "thread": "main",
-                "class": "o.s.b.a.e.mvc.EndpointHandlerMapping",
-                "message": "Mapped "{[/refresh || /refresh.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.endpoint.GenericPostableMvcEndpoint.invoke()"
-                }{
-                "timestamp":"2019-07-05 09:43:33.694",
-                "level": "INFO",
-                "service": "feign-service-a",
-                "trace": "",
-                "span": "",
-                "pid": "849",
-                "thread": "main",
-                "class": "o.s.b.a.e.mvc.EndpointHandlerMapping",
-                "message": "Mapped "{[/metrics/{name:.*}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.MetricsMvcEndpoint.value(java.lang.String)"
-                }{
-                "timestamp":"2019-07-05 09:43:33.694",
-                "level": "INFO",
-                "service": "feign-service-a",
-                "trace": "",
-                "span": "",
-                "pid": "849",
-                "thread": "main",
-                "class": "o.s.b.a.e.mvc.EndpointHandlerMapping",
-                "message": "Mapped "{[/metrics || /metrics.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()"
-                }{
-                "timestamp":"2019-07-05 09:43:33.694",
-                "level": "INFO",
-                "service": "feign-service-a",
-                "trace": "",
-                "span": "",
-                "pid": "849",
-                "thread": "main",
-                "class": "o.s.b.a.e.mvc.EndpointHandlerMapping",
-                "message": "Mapped "{[/env],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.context.environment.EnvironmentManagerMvcEndpoint.value(java.util.Map<java.lang.String, java.lang.String>)"
-                }{
-                "timestamp":"2019-07-05 09:43:33.694",
-                "level": "INFO",
-                "service": "feign-service-a",
-                "trace": "",
-                "span": "",
-                "pid": "849",
-                "thread": "main",
-                "class": "o.s.b.a.e.mvc.EndpointHandlerMapping",
-                "message": "Mapped "{[/env/reset],methods=[POST]}" onto public java.util.Map<java.lang.String, java.lang.Object> org.springframework.cloud.context.environment.EnvironmentManagerMvcEndpoint.reset()"
-                }{
-                "timestamp":"2019-07-05 09:43:33.695",
-                "level": "INFO",
-                "service": "feign-service-a",
-                "trace": "",
-                "span": "",
-                "pid": "849",
-                "thread": "main",
-                "class": "o.s.b.a.e.mvc.EndpointHandlerMapping",
-                "message": "Mapped "{[/dump || /dump.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()"
-                }{
-                "timestamp":"2019-07-05 09:43:33.696",
-                "level": "INFO",
-                "service": "feign-service-a",
-                "trace": "",
-                "span": "",
-                "pid": "849",
-                "thread": "main",
-                "class": "o.s.b.a.e.mvc.EndpointHandlerMapping",
-                "message": "Mapped "{[/pause || /pause.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.endpoint.GenericPostableMvcEndpoint.invoke()"
-                }{
-                "timestamp":"2019-07-05 09:43:33.696",
-                "level": "INFO",
-                "service": "feign-service-a",
-                "trace": "",
-                "span": "",
-                "pid": "849",
-                "thread": "main",
-                "class": "o.s.b.a.e.mvc.EndpointHandlerMapping",
-                "message": "Mapped "{[/configprops || /configprops.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()"
-                }{
-                "timestamp":"2019-07-05 09:43:33.697",
-                "level": "INFO",
-                "service": "feign-service-a",
-                "trace": "",
-                "span": "",
-                "pid": "849",
-                "thread": "main",
-                "class": "o.s.b.a.e.mvc.EndpointHandlerMapping",
-                "message": "Mapped "{[/mappings || /mappings.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()"
-                }{
-                "timestamp":"2019-07-05 09:43:34.793",
-                "level": "INFO",
-                "service": "feign-service-a",
-                "trace": "",
-                "span": "",
-                "pid": "849",
+                "pid": "1693",
                 "thread": "main",
                 "class": "s.d.s.w.p.DocumentationPluginsBootstrapper",
                 "message": "Context refreshed"
                 }{
-                "timestamp":"2019-07-05 09:43:34.879",
+                "timestamp":"2021-07-09 09:33:03.292",
                 "level": "INFO",
                 "service": "feign-service-a",
                 "trace": "",
                 "span": "",
-                "pid": "849",
+                "pid": "1693",
                 "thread": "main",
                 "class": "s.d.s.w.p.DocumentationPluginsBootstrapper",
                 "message": "Found {0} custom documentation plugin(s)"
                 }{
-                "timestamp":"2019-07-05 09:43:34.918",
+                "timestamp":"2021-07-09 09:33:03.308",
                 "level": "INFO",
                 "service": "feign-service-a",
                 "trace": "",
                 "span": "",
-                "pid": "849",
+                "pid": "1693",
                 "thread": "main",
                 "class": "s.d.s.w.s.ApiListingReferenceScanner",
                 "message": "Scanning for api listing references"
                 }{
-                "timestamp":"2019-07-05 09:43:34.922",
+                "timestamp":"2021-07-09 09:33:03.315",
                 "level": "INFO",
                 "service": "feign-service-a",
                 "trace": "",
                 "span": "",
-                "pid": "849",
+                "pid": "1693",
                 "thread": "main",
                 "class": "s.d.s.w.ClassOrApiAnnotationResourceGrouping",
                 "message": "Group for method add was feign-controller"
                 }{
-                "timestamp":"2019-07-05 09:43:34.924",
+                "timestamp":"2021-07-09 09:33:03.318",
                 "level": "INFO",
                 "service": "feign-service-a",
                 "trace": "",
                 "span": "",
-                "pid": "849",
+                "pid": "1693",
                 "thread": "main",
                 "class": "s.d.s.w.s.ApiListingReferenceScanner",
                 "message": "Request mapping: add belongs to groups: [[ResourceGroup{groupName='feign-controller', position=0, controller=com.tailen.microservice.controller.FeignController}]] "
                 }{
-                "timestamp":"2019-07-05 09:43:34.925",
+                "timestamp":"2021-07-09 09:33:03.319",
                 "level": "INFO",
                 "service": "feign-service-a",
                 "trace": "",
                 "span": "",
-                "pid": "849",
+                "pid": "1693",
                 "thread": "main",
                 "class": "s.d.s.w.ClassOrApiAnnotationResourceGrouping",
                 "message": "Group for method multiplication was feign-controller"
                 }{
-                "timestamp":"2019-07-05 09:43:34.925",
+                "timestamp":"2021-07-09 09:33:03.320",
                 "level": "INFO",
                 "service": "feign-service-a",
                 "trace": "",
                 "span": "",
-                "pid": "849",
+                "pid": "1693",
                 "thread": "main",
                 "class": "s.d.s.w.s.ApiListingReferenceScanner",
                 "message": "Request mapping: multiplication belongs to groups: [[ResourceGroup{groupName='feign-controller', position=0, controller=com.tailen.microservice.controller.FeignController}]] "
                 }{
-                "timestamp":"2019-07-05 09:43:34.935",
+                "timestamp":"2021-07-09 09:33:03.334",
                 "level": "INFO",
                 "service": "feign-service-a",
                 "trace": "",
                 "span": "",
-                "pid": "849",
+                "pid": "1693",
                 "thread": "main",
                 "class": "s.d.s.w.s.ApiListingReferenceScanner",
                 "message": "Created resource listing Path: /default/feign-controller Description: feign-controller Position: 0"
                 }{
-                "timestamp":"2019-07-05 09:43:35.035",
+                "timestamp":"2021-07-09 09:33:03.369",
                 "level": "INFO",
                 "service": "feign-service-a",
                 "trace": "",
                 "span": "",
-                "pid": "849",
+                "pid": "1693",
                 "thread": "main",
                 "class": "s.d.schema.ModelContextKeyGenerator",
                 "message": "Cache Key Generated: java.lang.Integer(true)"
                 }{
-                "timestamp":"2019-07-05 09:43:35.035",
+                "timestamp":"2021-07-09 09:33:03.369",
                 "level": "INFO",
                 "service": "feign-service-a",
                 "trace": "",
                 "span": "",
-                "pid": "849",
+                "pid": "1693",
                 "thread": "main",
                 "class": "s.d.spring.web.caching.CachingAspect",
                 "message": "Caching aspect applied for cache models with key java.lang.Integer(true)"
                 }{
-                "timestamp":"2019-07-05 09:43:35.042",
+                "timestamp":"2021-07-09 09:33:03.377",
                 "level": "INFO",
                 "service": "feign-service-a",
                 "trace": "",
                 "span": "",
-                "pid": "849",
+                "pid": "1693",
                 "thread": "main",
                 "class": "s.d.schema.ModelContextKeyGenerator",
                 "message": "Cache Key Generated: java.lang.Integer(true)"
                 }{
-                "timestamp":"2019-07-05 09:43:35.042",
+                "timestamp":"2021-07-09 09:33:03.377",
                 "level": "INFO",
                 "service": "feign-service-a",
                 "trace": "",
                 "span": "",
-                "pid": "849",
+                "pid": "1693",
                 "thread": "main",
                 "class": "s.d.spring.web.caching.CachingAspect",
                 "message": "Caching aspect applied for cache modelDependencies with key java.lang.Integer(true)"
                 }{
-                "timestamp":"2019-07-05 09:43:35.047",
+                "timestamp":"2021-07-09 09:33:03.382",
                 "level": "INFO",
                 "service": "feign-service-a",
                 "trace": "",
                 "span": "",
-                "pid": "849",
+                "pid": "1693",
                 "thread": "main",
                 "class": "s.d.spring.web.OperationsKeyGenerator",
                 "message": "Cache key generated: /api/add.com.tailen.microservice.controller.FeignController.add.DefaultGenericTypeNamingStrategy"
                 }{
-                "timestamp":"2019-07-05 09:43:35.048",
+                "timestamp":"2021-07-09 09:33:03.383",
                 "level": "INFO",
                 "service": "feign-service-a",
                 "trace": "",
                 "span": "",
-                "pid": "849",
+                "pid": "1693",
                 "thread": "main",
                 "class": "s.d.spring.web.caching.CachingAspect",
                 "message": "Caching aspect applied for cache operations with key /api/add.com.tailen.microservice.controller.FeignController.add.DefaultGenericTypeNamingStrategy"
                 }{
-                "timestamp":"2019-07-05 09:43:35.556",
+                "timestamp":"2021-07-09 09:33:03.448",
                 "level": "INFO",
                 "service": "feign-service-a",
                 "trace": "",
                 "span": "",
-                "pid": "849",
+                "pid": "1693",
                 "thread": "main",
                 "class": "s.d.s.w.ClassOrApiAnnotationResourceGrouping",
                 "message": "Group for method add was feign-controller"
                 }{
-                "timestamp":"2019-07-05 09:43:35.637",
+                "timestamp":"2021-07-09 09:33:03.473",
                 "level": "INFO",
                 "service": "feign-service-a",
                 "trace": "",
                 "span": "",
-                "pid": "849",
+                "pid": "1693",
                 "thread": "main",
                 "class": "s.d.s.w.ClassOrApiAnnotationResourceGrouping",
                 "message": "Group for method add was feign-controller"
                 }{
-                "timestamp":"2019-07-05 09:43:35.693",
+                "timestamp":"2021-07-09 09:33:03.489",
                 "level": "INFO",
                 "service": "feign-service-a",
                 "trace": "",
                 "span": "",
-                "pid": "849",
+                "pid": "1693",
                 "thread": "main",
                 "class": "s.d.schema.ModelContextKeyGenerator",
                 "message": "Cache Key Generated: java.lang.Integer(true)"
                 }{
-                "timestamp":"2019-07-05 09:43:35.693",
+                "timestamp":"2021-07-09 09:33:03.490",
                 "level": "INFO",
                 "service": "feign-service-a",
                 "trace": "",
                 "span": "",
-                "pid": "849",
+                "pid": "1693",
                 "thread": "main",
                 "class": "s.d.spring.web.caching.CachingAspect",
                 "message": "Caching aspect applied for cache models with key java.lang.Integer(true)"
                 }{
-                "timestamp":"2019-07-05 09:43:35.694",
+                "timestamp":"2021-07-09 09:33:03.490",
                 "level": "INFO",
                 "service": "feign-service-a",
                 "trace": "",
                 "span": "",
-                "pid": "849",
+                "pid": "1693",
                 "thread": "main",
                 "class": "s.d.schema.ModelContextKeyGenerator",
                 "message": "Cache Key Generated: java.lang.Integer(true)"
                 }{
-                "timestamp":"2019-07-05 09:43:35.694",
+                "timestamp":"2021-07-09 09:33:03.490",
                 "level": "INFO",
                 "service": "feign-service-a",
                 "trace": "",
                 "span": "",
-                "pid": "849",
+                "pid": "1693",
                 "thread": "main",
                 "class": "s.d.spring.web.caching.CachingAspect",
                 "message": "Caching aspect applied for cache modelDependencies with key java.lang.Integer(true)"
                 }{
-                "timestamp":"2019-07-05 09:43:35.694",
+                "timestamp":"2021-07-09 09:33:03.490",
                 "level": "INFO",
                 "service": "feign-service-a",
                 "trace": "",
                 "span": "",
-                "pid": "849",
+                "pid": "1693",
                 "thread": "main",
                 "class": "s.d.spring.web.OperationsKeyGenerator",
                 "message": "Cache key generated: /api/multiplication.com.tailen.microservice.controller.FeignController.multiplication.DefaultGenericTypeNamingStrategy"
                 }{
-                "timestamp":"2019-07-05 09:43:35.694",
+                "timestamp":"2021-07-09 09:33:03.490",
                 "level": "INFO",
                 "service": "feign-service-a",
                 "trace": "",
                 "span": "",
-                "pid": "849",
+                "pid": "1693",
                 "thread": "main",
                 "class": "s.d.spring.web.caching.CachingAspect",
                 "message": "Caching aspect applied for cache operations with key /api/multiplication.com.tailen.microservice.controller.FeignController.multiplication.DefaultGenericTypeNamingStrategy"
                 }{
-                "timestamp":"2019-07-05 09:43:35.696",
+                "timestamp":"2021-07-09 09:33:03.493",
                 "level": "INFO",
                 "service": "feign-service-a",
                 "trace": "",
                 "span": "",
-                "pid": "849",
+                "pid": "1693",
                 "thread": "main",
                 "class": "s.d.s.w.ClassOrApiAnnotationResourceGrouping",
                 "message": "Group for method multiplication was feign-controller"
                 }{
-                "timestamp":"2019-07-05 09:43:35.697",
+                "timestamp":"2021-07-09 09:33:03.495",
                 "level": "INFO",
                 "service": "feign-service-a",
                 "trace": "",
                 "span": "",
-                "pid": "849",
+                "pid": "1693",
                 "thread": "main",
                 "class": "s.d.s.w.ClassOrApiAnnotationResourceGrouping",
                 "message": "Group for method multiplication was feign-controller"
                 }{
-                "timestamp":"2019-07-05 09:43:39.634",
-                "level": "INFO",
-                "service": "feign-service-a",
-                "trace": "",
-                "span": "",
-                "pid": "849",
-                "thread": "main",
-                "class": "o.s.w.s.m.m.a.RequestMappingHandlerAdapter",
-                "message": "Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@61ce23ac: startup date [Fri Jul 05 09:43:20 CST 2019]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@3b69e7d1"
-                }{
-                "timestamp":"2019-07-05 09:43:39.681",
-                "level": "INFO",
-                "service": "feign-service-a",
-                "trace": "",
-                "span": "",
-                "pid": "849",
-                "thread": "main",
-                "class": "o.s.w.s.m.m.a.RequestMappingHandlerAdapter",
-                "message": "Detected ResponseBodyAdvice bean in org.springframework.boot.actuate.autoconfigure.EndpointWebMvcHypermediaManagementContextConfiguration$ActuatorEndpointLinksAdvice"
-                }{
-                "timestamp":"2019-07-05 09:43:40.247",
-                "level": "INFO",
-                "service": "feign-service-a",
-                "trace": "",
-                "span": "",
-                "pid": "849",
-                "thread": "main",
-                "class": "o.s.w.s.handler.SimpleUrlHandlerMapping",
-                "message": "Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]"
-                }{
-                "timestamp":"2019-07-05 09:43:40.248",
-                "level": "INFO",
-                "service": "feign-service-a",
-                "trace": "",
-                "span": "",
-                "pid": "849",
-                "thread": "main",
-                "class": "o.s.w.s.handler.SimpleUrlHandlerMapping",
-                "message": "Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]"
-                }{
-                "timestamp":"2019-07-05 09:43:40.345",
-                "level": "INFO",
-                "service": "feign-service-a",
-                "trace": "",
-                "span": "",
-                "pid": "849",
-                "thread": "main",
-                "class": "o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver",
-                "message": "Detected ResponseBodyAdvice implementation in org.springframework.boot.actuate.autoconfigure.EndpointWebMvcHypermediaManagementContextConfiguration$ActuatorEndpointLinksAdvice"
-                }{
-                "timestamp":"2019-07-05 09:43:40.462",
-                "level": "INFO",
-                "service": "feign-service-a",
-                "trace": "",
-                "span": "",
-                "pid": "849",
-                "thread": "main",
-                "class": "o.s.w.s.handler.SimpleUrlHandlerMapping",
-                "message": "Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]"
-                }{
-                "timestamp":"2019-07-05 09:43:43.276",
+                "timestamp":"2021-07-09 09:33:03.646",
                 "level": "WARN",
                 "service": "feign-service-a",
                 "trace": "",
                 "span": "",
-                "pid": "849",
+                "pid": "1693",
                 "thread": "main",
                 "class": "c.n.c.sources.URLConfigurationSource",
                 "message": "No URLs will be polled as dynamic configuration sources."
                 }{
-                "timestamp":"2019-07-05 09:43:43.277",
+                "timestamp":"2021-07-09 09:33:03.646",
                 "level": "INFO",
                 "service": "feign-service-a",
                 "trace": "",
                 "span": "",
-                "pid": "849",
+                "pid": "1693",
                 "thread": "main",
                 "class": "c.n.c.sources.URLConfigurationSource",
                 "message": "To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath."
                 }{
-                "timestamp":"2019-07-05 09:43:43.281",
-                "level": "WARN",
-                "service": "feign-service-a",
-                "trace": "",
-                "span": "",
-                "pid": "849",
-                "thread": "main",
-                "class": "c.n.c.sources.URLConfigurationSource",
-                "message": "No URLs will be polled as dynamic configuration sources."
-                }{
-                "timestamp":"2019-07-05 09:43:43.281",
+                "timestamp":"2021-07-09 09:33:03.837",
                 "level": "INFO",
                 "service": "feign-service-a",
                 "trace": "",
                 "span": "",
-                "pid": "849",
+                "pid": "1693",
                 "thread": "main",
-                "class": "c.n.c.sources.URLConfigurationSource",
-                "message": "To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath."
+                "class": "o.s.s.concurrent.ThreadPoolTaskExecutor",
+                "message": "Initializing ExecutorService 'applicationTaskExecutor'"
                 }{
-                "timestamp":"2019-07-05 09:43:43.829",
+                "timestamp":"2021-07-09 09:33:05.153",
                 "level": "INFO",
                 "service": "feign-service-a",
                 "trace": "",
                 "span": "",
-                "pid": "849",
+                "pid": "1693",
                 "thread": "main",
-                "class": "o.s.s.concurrent.ThreadPoolTaskScheduler",
-                "message": "Initializing ExecutorService "
+                "class": "o.s.cloud.commons.util.InetUtils",
+                "message": "Cannot determine local hostname"
                 }{
-                "timestamp":"2019-07-05 09:43:44.452",
+                "timestamp":"2021-07-09 09:33:05.354",
                 "level": "INFO",
                 "service": "feign-service-a",
                 "trace": "",
                 "span": "",
-                "pid": "849",
-                "thread": "main",
-                "class": "o.s.j.e.a.AnnotationMBeanExporter",
-                "message": "Registering beans for JMX exposure on startup"
-                }{
-                "timestamp":"2019-07-05 09:43:44.477",
-                "level": "INFO",
-                "service": "feign-service-a",
-                "trace": "",
-                "span": "",
-                "pid": "849",
-                "thread": "main",
-                "class": "o.s.j.e.a.AnnotationMBeanExporter",
-                "message": "Bean with name 'environmentManager' has been autodetected for JMX exposure"
-                }{
-                "timestamp":"2019-07-05 09:43:44.485",
-                "level": "INFO",
-                "service": "feign-service-a",
-                "trace": "",
-                "span": "",
-                "pid": "849",
-                "thread": "main",
-                "class": "o.s.j.e.a.AnnotationMBeanExporter",
-                "message": "Bean with name 'configurationPropertiesRebinder' has been autodetected for JMX exposure"
-                }{
-                "timestamp":"2019-07-05 09:43:44.486",
-                "level": "INFO",
-                "service": "feign-service-a",
-                "trace": "",
-                "span": "",
-                "pid": "849",
-                "thread": "main",
-                "class": "o.s.j.e.a.AnnotationMBeanExporter",
-                "message": "Bean with name 'refreshEndpoint' has been autodetected for JMX exposure"
-                }{
-                "timestamp":"2019-07-05 09:43:44.486",
-                "level": "INFO",
-                "service": "feign-service-a",
-                "trace": "",
-                "span": "",
-                "pid": "849",
-                "thread": "main",
-                "class": "o.s.j.e.a.AnnotationMBeanExporter",
-                "message": "Bean with name 'restartEndpoint' has been autodetected for JMX exposure"
-                }{
-                "timestamp":"2019-07-05 09:43:44.487",
-                "level": "INFO",
-                "service": "feign-service-a",
-                "trace": "",
-                "span": "",
-                "pid": "849",
-                "thread": "main",
-                "class": "o.s.j.e.a.AnnotationMBeanExporter",
-                "message": "Bean with name 'serviceRegistryEndpoint' has been autodetected for JMX exposure"
-                }{
-                "timestamp":"2019-07-05 09:43:44.489",
-                "level": "INFO",
-                "service": "feign-service-a",
-                "trace": "",
-                "span": "",
-                "pid": "849",
-                "thread": "main",
-                "class": "o.s.j.e.a.AnnotationMBeanExporter",
-                "message": "Bean with name 'refreshScope' has been autodetected for JMX exposure"
-                }{
-                "timestamp":"2019-07-05 09:43:44.492",
-                "level": "INFO",
-                "service": "feign-service-a",
-                "trace": "",
-                "span": "",
-                "pid": "849",
-                "thread": "main",
-                "class": "o.s.j.e.a.AnnotationMBeanExporter",
-                "message": "Located managed bean 'environmentManager': registering with JMX server as MBean [org.springframework.cloud.context.environment:name=environmentManager,type=EnvironmentManager]"
-                }{
-                "timestamp":"2019-07-05 09:43:44.647",
-                "level": "INFO",
-                "service": "feign-service-a",
-                "trace": "",
-                "span": "",
-                "pid": "849",
-                "thread": "main",
-                "class": "o.s.j.e.a.AnnotationMBeanExporter",
-                "message": "Located managed bean 'restartEndpoint': registering with JMX server as MBean [org.springframework.cloud.context.restart:name=restartEndpoint,type=RestartEndpoint]"
-                }{
-                "timestamp":"2019-07-05 09:43:44.706",
-                "level": "INFO",
-                "service": "feign-service-a",
-                "trace": "",
-                "span": "",
-                "pid": "849",
-                "thread": "main",
-                "class": "o.s.j.e.a.AnnotationMBeanExporter",
-                "message": "Located managed bean 'serviceRegistryEndpoint': registering with JMX server as MBean [org.springframework.cloud.client.serviceregistry.endpoint:name=serviceRegistryEndpoint,type=ServiceRegistryEndpoint]"
-                }{
-                "timestamp":"2019-07-05 09:43:44.772",
-                "level": "INFO",
-                "service": "feign-service-a",
-                "trace": "",
-                "span": "",
-                "pid": "849",
-                "thread": "main",
-                "class": "o.s.j.e.a.AnnotationMBeanExporter",
-                "message": "Located managed bean 'refreshScope': registering with JMX server as MBean [org.springframework.cloud.context.scope.refresh:name=refreshScope,type=RefreshScope]"
-                }{
-                "timestamp":"2019-07-05 09:43:44.811",
-                "level": "INFO",
-                "service": "feign-service-a",
-                "trace": "",
-                "span": "",
-                "pid": "849",
-                "thread": "main",
-                "class": "o.s.j.e.a.AnnotationMBeanExporter",
-                "message": "Located managed bean 'configurationPropertiesRebinder': registering with JMX server as MBean [org.springframework.cloud.context.properties:name=configurationPropertiesRebinder,context=61ce23ac,type=ConfigurationPropertiesRebinder]"
-                }{
-                "timestamp":"2019-07-05 09:43:44.821",
-                "level": "INFO",
-                "service": "feign-service-a",
-                "trace": "",
-                "span": "",
-                "pid": "849",
-                "thread": "main",
-                "class": "o.s.j.e.a.AnnotationMBeanExporter",
-                "message": "Located managed bean 'refreshEndpoint': registering with JMX server as MBean [org.springframework.cloud.endpoint:name=refreshEndpoint,type=RefreshEndpoint]"
-                }{
-                "timestamp":"2019-07-05 09:43:45.720",
-                "level": "INFO",
-                "service": "feign-service-a",
-                "trace": "",
-                "span": "",
-                "pid": "849",
-                "thread": "main",
-                "class": "o.s.c.support.DefaultLifecycleProcessor",
-                "message": "Starting beans in phase 0"
-                }{
-                "timestamp":"2019-07-05 09:43:45.729",
-                "level": "INFO",
-                "service": "feign-service-a",
-                "trace": "",
-                "span": "",
-                "pid": "849",
+                "pid": "1693",
                 "thread": "main",
                 "class": "o.s.c.netflix.eureka.InstanceInfoFactory",
                 "message": "Setting initial instance status as: STARTING"
-                }{
-                "timestamp":"2019-07-05 09:43:45.798",
-                "level": "INFO",
-                "service": "feign-service-a",
-                "trace": "",
-                "span": "",
-                "pid": "849",
-                "thread": "main",
-                "class": "com.netflix.discovery.DiscoveryClient",
-                "message": "Initializing Eureka in region us-east-1"
-                }{
-                "timestamp":"2019-07-05 09:43:46.215",
-                "level": "INFO",
-                "service": "feign-service-a",
-                "trace": "",
-                "span": "",
-                "pid": "849",
-                "thread": "main",
-                "class": "c.n.d.provider.DiscoveryJerseyProvider",
-                "message": "Using JSON encoding codec LegacyJacksonJson"
-                }{
-                "timestamp":"2019-07-05 09:43:46.215",
-                "level": "INFO",
-                "service": "feign-service-a",
-                "trace": "",
-                "span": "",
-                "pid": "849",
-                "thread": "main",
-                "class": "c.n.d.provider.DiscoveryJerseyProvider",
-                "message": "Using JSON decoding codec LegacyJacksonJson"
-                }{
-                "timestamp":"2019-07-05 09:43:46.363",
-                "level": "INFO",
-                "service": "feign-service-a",
-                "trace": "",
-                "span": "",
-                "pid": "849",
-                "thread": "main",
-                "class": "c.n.d.provider.DiscoveryJerseyProvider",
-                "message": "Using XML encoding codec XStreamXml"
-                }{
-                "timestamp":"2019-07-05 09:43:46.364",
-                "level": "INFO",
-                "service": "feign-service-a",
-                "trace": "",
-                "span": "",
-                "pid": "849",
-                "thread": "main",
-                "class": "c.n.d.provider.DiscoveryJerseyProvider",
-                "message": "Using XML decoding codec XStreamXml"
-                }{
-                "timestamp":"2019-07-05 09:43:46.678",
-                "level": "INFO",
-                "service": "feign-service-a",
-                "trace": "",
-                "span": "",
-                "pid": "849",
-                "thread": "main",
-                "class": "c.n.d.s.r.aws.ConfigClusterResolver",
-                "message": "Resolving eureka endpoints via configuration"
-                }{
-                "timestamp":"2019-07-05 09:43:46.707",
-                "level": "INFO",
-                "service": "feign-service-a",
-                "trace": "",
-                "span": "",
-                "pid": "849",
-                "thread": "main",
-                "class": "com.netflix.discovery.DiscoveryClient",
-                "message": "Disable delta property : false"
-                }{
-                "timestamp":"2019-07-05 09:43:46.707",
-                "level": "INFO",
-                "service": "feign-service-a",
-                "trace": "",
-                "span": "",
-                "pid": "849",
-                "thread": "main",
-                "class": "com.netflix.discovery.DiscoveryClient",
-                "message": "Single vip registry refresh property : null"
-                }{
-                "timestamp":"2019-07-05 09:43:46.707",
-                "level": "INFO",
-                "service": "feign-service-a",
-                "trace": "",
-                "span": "",
-                "pid": "849",
-                "thread": "main",
-                "class": "com.netflix.discovery.DiscoveryClient",
-                "message": "Force full registry fetch : false"
-                }{
-                "timestamp":"2019-07-05 09:43:46.707",
-                "level": "INFO",
-                "service": "feign-service-a",
-                "trace": "",
-                "span": "",
-                "pid": "849",
-                "thread": "main",
-                "class": "com.netflix.discovery.DiscoveryClient",
-                "message": "Application is null : false"
-                }{
-                "timestamp":"2019-07-05 09:43:46.708",
-                "level": "INFO",
-                "service": "feign-service-a",
-                "trace": "",
-                "span": "",
-                "pid": "849",
-                "thread": "main",
-                "class": "com.netflix.discovery.DiscoveryClient",
-                "message": "Registered Applications size is zero : true"
-                }{
-                "timestamp":"2019-07-05 09:43:46.708",
-                "level": "INFO",
-                "service": "feign-service-a",
-                "trace": "",
-                "span": "",
-                "pid": "849",
-                "thread": "main",
-                "class": "com.netflix.discovery.DiscoveryClient",
-                "message": "Application version is -1: true"
-                }{
-                "timestamp":"2019-07-05 09:43:46.708",
-                "level": "INFO",
-                "service": "feign-service-a",
-                "trace": "",
-                "span": "",
-                "pid": "849",
-                "thread": "main",
-                "class": "com.netflix.discovery.DiscoveryClient",
-                "message": "Getting all instance registry info from the eureka server"
-                }{
-                "timestamp":"2019-07-05 09:43:47.259",
-                "level": "INFO",
-                "service": "feign-service-a",
-                "trace": "",
-                "span": "",
-                "pid": "849",
-                "thread": "main",
-                "class": "com.netflix.discovery.DiscoveryClient",
-                "message": "The response status is 200"
-                }{
-                "timestamp":"2019-07-05 09:43:47.261",
-                "level": "INFO",
-                "service": "feign-service-a",
-                "trace": "",
-                "span": "",
-                "pid": "849",
-                "thread": "main",
-                "class": "com.netflix.discovery.DiscoveryClient",
-                "message": "Starting heartbeat executor: renew interval is: 30"
-                }{
-                "timestamp":"2019-07-05 09:43:47.262",
-                "level": "INFO",
-                "service": "feign-service-a",
-                "trace": "",
-                "span": "",
-                "pid": "849",
-                "thread": "main",
-                "class": "c.n.discovery.InstanceInfoReplicator",
-                "message": "InstanceInfoReplicator onDemand update allowed rate per min is 4"
-                }{
-                "timestamp":"2019-07-05 09:43:47.265",
-                "level": "INFO",
-                "service": "feign-service-a",
-                "trace": "",
-                "span": "",
-                "pid": "849",
-                "thread": "main",
-                "class": "com.netflix.discovery.DiscoveryClient",
-                "message": "Discovery Client initialized at timestamp 1562291027265 with initial instances count: 0"
-                }{
-                "timestamp":"2019-07-05 09:43:47.432",
-                "level": "INFO",
-                "service": "feign-service-a",
-                "trace": "",
-                "span": "",
-                "pid": "849",
-                "thread": "main",
-                "class": "o.s.c.n.e.s.EurekaServiceRegistry",
-                "message": "Registering application feign-service-a with eureka with status UP"
-                }{
-                "timestamp":"2019-07-05 09:43:47.433",
-                "level": "INFO",
-                "service": "feign-service-a",
-                "trace": "",
-                "span": "",
-                "pid": "849",
-                "thread": "main",
-                "class": "com.netflix.discovery.DiscoveryClient",
-                "message": "Saw local status change event StatusChangeEvent [timestamp=1562291027433, current=UP, previous=STARTING]"
-                }{
-                "timestamp":"2019-07-05 09:43:47.435",
-                "level": "INFO",
-                "service": "feign-service-a",
-                "trace": "",
-                "span": "",
-                "pid": "849",
-                "thread": "DiscoveryClient-InstanceInfoReplicator-0",
-                "class": "com.netflix.discovery.DiscoveryClient",
-                "message": "DiscoveryClient_FEIGN-SERVICE-A/10.0.1.31:feign-service-a:1100: registering service..."
-                }{
-                "timestamp":"2019-07-05 09:43:47.569",
-                "level": "INFO",
-                "service": "feign-service-a",
-                "trace": "",
-                "span": "",
-                "pid": "849",
-                "thread": "DiscoveryClient-InstanceInfoReplicator-0",
-                "class": "com.netflix.discovery.DiscoveryClient",
-                "message": "DiscoveryClient_FEIGN-SERVICE-A/10.0.1.31:feign-service-a:1100 - registration status: 204"
-                }{
-                "timestamp":"2019-07-05 09:43:47.722",
-                "level": "INFO",
-                "service": "feign-service-a",
-                "trace": "",
-                "span": "",
-                "pid": "849",
-                "thread": "main",
-                "class": "o.s.b.c.e.t.TomcatEmbeddedServletContainer",
-                "message": "Tomcat started on port(s): 1100 (http)"
-                }{
-                "timestamp":"2019-07-05 09:43:47.724",
-                "level": "INFO",
-                "service": "feign-service-a",
-                "trace": "",
-                "span": "",
-                "pid": "849",
-                "thread": "main",
-                "class": "o.s.c.n.e.s.EurekaAutoServiceRegistration",
-                "message": "Updating port to 1100"
-                }{
-                "timestamp":"2019-07-05 09:43:47.742",
-                "level": "INFO",
-                "service": "feign-service-a",
-                "trace": "",
-                "span": "",
-                "pid": "849",
-                "thread": "main",
-                "class": "c.t.m.FeignServiceAApplication",
-                "message": "Started FeignServiceAApplication in 49.918 seconds (JVM running for 56.895)"
-                }{
-                "timestamp":"2019-07-05 09:44:17.263",
-                "level": "INFO",
-                "service": "feign-service-a",
-                "trace": "",
-                "span": "",
-                "pid": "849",
-                "thread": "DiscoveryClient-CacheRefreshExecutor-0",
-                "class": "com.netflix.discovery.DiscoveryClient",
-                "message": "Disable delta property : false"
-                }{
-                "timestamp":"2019-07-05 09:44:17.263",
-                "level": "INFO",
-                "service": "feign-service-a",
-                "trace": "",
-                "span": "",
-                "pid": "849",
-                "thread": "DiscoveryClient-CacheRefreshExecutor-0",
-                "class": "com.netflix.discovery.DiscoveryClient",
-                "message": "Single vip registry refresh property : null"
-                }{
-                "timestamp":"2019-07-05 09:44:17.263",
-                "level": "INFO",
-                "service": "feign-service-a",
-                "trace": "",
-                "span": "",
-                "pid": "849",
-                "thread": "DiscoveryClient-CacheRefreshExecutor-0",
-                "class": "com.netflix.discovery.DiscoveryClient",
-                "message": "Force full registry fetch : false"
-                }{
-                "timestamp":"2019-07-05 09:44:17.263",
-                "level": "INFO",
-                "service": "feign-service-a",
-                "trace": "",
-                "span": "",
-                "pid": "849",
-                "thread": "DiscoveryClient-CacheRefreshExecutor-0",
-                "class": "com.netflix.discovery.DiscoveryClient",
-                "message": "Application is null : false"
-                }{
-                "timestamp":"2019-07-05 09:44:17.263",
-                "level": "INFO",
-                "service": "feign-service-a",
-                "trace": "",
-                "span": "",
-                "pid": "849",
-                "thread": "DiscoveryClient-CacheRefreshExecutor-0",
-                "class": "com.netflix.discovery.DiscoveryClient",
-                "message": "Registered Applications size is zero : true"
-                }{
-                "timestamp":"2019-07-05 09:44:17.263",
-                "level": "INFO",
-                "service": "feign-service-a",
-                "trace": "",
-                "span": "",
-                "pid": "849",
-                "thread": "DiscoveryClient-CacheRefreshExecutor-0",
-                "class": "com.netflix.discovery.DiscoveryClient",
-                "message": "Application version is -1: false"
-                }{
-                "timestamp":"2019-07-05 09:44:17.263",
-                "level": "INFO",
-                "service": "feign-service-a",
-                "trace": "",
-                "span": "",
-                "pid": "849",
-                "thread": "DiscoveryClient-CacheRefreshExecutor-0",
-                "class": "com.netflix.discovery.DiscoveryClient",
-                "message": "Getting all instance registry info from the eureka server"
-                }{
-                "timestamp":"2019-07-05 09:44:17.298",
-                "level": "INFO",
-                "service": "feign-service-a",
-                "trace": "",
-                "span": "",
-                "pid": "849",
-                "thread": "DiscoveryClient-CacheRefreshExecutor-0",
-                "class": "com.netflix.discovery.DiscoveryClient",
-                "message": "The response status is 200"
                 }

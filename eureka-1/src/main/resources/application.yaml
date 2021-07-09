@@ -9,8 +9,8 @@ eureka:
     #以IP地址注册到服务中心，相互注册使用IP地址
 #    prefer-ip-address: true
       hostname: localhost
-#  server:
-#    # 单机配置
+  server:
+  #    # 单机配置
 #    #    启用自我保护机制，默认为true
 #    enable-self-preservation: true
 #    #    清除无效服务实例的时间间隔（ms），默认1分钟
@@ -47,54 +47,57 @@ eureka:
 #    use-read-only-response-cache: true
 #
 #    # 集群配置
-#    #    复制数据请求时，数据是否压缩，默认false
-#    enable-replicated-request-compression: true
-#    #    节点之间数据复制是否采用批处理，默认false
-#    batch-replication: true
-#    #    备份池最大备份事件数量，默认1000
-#    max-elements-in-peer-replication-pool: 1000
-#    #    状态备份池最大备份事件数量，默认1000
-#    max-elements-in-status-replication-pool: 1000
-#    #    节点之间信息同步线程最大空闲时间（分钟），默认15
-#    max-idle-thread-age-in-minutes-for-peer-replication: 10
-#    #    节点之间状态同步线程最大空闲时间（分钟），默认10
-#    max-idle-thread-in-minutes-age-for-status-replication: 10
-#    #    节点之间信息同步最大线程数量，默认20
-#    max-threads-for-peer-replication: 20
-#    #    节点之间状态同步最大线程数量，默认1
-#    max-threads-for-status-replication: 6
-#    #    节点之间信息复制最大通信时长（ms），默认30000
-#    max-time-for-replication: 60000
-#    #    集群中服务实例最小数量，-1 表示单节点，默认-1
-#    min-available-instances-for-peer-replication: -1
-#    #    节点之间信息复制最小线程数量，默认5
-#    min-threads-for-peer-replication: 5
-#    #    节点之间信息状态同步最小线程数量，默认1
-#    min-threads-for-status-replication: 1
-#    #    节点之间数据复制时，可重试次数，默认5
-#    number-of-replication-retries: 5
-#    #    节点更新数据间隔时长（分钟），默认10
-#    peer-eureka-nodes-update-interval-ms: 10
-#    #   节点之间状态刷新间隔时长（ms），默认30000
-#    peer-eureka-status-refresh-time-interval-ms: 60000
-#    #   节点之间连接超时时长（ms），默认200
-#    peer-node-connect-timeout-ms: 10000
-#    #    节点之间连接后，空闲时长（s），默认30
-#    peer-node-connection-idle-timeout-seconds: 30
-#    #    节点之间数据读取超时时间（ms），默认200
-#    peer-node-read-timeout-ms: 10000
-#    #    集群中节点连接总数，默认1000，默认1000
-#    peer-node-total-connections: 1000
-#    #    节点之间连接，单机最大连接数量，默认500
-#    peer-node-total-connections-per-host: 500
-#    #    节点启动时，尝试获取注册信息的次数，默认500
-#    registry-sync-retries: 500
-#    #    节点启动时，尝试获取注册信息的间隔时长（ms），默认30000
-#    registry-sync-retry-wait-ms: 30000
-#    #    在Eureka服务器获取不到集群里对等服务器上的实例时，需要等待的时间（分钟），默认5
-#    wait-time-in-ms-when-sync-empty: 5
+    #    复制数据请求时，数据是否压缩，默认false
+    enable-replicated-request-compression: true
+    #    节点之间数据复制是否采用批处理，默认false
+    batch-replication: true
+    #    备份池最大备份事件数量，默认1000
+    max-elements-in-peer-replication-pool: 1000
+    #    状态备份池最大备份事件数量，默认1000
+    max-elements-in-status-replication-pool: 1000
+    #    节点之间信息同步线程最大空闲时间（分钟），默认15
+    max-idle-thread-age-in-minutes-for-peer-replication: 10
+    #    节点之间状态同步线程最大空闲时间（分钟），默认10
+    max-idle-thread-in-minutes-age-for-status-replication: 10
+    #    节点之间信息同步最大线程数量，默认20
+    max-threads-for-peer-replication: 20
+    #    节点之间状态同步最大线程数量，默认1
+    max-threads-for-status-replication: 6
+    #    节点之间信息复制最大通信时长（ms），默认30000
+    max-time-for-replication: 60000
+    #    集群中服务实例最小数量，-1 表示单节点，默认-1
+    min-available-instances-for-peer-replication: -1
+    #    节点之间信息复制最小线程数量，默认5
+    min-threads-for-peer-replication: 5
+    #    节点之间信息状态同步最小线程数量，默认1
+    min-threads-for-status-replication: 1
+    #    节点之间数据复制时，可重试次数，默认5
+    number-of-replication-retries: 5
+    #    节点更新数据间隔时长（分钟），默认10
+    peer-eureka-nodes-update-interval-ms: 10
+    #   节点之间状态刷新间隔时长（ms），默认30000
+    peer-eureka-status-refresh-time-interval-ms: 60000
+    #   节点之间连接超时时长（ms），默认200
+    peer-node-connect-timeout-ms: 10000
+    #    节点之间连接后，空闲时长（s），默认30
+    peer-node-connection-idle-timeout-seconds: 30
+    #    节点之间数据读取超时时间（ms），默认200
+    peer-node-read-timeout-ms: 10000
+    #    集群中节点连接总数，默认1000，默认1000
+    peer-node-total-connections: 1000
+    #    节点之间连接，单机最大连接数量，默认500
+    peer-node-total-connections-per-host: 500
+    #    节点启动时，尝试获取注册信息的次数，默认500
+    registry-sync-retries: 500
+    #    节点启动时，尝试获取注册信息的间隔时长（ms），默认30000
+    registry-sync-retry-wait-ms: 30000
+    #    在Eureka服务器获取不到集群里对等服务器上的实例时，需要等待的时间（分钟），默认5
+    wait-time-in-ms-when-sync-empty: 5
 
 
   client:
     register-with-eureka: false
     fetch-registry: false
+    service-url:
+      defaultZone: http://server2:1001/eureka/
+

@@ -1,10 +1,10 @@
 package com.tailen.microservice;
 
 
+import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
-import org.springframework.cloud.netflix.feign.EnableFeignClients;
+import org.springframework.cloud.openfeign.EnableFeignClients;
 
 /**
  * @author zhao tailen
@@ -17,8 +17,6 @@ import org.springframework.cloud.netflix.feign.EnableFeignClients;
 public class FeignServiceAApplication {
 
     public static void main(String[] args) {
-        new SpringApplicationBuilder(
-                FeignServiceAApplication.class)
-                .web(true).run(args);
+        new SpringApplication(FeignServiceAApplication.class).run(args);
     }
 }
