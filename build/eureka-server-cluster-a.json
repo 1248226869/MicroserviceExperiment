@@ -970,3 +970,327 @@ Caused by: java.lang.IllegalStateException: StandardEngine[Tomcat].StandardHost[
 	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.rethrowDeferredStartupExceptions(TomcatWebServer.java:169)
 	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:108)
 	... 11 common frames omitted
+{
+                "timestamp":"2021-07-13 10:04:14.822",
+                "level": "INFO",
+                "service": "eureka-server-cluster-a",
+                "trace": "",
+                "span": "",
+                "pid": "3945",
+                "thread": "main",
+                "class": "com.tailen.EurekaServiceApplication",
+                "message": "No active profile set, falling back to default profiles: default"
+                }{
+                "timestamp":"2021-07-13 10:04:15.591",
+                "level": "WARN",
+                "service": "eureka-server-cluster-a",
+                "trace": "",
+                "span": "",
+                "pid": "3945",
+                "thread": "main",
+                "class": "o.s.boot.actuate.endpoint.EndpointId",
+                "message": "Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format."
+                }{
+                "timestamp":"2021-07-13 10:04:15.809",
+                "level": "INFO",
+                "service": "eureka-server-cluster-a",
+                "trace": "",
+                "span": "",
+                "pid": "3945",
+                "thread": "main",
+                "class": "o.s.cloud.context.scope.GenericScope",
+                "message": "BeanFactory id=2fccaa35-3f15-3ec1-8f2c-16d479e443b3"
+                }{
+                "timestamp":"2021-07-13 10:04:15.922",
+                "level": "INFO",
+                "service": "eureka-server-cluster-a",
+                "trace": "",
+                "span": "",
+                "pid": "3945",
+                "thread": "main",
+                "class": "o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker",
+                "message": "Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$c38b3b7f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)"
+                }{
+                "timestamp":"2021-07-13 10:04:16.192",
+                "level": "INFO",
+                "service": "eureka-server-cluster-a",
+                "trace": "",
+                "span": "",
+                "pid": "3945",
+                "thread": "main",
+                "class": "o.s.b.w.embedded.tomcat.TomcatWebServer",
+                "message": "Tomcat initialized with port(s): 1001 (http)"
+                }{
+                "timestamp":"2021-07-13 10:04:16.220",
+                "level": "INFO",
+                "service": "eureka-server-cluster-a",
+                "trace": "",
+                "span": "",
+                "pid": "3945",
+                "thread": "main",
+                "class": "org.apache.catalina.core.StandardService",
+                "message": "Starting service [Tomcat]"
+                }{
+                "timestamp":"2021-07-13 10:04:16.220",
+                "level": "INFO",
+                "service": "eureka-server-cluster-a",
+                "trace": "",
+                "span": "",
+                "pid": "3945",
+                "thread": "main",
+                "class": "org.apache.catalina.core.StandardEngine",
+                "message": "Starting Servlet engine: [Apache Tomcat/9.0.21]"
+                }{
+                "timestamp":"2021-07-13 10:04:16.335",
+                "level": "INFO",
+                "service": "eureka-server-cluster-a",
+                "trace": "",
+                "span": "",
+                "pid": "3945",
+                "thread": "main",
+                "class": "o.a.c.c.C.[Tomcat].[localhost].[/]",
+                "message": "Initializing Spring embedded WebApplicationContext"
+                }{
+                "timestamp":"2021-07-13 10:04:16.336",
+                "level": "INFO",
+                "service": "eureka-server-cluster-a",
+                "trace": "",
+                "span": "",
+                "pid": "3945",
+                "thread": "main",
+                "class": "o.s.web.context.ContextLoader",
+                "message": "Root WebApplicationContext: initialization completed in 1492 ms"
+                }{
+                "timestamp":"2021-07-13 10:04:16.457",
+                "level": "WARN",
+                "service": "eureka-server-cluster-a",
+                "trace": "",
+                "span": "",
+                "pid": "3945",
+                "thread": "main",
+                "class": "c.n.c.sources.URLConfigurationSource",
+                "message": "No URLs will be polled as dynamic configuration sources."
+                }{
+                "timestamp":"2021-07-13 10:04:16.457",
+                "level": "INFO",
+                "service": "eureka-server-cluster-a",
+                "trace": "",
+                "span": "",
+                "pid": "3945",
+                "thread": "main",
+                "class": "c.n.c.sources.URLConfigurationSource",
+                "message": "To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath."
+                }{
+                "timestamp":"2021-07-13 10:04:16.467",
+                "level": "INFO",
+                "service": "eureka-server-cluster-a",
+                "trace": "",
+                "span": "",
+                "pid": "3945",
+                "thread": "main",
+                "class": "c.netflix.config.DynamicPropertyFactory",
+                "message": "DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@39e53bef"
+                }{
+                "timestamp":"2021-07-13 10:04:17.863",
+                "level": "INFO",
+                "service": "eureka-server-cluster-a",
+                "trace": "",
+                "span": "",
+                "pid": "3945",
+                "thread": "main",
+                "class": "o.s.cloud.commons.util.InetUtils",
+                "message": "Cannot determine local hostname"
+                }{
+                "timestamp":"2021-07-13 10:04:18.127",
+                "level": "INFO",
+                "service": "eureka-server-cluster-a",
+                "trace": "",
+                "span": "",
+                "pid": "3945",
+                "thread": "main",
+                "class": "c.s.j.s.i.application.WebApplicationImpl",
+                "message": "Initiating Jersey application, version 'Jersey: 1.19.1 03/11/2016 02:08 PM'"
+                }{
+                "timestamp":"2021-07-13 10:04:18.193",
+                "level": "ERROR",
+                "service": "eureka-server-cluster-a",
+                "trace": "",
+                "span": "",
+                "pid": "3945",
+                "thread": "main",
+                "class": "o.a.c.c.C.[Tomcat].[localhost].[/]",
+                "message": "Exception starting filter [servletContainer]"
+                }java.lang.TypeNotPresentException: Type javax.xml.bind.JAXBContext not present
+	at java.base/sun.reflect.generics.factory.CoreReflectionFactory.makeNamedType(Unknown Source)
+	at java.base/sun.reflect.generics.visitor.Reifier.visitClassTypeSignature(Unknown Source)
+	at java.base/sun.reflect.generics.tree.ClassTypeSignature.accept(Unknown Source)
+	at java.base/sun.reflect.generics.visitor.Reifier.reifyTypeArguments(Unknown Source)
+	at java.base/sun.reflect.generics.visitor.Reifier.visitClassTypeSignature(Unknown Source)
+	at java.base/sun.reflect.generics.tree.ClassTypeSignature.accept(Unknown Source)
+	at java.base/sun.reflect.generics.repository.ClassRepository.computeSuperInterfaces(Unknown Source)
+	at java.base/sun.reflect.generics.repository.ClassRepository.getSuperInterfaces(Unknown Source)
+	at java.base/java.lang.Class.getGenericInterfaces(Unknown Source)
+	at com.sun.jersey.core.reflection.ReflectionHelper.getClass(ReflectionHelper.java:629)
+	at com.sun.jersey.core.reflection.ReflectionHelper.getClass(ReflectionHelper.java:625)
+	at com.sun.jersey.core.spi.factory.ContextResolverFactory.getParameterizedType(ContextResolverFactory.java:202)
+	at com.sun.jersey.core.spi.factory.ContextResolverFactory.init(ContextResolverFactory.java:89)
+	at com.sun.jersey.server.impl.application.WebApplicationImpl._initiate(WebApplicationImpl.java:1332)
+	at com.sun.jersey.server.impl.application.WebApplicationImpl.access$700(WebApplicationImpl.java:180)
+	at com.sun.jersey.server.impl.application.WebApplicationImpl$13.f(WebApplicationImpl.java:799)
+	at com.sun.jersey.server.impl.application.WebApplicationImpl$13.f(WebApplicationImpl.java:795)
+	at com.sun.jersey.spi.inject.Errors.processWithErrors(Errors.java:193)
+	at com.sun.jersey.server.impl.application.WebApplicationImpl.initiate(WebApplicationImpl.java:795)
+	at com.sun.jersey.server.impl.application.WebApplicationImpl.initiate(WebApplicationImpl.java:790)
+	at com.sun.jersey.spi.container.servlet.ServletContainer.initiate(ServletContainer.java:509)
+	at com.sun.jersey.spi.container.servlet.ServletContainer$InternalWebComponent.initiate(ServletContainer.java:339)
+	at com.sun.jersey.spi.container.servlet.WebComponent.load(WebComponent.java:605)
+	at com.sun.jersey.spi.container.servlet.WebComponent.init(WebComponent.java:207)
+	at com.sun.jersey.spi.container.servlet.ServletContainer.init(ServletContainer.java:394)
+	at com.sun.jersey.spi.container.servlet.ServletContainer.init(ServletContainer.java:744)
+	at org.apache.catalina.core.ApplicationFilterConfig.initFilter(ApplicationFilterConfig.java:270)
+	at org.apache.catalina.core.ApplicationFilterConfig.<init>(ApplicationFilterConfig.java:106)
+	at org.apache.catalina.core.StandardContext.filterStart(StandardContext.java:4530)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5169)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1384)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1374)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(Unknown Source)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:909)
+	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:841)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1384)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1374)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(Unknown Source)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:909)
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:262)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:421)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:932)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.startup.Tomcat.start(Tomcat.java:456)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:105)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.<init>(TomcatWebServer.java:86)
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getTomcatWebServer(TomcatServletWebServerFactory.java:414)
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getWebServer(TomcatServletWebServerFactory.java:178)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:179)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:152)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:543)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:742)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:389)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:311)
+	at com.tailen.EurekaServiceApplication.main(EurekaServiceApplication.java:19)
+Caused by: java.lang.ClassNotFoundException: javax.xml.bind.JAXBContext
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(Unknown Source)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(Unknown Source)
+	at java.base/java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Unknown Source)
+	... 64 common frames omitted
+{
+                "timestamp":"2021-07-13 10:04:18.194",
+                "level": "ERROR",
+                "service": "eureka-server-cluster-a",
+                "trace": "",
+                "span": "",
+                "pid": "3945",
+                "thread": "main",
+                "class": "org.apache.catalina.core.StandardContext",
+                "message": "One or more Filters failed to start. Full details will be found in the appropriate container log file"
+                }{
+                "timestamp":"2021-07-13 10:04:18.195",
+                "level": "ERROR",
+                "service": "eureka-server-cluster-a",
+                "trace": "",
+                "span": "",
+                "pid": "3945",
+                "thread": "main",
+                "class": "org.apache.catalina.core.StandardContext",
+                "message": "Context [] startup failed due to previous errors"
+                }{
+                "timestamp":"2021-07-13 10:04:18.200",
+                "level": "WARN",
+                "service": "eureka-server-cluster-a",
+                "trace": "",
+                "span": "",
+                "pid": "3945",
+                "thread": "main",
+                "class": "o.a.c.loader.WebappClassLoaderBase",
+                "message": "The web application [ROOT] appears to have started a thread named [spring.cloud.inetutils] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@11.0.2/java.net.Inet6AddressImpl.getHostByAddr(Native Method)
+ java.base@11.0.2/java.net.InetAddress$PlatformNameService.getHostByAddr(Unknown Source)
+ java.base@11.0.2/java.net.InetAddress.getHostFromNameService(Unknown Source)
+ java.base@11.0.2/java.net.InetAddress.getHostName(Unknown Source)
+ java.base@11.0.2/java.net.InetAddress.getHostName(Unknown Source)
+ app//org.springframework.cloud.commons.util.InetUtils$$Lambda$135/0x0000000800205c40.call(Unknown Source)
+ java.base@11.0.2/java.util.concurrent.FutureTask.run(Unknown Source)
+ java.base@11.0.2/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+ java.base@11.0.2/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+ java.base@11.0.2/java.lang.Thread.run(Unknown Source)"
+                }{
+                "timestamp":"2021-07-13 10:04:18.230",
+                "level": "INFO",
+                "service": "eureka-server-cluster-a",
+                "trace": "",
+                "span": "",
+                "pid": "3945",
+                "thread": "main",
+                "class": "org.apache.catalina.core.StandardService",
+                "message": "Stopping service [Tomcat]"
+                }{
+                "timestamp":"2021-07-13 10:04:18.235",
+                "level": "WARN",
+                "service": "eureka-server-cluster-a",
+                "trace": "",
+                "span": "",
+                "pid": "3945",
+                "thread": "main",
+                "class": "o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext",
+                "message": "Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat"
+                }{
+                "timestamp":"2021-07-13 10:04:18.248",
+                "level": "INFO",
+                "service": "eureka-server-cluster-a",
+                "trace": "",
+                "span": "",
+                "pid": "3945",
+                "thread": "main",
+                "class": "o.s.b.a.l.ConditionEvaluationReportLoggingListener",
+                "message": "
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled."
+                }{
+                "timestamp":"2021-07-13 10:04:18.255",
+                "level": "ERROR",
+                "service": "eureka-server-cluster-a",
+                "trace": "",
+                "span": "",
+                "pid": "3945",
+                "thread": "main",
+                "class": "o.springframework.boot.SpringApplication",
+                "message": "Application run failed"
+                }org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:155)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:543)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:742)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:389)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:311)
+	at com.tailen.EurekaServiceApplication.main(EurekaServiceApplication.java:19)
+Caused by: org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:124)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.<init>(TomcatWebServer.java:86)
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getTomcatWebServer(TomcatServletWebServerFactory.java:414)
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getWebServer(TomcatServletWebServerFactory.java:178)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:179)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:152)
+	... 6 common frames omitted
+Caused by: java.lang.IllegalStateException: StandardEngine[Tomcat].StandardHost[localhost].TomcatEmbeddedContext[] failed to start
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.rethrowDeferredStartupExceptions(TomcatWebServer.java:169)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:108)
+	... 11 common frames omitted
