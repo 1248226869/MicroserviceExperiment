@@ -3,10 +3,10 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Limiting/Limiting.iml" filepath="$PROJECT_DIR$/Limiting/Limiting.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/Microservice_Experiment.iml" filepath="$PROJECT_DIR$/.idea/Microservice_Experiment.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Microservice_Experiment.iml" filepath="$PROJECT_DIR$/Microservice_Experiment.iml" />
       <module fileurl="file://$PROJECT_DIR$/apollo_config/apollo_config.iml" filepath="$PROJECT_DIR$/apollo_config/apollo_config.iml" />
-      <module fileurl="file://$PROJECT_DIR$/eureka-1/eureka1.iml" filepath="$PROJECT_DIR$/eureka-1/eureka1.iml" />
-      <module fileurl="file://$PROJECT_DIR$/eureka-2/eureka2.iml" filepath="$PROJECT_DIR$/eureka-2/eureka2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-1/eureka-1.iml" filepath="$PROJECT_DIR$/eureka-1/eureka-1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-2/eureka-2.iml" filepath="$PROJECT_DIR$/eureka-2/eureka-2.iml" />
       <module fileurl="file://$PROJECT_DIR$/feign_service_a/feign_service_a.iml" filepath="$PROJECT_DIR$/feign_service_a/feign_service_a.iml" />
       <module fileurl="file://$PROJECT_DIR$/feign_service_b/feign_service_b.iml" filepath="$PROJECT_DIR$/feign_service_b/feign_service_b.iml" />
       <module fileurl="file://$PROJECT_DIR$/gateway/gateway.iml" filepath="$PROJECT_DIR$/gateway/gateway.iml" />
