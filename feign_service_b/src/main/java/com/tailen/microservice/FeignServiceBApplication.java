@@ -1,9 +1,10 @@
 package com.tailen.microservice;
 
+import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
-import org.springframework.cloud.netflix.feign.EnableFeignClients;
+import org.springframework.cloud.netflix.hystrix.EnableHystrix;
+import org.springframework.cloud.openfeign.EnableFeignClients;
 
 /**
  * @author zhao tailen
@@ -13,11 +14,10 @@ import org.springframework.cloud.netflix.feign.EnableFeignClients;
 @EnableFeignClients
 @EnableDiscoveryClient
 @SpringBootApplication
+@EnableHystrix
 public class FeignServiceBApplication {
 
     public static void main(String[] args) {
-        new SpringApplicationBuilder(
-                FeignServiceBApplication.class)
-                .web(true).run(args);
+        new SpringApplication(FeignServiceBApplication.class).run(args);
     }
 }

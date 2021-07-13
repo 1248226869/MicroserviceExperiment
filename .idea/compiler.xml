@@ -10,12 +10,12 @@
         <module name="gateway" />
         <module name="Limiting" />
         <module name="xxl_job" />
-        <module name="eureka2" />
         <module name="hystrix" />
         <module name="feign_service_a" />
         <module name="thread_pool_async" />
-        <module name="swagger2" />
         <module name="feign_service_b" />
+        <module name="swagger2" />
+        <module name="eureka2" />
         <module name="eureka1" />
         <module name="apollo_config" />
       </profile>
@@ -50,9 +50,9 @@
       <module name="eureka1" options="-parameters -parameters" />
       <module name="eureka2" options="-parameters -parameters" />
       <module name="feign_service_a" options="-parameters -parameters" />
-      <module name="feign_service_b" options="-parameters" />
+      <module name="feign_service_b" options="-parameters -parameters" />
       <module name="gateway" options="-parameters" />
-      <module name="hystrix" options="-parameters" />
+      <module name="hystrix" options="-parameters -parameters" />
       <module name="jwt" options="-parameters" />
       <module name="swagger2" options="-parameters" />
       <module name="thread_pool_async" options="-parameters" />

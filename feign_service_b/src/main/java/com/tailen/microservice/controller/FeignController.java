@@ -1,6 +1,8 @@
 package com.tailen.microservice.controller;
 
+import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
 import com.tailen.microservice.FeignServiceBApplication;
+import com.tailen.microservice.config.test.TailenHystrixCommand;
 import com.tailen.microservice.manager.FeignServiceA;
 import com.tailen.microservice.service.DemoService;
 import io.swagger.annotations.Api;
@@ -8,10 +10,12 @@ import io.swagger.annotations.ApiOperation;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.client.RestTemplate;
 
 import java.util.Objects;
 
@@ -29,6 +33,10 @@ public class FeignController {
     private DemoService demoService;
     @Autowired
     private FeignServiceA feignServiceA;
+
+    @Autowired
+    private RestTemplate restTemplate;
+
     @ApiOperation(value="乘法")
     @RequestMapping(value = "/multiplication", method = RequestMethod.GET)
     public Integer multiplication(@RequestParam(value = "numA") Integer numA, @RequestParam(value = "numB") Integer numB) {
@@ -39,6 +47,9 @@ public class FeignController {
         log.info("fegin service b provide service:multiplication");
         return demoService.multiplication(numA, numB);
     }
+
+//    @TailenHystrixCommand(fallback = "multiplicationFallback", timeout = 3000)
+//    @HystrixCommand(fallbackMethod = "multiplicationFallback")
     @ApiOperation(value="feign调用A服务加法")
     @RequestMapping(value = "/add", method = RequestMethod.GET)
     public Integer add(@RequestParam(value = "numA") Integer numA, @RequestParam(value = "numB") Integer numB) {
@@ -47,7 +58,14 @@ public class FeignController {
             return null;
         }
         log.info("fegin service b remote use fegin service a ");
-        return feignServiceA.add(numA, numB);
+        String url  ="http://feign-service-a/api/add?numA={1}&numB={2}";
+        ResponseEntity<Integer> responseEntity = restTemplate.getForEntity(url, Integer.class, numA,numB);
+        return responseEntity.getBody();
     }
 
+
+    public Integer multiplicationFallback(Integer numA, Integer numB) {
+        log.info("降级服务 multiplicationFallback");
+        return -2;
+    }
 }
