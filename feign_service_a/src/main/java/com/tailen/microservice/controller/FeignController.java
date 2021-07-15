@@ -9,6 +9,7 @@ import io.swagger.annotations.ApiOperation;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.cloud.client.discovery.DiscoveryClient;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.Objects;
@@ -27,7 +28,8 @@ public class FeignController {
     private DemoService demoService;
     @Autowired
     private FeignServiceB feignServiceB;
-
+    @Autowired
+    public DiscoveryClient discoveryClient;
     @ApiOperation(value="加法")
     @RequestMapping(value = "/add", method = RequestMethod.GET)
     public Integer add(@RequestParam(value = "numA") Integer numA, @RequestParam(value = "numB") Integer numB) {

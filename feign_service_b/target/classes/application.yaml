@@ -84,7 +84,6 @@ management:
     hystrix:
       stream:
         enabled: true
-      config:
 
 
 

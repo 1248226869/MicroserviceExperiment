@@ -32,7 +32,7 @@
     <orderEntry type="library" name="Maven: javax.annotation:javax.annotation-api:1.3.2" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-core:5.1.8.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-jcl:5.1.8.RELEASE" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Maven: org.yaml:snakeyaml:1.23" level="project" />
+    <orderEntry type="library" name="Maven: org.yaml:snakeyaml:1.23" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.springframework.boot:spring-boot-starter-test:2.1.6.RELEASE" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.springframework.boot:spring-boot-test:2.1.6.RELEASE" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.springframework.boot:spring-boot-test-autoconfigure:2.1.6.RELEASE" level="project" />
@@ -93,10 +93,6 @@
     <orderEntry type="library" scope="RUNTIME" name="Maven: com.netflix.netflix-commons:netflix-infix:0.3.0" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Maven: commons-jxpath:commons-jxpath:1.3" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Maven: joda-time:joda-time:2.10.2" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Maven: org.antlr:antlr-runtime:3.4" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Maven: org.antlr:stringtemplate:3.2.1" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Maven: antlr:antlr:2.7.7" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Maven: com.google.code.gson:gson:2.8.5" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Maven: org.apache.commons:commons-math:2.2" level="project" />
     <orderEntry type="library" name="Maven: com.netflix.archaius:archaius-core:0.7.6" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Maven: javax.ws.rs:jsr311-api:1.1.1" level="project" />
@@ -173,5 +169,51 @@
     <orderEntry type="library" name="Maven: net.logstash.logback:logstash-logback-encoder:4.6" level="project" />
     <orderEntry type="library" name="Maven: ch.qos.logback:logback-core:1.2.3" level="project" />
     <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.9.9" level="project" />
+    <orderEntry type="library" name="Maven: com.google.code.gson:gson:2.3.1" level="project" />
+    <orderEntry type="library" name="Maven: io.shardingsphere:sharding-jdbc-core:3.1.0" level="project" />
+    <orderEntry type="library" name="Maven: io.shardingsphere:sharding-core:3.1.0" level="project" />
+    <orderEntry type="library" name="Maven: org.codehaus.groovy:groovy:indy:2.4.5" level="project" />
+    <orderEntry type="library" name="Maven: org.antlr:antlr4:4.7.1" level="project" />
+    <orderEntry type="library" name="Maven: org.antlr:antlr4-runtime:4.7.1" level="project" />
+    <orderEntry type="library" name="Maven: org.antlr:antlr-runtime:3.5.2" level="project" />
+    <orderEntry type="library" name="Maven: org.antlr:ST4:4.0.8" level="project" />
+    <orderEntry type="library" name="Maven: org.abego.treelayout:org.abego.treelayout.core:1.0.3" level="project" />
+    <orderEntry type="library" name="Maven: org.glassfish:javax.json:1.0.4" level="project" />
+    <orderEntry type="library" name="Maven: com.ibm.icu:icu4j:58.2" level="project" />
+    <orderEntry type="library" name="Maven: io.shardingsphere:sharding-transaction-core:3.1.0" level="project" />
+    <orderEntry type="library" name="Maven: org.slf4j:jcl-over-slf4j:1.7.26" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: mysql:mysql-connector-java:8.0.16" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter-jdbc:2.1.6.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: com.zaxxer:HikariCP:3.2.0" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-jdbc:5.1.8.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-tx:5.1.8.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: org.mybatis.spring.boot:mybatis-spring-boot-starter:1.3.0" level="project" />
+    <orderEntry type="library" name="Maven: org.mybatis.spring.boot:mybatis-spring-boot-autoconfigure:1.3.0" level="project" />
+    <orderEntry type="library" name="Maven: org.mybatis:mybatis:3.4.4" level="project" />
+    <orderEntry type="library" name="Maven: org.mybatis:mybatis-spring:1.3.1" level="project" />
+    <orderEntry type="library" name="Maven: com.alibaba:druid:1.1.2" level="project" />
+    <orderEntry type="module-library">
+      <library name="Maven: com.alibaba:jconsole:1.8.0">
+        <CLASSES>
+          <root url="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/lib/jconsole.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Maven: com.alibaba:tools:1.8.0">
+        <CLASSES>
+          <root url="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/lib/tools.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="library" name="Maven: tk.mybatis:mapper-spring-boot-starter:1.1.3" level="project" />
+    <orderEntry type="library" name="Maven: tk.mybatis:mapper-spring-boot-autoconfigure:1.1.3" level="project" />
+    <orderEntry type="library" name="Maven: tk.mybatis:mapper:3.4.2" level="project" />
+    <orderEntry type="library" name="Maven: javax.persistence:persistence-api:1.0" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.commons:commons-lang3:3.3.2" level="project" />
   </component>
 </module>
