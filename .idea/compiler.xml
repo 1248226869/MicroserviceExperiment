@@ -2,22 +2,23 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="jwt" />
         <module name="gateway" />
-        <module name="hystrix" />
-        <module name="Limiting" />
-        <module name="xxl_job" />
-        <module name="eureka-1" />
-        <module name="feign_service_b" />
-        <module name="feign_service_a" />
-        <module name="thread_pool_async" />
         <module name="eureka-2" />
-        <module name="swagger2" />
+        <module name="Limiting" />
+        <module name="feign_service_a" />
+        <module name="xxl_job" />
+        <module name="hystrix" />
         <module name="apollo_config" />
+        <module name="thread_pool_async" />
+        <module name="swagger2" />
+        <module name="feign_service_b" />
+        <module name="eureka-1" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -43,7 +44,7 @@
       <module name="eureka-2" options="-parameters -parameters" />
       <module name="feign_service_a" options="-parameters -parameters" />
       <module name="feign_service_b" options="-parameters -parameters" />
-      <module name="gateway" options="-parameters" />
+      <module name="gateway" options="-parameters -parameters" />
       <module name="hystrix" options="-parameters -parameters" />
       <module name="jwt" options="-parameters" />
       <module name="swagger2" options="-parameters" />
