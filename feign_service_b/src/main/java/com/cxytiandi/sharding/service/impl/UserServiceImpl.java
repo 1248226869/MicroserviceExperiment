@@ -1,5 +1,6 @@
 package com.cxytiandi.sharding.service.impl;
 
+import com.cxytiandi.sharding.config.cache.TwoWayCache;
 import com.cxytiandi.sharding.po.LouDong;
 import com.cxytiandi.sharding.po.User;
 import com.cxytiandi.sharding.repository.UserRepository;
@@ -36,6 +37,7 @@ public class UserServiceImpl implements UserService {
 //    }
 
     @Transactional
+    @TwoWayCache(topic="", keys={})
     public Long add(User user) {
         LouDong louDong=createLouDong();
         Long aLong=louDongService.addLouDong(louDong);

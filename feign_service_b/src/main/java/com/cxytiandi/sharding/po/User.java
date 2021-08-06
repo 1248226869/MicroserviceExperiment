@@ -1,5 +1,7 @@
 package com.cxytiandi.sharding.po;
 
+import com.cxytiandi.sharding.config.cache.ObjField;
+
 import java.io.Serializable;
 
 /**
@@ -7,7 +9,7 @@ import java.io.Serializable;
  *
  * @author yinjihuan
  */
-public class User implements Serializable {
+public class User implements Serializable, ObjField {
 
     private static final long serialVersionUID=-1205226416664488559L;
 

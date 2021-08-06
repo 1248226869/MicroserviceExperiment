@@ -3,7 +3,7 @@ package eureka.config;
 /**
  * @Description
  * @Author zhao tailin
- * @Date 2021/7/29
+ * @Date 2020/7/29
  * @Version 1.0.0
  */
 
@@ -73,13 +73,13 @@ public class SpringBeanUtils implements InitializingBean, ApplicationContextAwar
 
     private void createTransactionRegistered() throws IllegalAccessException, InvocationTargetException, NoSuchMethodException {
         DistributedTransaction distributedTransaction=getBean("serviceA");
-        String functions=distributedTransaction.registeredTransaction();
-        Class<?> serviceA=getBean("serviceA").getClass();
-        Method[] methods=serviceA.getMethods();
-        for (Method m : methods) {
-            if (m.getName().equals(functions)) {
-                serviceA.getDeclaredMethod(m.getName(), m.getParameterTypes()).invoke(distributedTransaction, 98, 2);
-            }
-        }
+//        String functions=distributedTransaction.registeredTransaction();
+//        Class<?> serviceA=getBean("serviceA").getClass();
+//        Method[] methods=serviceA.getMethods();
+//        for (Method m : methods) {
+//            if (m.getName().equals(functions)) {
+//                serviceA.getDeclaredMethod(m.getName(), m.getParameterTypes()).invoke(distributedTransaction, 98, 2);
+//            }
+//        }
     }
 }

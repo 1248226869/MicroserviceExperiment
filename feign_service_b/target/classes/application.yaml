@@ -27,6 +27,13 @@ mybatis:
 feign:
   hystrix:
     enabled: true
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 12
 
 eureka:
   client:

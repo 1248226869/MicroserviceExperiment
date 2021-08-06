@@ -5,7 +5,7 @@ package com.cxytiandi.sharding.config.moreDadtaSource;
  * ThreadLocal可以定义在后面介绍的DynamicDataSource类里，
  * 也可以定义在其他类中，比如这里定义在DataSourceContextHolder类中
  * @Author zhao tailin
- * @Date 2021/7/22
+ * @Date 2020/7/22
  * @Version 1.0.0
  */
 public class DataSourceContextHolder {
